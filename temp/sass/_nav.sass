@@ -1,0 +1,91 @@
+// -------------------------------------
+//             NAV.SASS
+// -------------------------------------
+
+// GHM Contenidos
+
+
+
+
+// --- CONTENEDOR DEL NAV --- //
+
+.navbar
+	margin-top: 40px
+	.navbar-nav
+		margin-right: 0
+		margin-left: auto
+		font-family: $regular
+		font-size: $FFmenu
+		.nav-item
+			margin-left: 15px
+			@media (max-width: 991px)
+				margin-left: 0px
+			.dropdown-toggle::after
+				display: none !important
+			.dropdown-menu
+				border: none !important
+				background-color: rgba(0,0,0,0.5)
+				padding: 0
+				border-radius: 0px
+				.dropdown-item
+					font-family: $regular
+					font-size: $FFmenu
+					color: #fff
+					padding-left: 8px
+					padding-right: 8px
+					border-bottom: 1px solid white
+					&:hover
+						background-color: rgba(0,0,0,0.3)
+
+
+// --- BOTÓN DEL MENÚ --- //
+
+.navbar-toggler
+	padding: 0
+	border: none
+	&:hover, &:focus, &:active
+		border: none
+		outline: none
+	&:hover
+		cursor: pointer
+
+.nav-icon
+	padding: 10px 20px
+
+
+
+// --- ANIMACIÓN DEL MENÚ --- //
+
+.nav-icon span
+	+transform(rotate(0deg))
+	+transition(.25s ease-in-out)
+
+.nav-icon span:nth-child(1)
+	top: 0px
+	+transform-origin(left center)
+
+.nav-icon span:nth-child(2)
+	top: 18px
+	+transform-origin(left center)
+
+.nav-icon span:nth-child(3)
+	top: 36px
+	+transform-origin(left center)
+
+.nav-icon.open span:nth-child(1)
+	+transform(rotate(35deg))
+
+.nav-icon.open span:nth-child(2)
+	width: 0%
+	opacity: 0
+
+.nav-icon.open span:nth-child(3)
+	+transform(rotate(-35deg))
+
+.icon-bar
+	background-color: $gris
+	width: 22px
+	height: 2px
+	display: block
+	+border-radius(1px)
+	margin: 4.5px 0

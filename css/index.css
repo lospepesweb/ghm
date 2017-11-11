@@ -26,11 +26,16 @@
           font-family: "Regular";
           font-size: 12px;
           color: #fff;
-          padding-left: 8px;
-          padding-right: 8px;
+          padding: 8px;
           border-bottom: 1px solid white; }
           .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
             background-color: rgba(0, 0, 0, 0.3); }
+  .navbar a.ghmLogo {
+    display: block;
+    height: 33px; }
+    .navbar a.ghmLogo img {
+      display: block;
+      vertical-align: middle; }
 
 .navbar-toggler {
   padding: 0;
@@ -107,5 +112,7 @@
 
 .carousel-item img {
   width: 100%; }
+.carousel-item h4, .carousel-item p {
+  font-family: "Regular"; }
 
 /*# sourceMappingURL=index.css.map */

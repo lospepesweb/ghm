@@ -1,6 +1,22 @@
 @font-face {
+  font-family: "Light";
+  src: url("../fonts/Roboto-Light.ttf"); }
+@font-face {
   font-family: "Regular";
   src: url("../fonts/Roboto-Regular.ttf"); }
+@font-face {
+  font-family: "Mediun";
+  src: url("../fonts/Roboto-Medium.ttf"); }
+.titulo {
+  font-family: "Mediun";
+  color: #959494;
+  margin-bottom: 30px; }
+
+.texto {
+  font-family: "Light";
+  color: #959494;
+  margin-bottom: 0; }
+
 .navbar {
   margin-top: 40px;
   padding-bottom: 0; }
@@ -114,5 +130,10 @@
   width: 100%; }
 .carousel-item h4, .carousel-item p {
   font-family: "Regular"; }
+
+.intro {
+  padding: 75px 0; }
+  .intro .texto {
+    padding: 0 30px; }
 
 /*# sourceMappingURL=index.css.map */

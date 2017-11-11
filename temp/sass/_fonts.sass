@@ -11,20 +11,37 @@
 
 // --- TIPOGRAFIAS --- //
 
+$light: "Light"
 $regular: "Regular"
+$medium: "Mediun"
 
-
+@font-face
+	font-family: "Light"
+	src: url("../fonts/Roboto-Light.ttf")
 
 @font-face
 	font-family: "Regular"
 	src: url("../fonts/Roboto-Regular.ttf")
 
+@font-face
+	font-family: "Mediun"
+	src: url("../fonts/Roboto-Medium.ttf")
 
 
-// --- TAMAÑO DE FUENTES -- //
+
+// --- TAMAÑO DE FUENTES --- //
 
 $FFmenu: 12px
 
 
 
-// --- ESTILOS BÁSICOS PARA LOS TEXTOS --- //
+// --- ESTILOS BÁSICOS DE LOS TEXTOS --- //
+
+.titulo
+	font-family: $medium
+	color: $gris
+	margin-bottom: 30px
+.texto
+	font-family: $light 
+	color: $gris
+	margin-bottom: 0

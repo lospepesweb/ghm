@@ -206,6 +206,10 @@
     display: block;
     margin-left: auto;
     margin-right: auto; }
+  @media (max-width: 767px) {
+    .huevo .titulo {
+      margin-top: 20px;
+      margin-bottom: 10px; } }
   .huevo .texto {
     padding: 0 !important; }
 
@@ -218,5 +222,15 @@
     margin: 50px 0 !important; }
   .equipo figure {
     padding: 0 10px; }
+
+.clientes {
+  padding: 75px 0; }
+  .clientes .row {
+    margin-right: 0;
+    margin-left: 0; }
+  .clientes .titulo {
+    margin-bottom: 70px; }
+  .clientes img {
+    margin-bottom: 100px; }
 
 /*# sourceMappingURL=index.css.map */

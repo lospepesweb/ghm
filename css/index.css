@@ -176,12 +176,19 @@
 
 .intro {
   padding: 75px 0; }
+  .intro .row {
+    margin-right: 0;
+    margin-left: 0; }
   .intro .texto {
     padding: 0 30px; }
 
 .huevo {
   background-color: #f2f2f2;
   padding: 95px 0; }
+  .huevo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
   .huevo .titulo {
     margin-bottom: 10px; }
 

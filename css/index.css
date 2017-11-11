@@ -30,16 +30,30 @@
   content: ""; }
 
 .titulo {
-  color: #959494;
+  color: #585756;
   font-family: "Mediun";
   font-size: 38px;
   margin-bottom: 30px; }
 
 .texto {
-  color: #959494;
+  color: #585756;
   font-family: "Light";
   font-size: 16px;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  padding: 0 30px; }
+  @media (max-width: 767px) {
+    .texto {
+      padding: 0px !important; } }
+
+.titulo-equipo {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-family: "Regular";
+  color: #585756; }
+
+.texto-equipo {
+  font-family: "Light";
+  color: #585756; }
 
 .btn-default {
   -webkit-border-radius: 40px;
@@ -185,11 +199,24 @@
 .huevo {
   background-color: #f2f2f2;
   padding: 95px 0; }
+  .huevo .row {
+    margin-right: 0;
+    margin-left: 0; }
   .huevo img {
     display: block;
     margin-left: auto;
     margin-right: auto; }
-  .huevo .titulo {
-    margin-bottom: 10px; }
+  .huevo .texto {
+    padding: 0 !important; }
+
+.equipo {
+  padding: 75px 0; }
+  .equipo .row {
+    margin-right: 0;
+    margin-left: 0; }
+  .equipo .fila {
+    margin: 50px 0 !important; }
+  .equipo figure {
+    padding: 0 10px; }
 
 /*# sourceMappingURL=index.css.map */

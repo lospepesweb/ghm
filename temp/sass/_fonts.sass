@@ -67,12 +67,25 @@ $FStitulo: 38px
 // --- ESTILOS BÁSICOS DE LOS TEXTOS --- //
 
 .titulo
-	color: $gris
+	color: $grisOscuro
 	font-family: $medium
 	font-size: $FStitulo
 	margin-bottom: 30px
 .texto
-	color: $gris
+	color: $grisOscuro
 	font-family: $light 
 	font-size: $FStexto
 	margin-bottom: 0
+	padding: 0 30px
+	@media (max-width: 767px)
+		padding: 0px !important
+
+.titulo-equipo
+	margin-top: 10px
+	margin-bottom: 0
+	font-family: $regular
+	color: $grisOscuro
+
+.texto-equipo
+	font-family: $light
+	color: $grisOscuro

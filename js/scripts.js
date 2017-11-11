@@ -4,7 +4,8 @@
 
 // CONTENIDO:
 // Animación del menú hamburgesa
-// Margin-top de menú para moviles
+// Configuración personaliza del slider
+
 
 
 // --- ANIMACIÓN DEL MENU HAMBURGUESA --- //
@@ -23,3 +24,12 @@ function agregarClase(){
 
 // EVENTOS
 icon.addEventListener("click", agregarClase);
+
+
+
+// --- CONFIGURACIÓN PERSONALIZADA DEL SLIDER --- //
+
+$('.carousel').carousel({
+  interval: 2000,
+  pause: false
+})

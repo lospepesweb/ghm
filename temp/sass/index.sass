@@ -6,10 +6,13 @@
 
 // CONTENIDO:
 // Importación de archivos
-// Slide
+// Slider
 // Intro
 // Huevo
 // Equipo
+// Clientes
+// Contacto
+// Mapa
 
 
 
@@ -20,10 +23,11 @@
 @import _mixins
 @import _botones
 @import _nav
+@import _footer
 
 
 
-// --- SLIDE --- //
+// --- SLIDER --- //
 
 .slide-lp
 	padding: 0 !important
@@ -54,14 +58,16 @@
 	.row
 		margin-right: 0
 		margin-left: 0
+		@media (max-width: 991px)
+			text-align: center
 	img
 		display: block
 		margin-left: auto
 		margin-right: auto
 	.titulo
-		@media (max-width: 767px)
+		margin-bottom: 10px
+		@media (max-width: 991px)
 			margin-top: 20px
-			margin-bottom: 10px
 	.texto
 		padding: 0 !important
 
@@ -76,6 +82,11 @@
 		margin-left: 0
 	.fila
 		margin: 50px 0 !important
+		@media (max-width: 991px)
+			margin: 25px 0 !important
+	.fila:last-child
+		@media (max-width: 991px)
+			margin-bottom: 0 !important
 	figure
 		padding: 0 10px
 
@@ -84,11 +95,43 @@
 
 // --- CLIENTES --- //
 .clientes
-	padding: 75px 0
+	padding: 75px 0 0 0
 	.row
 		margin-right: 0
 		margin-left: 0
 	.titulo
 		margin-bottom: 70px
 	img
-		margin-bottom: 100px
+		display: block
+		margin: 0 auto 100px auto
+
+
+
+// --- CONTACTO --- //
+.contacto
+	padding: 75px 0
+	background-color: #f2f2f2
+	.row
+		margin-right: 0
+		margin-left: 0
+	.container
+		@media (max-width: 360px)
+			padding-left: 10px
+			padding-right: 10px
+	.texto
+		margin-bottom: 5px
+		vertical-align: middle
+	a
+		color: $grisOscuro
+		&:hover
+			color: $gris
+			text-decoration: none
+
+
+
+
+// --- MAPA --- //
+.mapa
+	margin: 0 !important
+	padding: 0 !important
+	box-sizing: border-box !important

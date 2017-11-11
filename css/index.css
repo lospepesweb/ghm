@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Light";
   src: url("../fonts/Roboto-Light.ttf"); }
@@ -7,15 +8,57 @@
 @font-face {
   font-family: "Mediun";
   src: url("../fonts/Roboto-Medium.ttf"); }
+@font-face {
+  font-family: "Icomoon";
+  src: url("../fonts/icomoon.eot?vofcvj");
+  src: url("../fonts/icomoon.eot?vofcvj#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?vofcvj") format("truetype"), url("../fonts/icomoon.woff?vofcvj") format("woff"), url("../fonts/icomoon.svg?vofcvj#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+[class^="icon-"], [class*=" icon-"] {
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-chevron-thin-right:before {
+  content: ""; }
+
 .titulo {
-  font-family: "Mediun";
   color: #959494;
+  font-family: "Mediun";
+  font-size: 38px;
   margin-bottom: 30px; }
 
 .texto {
-  font-family: "Light";
   color: #959494;
+  font-family: "Light";
+  font-size: 16px;
   margin-bottom: 0; }
+
+.btn-default {
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  border-radius: 40px;
+  border: 1px solid #959494;
+  color: #959494;
+  display: inline-block;
+  font-family: "Light";
+  font-size: 14px;
+  margin-top: 40px;
+  padding: 5px 15px 5px 10px; }
+  .btn-default:hover {
+    text-decoration: none;
+    color: #fff !important;
+    background-color: rgba(0, 0, 0, 0.5); }
+  .btn-default span {
+    font-size: 12px; }
 
 .navbar {
   margin-top: 40px;
@@ -135,5 +178,11 @@
   padding: 75px 0; }
   .intro .texto {
     padding: 0 30px; }
+
+.huevo {
+  background-color: #f2f2f2;
+  padding: 95px 0; }
+  .huevo .titulo {
+    margin-bottom: 10px; }
 
 /*# sourceMappingURL=index.css.map */

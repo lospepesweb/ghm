@@ -4,6 +4,7 @@
 
 // CONTENIDO:
 // Tipografias
+// Iconos vectoriales
 // Tamaños fuentes
 // Estilos básicos para los textos
 
@@ -14,6 +15,7 @@
 $light: "Light"
 $regular: "Regular"
 $medium: "Mediun"
+$icomoon: "Icomoon"
 
 @font-face
 	font-family: "Light"
@@ -29,19 +31,48 @@ $medium: "Mediun"
 
 
 
+// --- ICONOS VECTORIALES --- //
+@font-face 
+	font-family: 'Icomoon'
+	src:  url('../fonts/icomoon.eot?vofcvj')
+	src:  url('../fonts/icomoon.eot?vofcvj#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?vofcvj') format('truetype'), url('../fonts/icomoon.woff?vofcvj') format('woff'), url('../fonts/icomoon.svg?vofcvj#icomoon') format('svg')
+	font-weight: normal
+	font-style: normal
+
+[class^="icon-"], [class*=" icon-"] 
+	font-family: 'icomoon' !important
+	speak: none
+	font-style: normal
+	font-weight: normal
+	font-variant: normal
+	text-transform: none
+	line-height: 1
+	vertical-align: middle
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+
+.icon-chevron-thin-right:before 
+	content: "\e901"
+
+
+
 // --- TAMAÑO DE FUENTES --- //
 
 $FFmenu: 12px
+$FStexto: 16px
+$FStitulo: 38px
 
 
 
 // --- ESTILOS BÁSICOS DE LOS TEXTOS --- //
 
 .titulo
-	font-family: $medium
 	color: $gris
+	font-family: $medium
+	font-size: $FStitulo
 	margin-bottom: 30px
 .texto
-	font-family: $light 
 	color: $gris
+	font-family: $light 
+	font-size: $FStexto
 	margin-bottom: 0

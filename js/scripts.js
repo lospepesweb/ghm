@@ -4,7 +4,7 @@
 
 // CONTENIDO:
 // Animación del menú hamburgesa
-// Configuración personaliza del slider
+// Configuración personalizada del slider
 
 
 
@@ -30,6 +30,6 @@ icon.addEventListener("click", agregarClase);
 // --- CONFIGURACIÓN PERSONALIZADA DEL SLIDER --- //
 
 $('.carousel').carousel({
-  interval: 4000,
+  interval: 5000,
   pause: false
 })

@@ -243,7 +243,6 @@ footer {
 .lista-footer {
   margin-bottom: 30px !important;
   padding: 0;
-  margin: 0;
   list-style-type: none !important; }
 
 .lista-footer.redes a {
@@ -260,31 +259,28 @@ footer {
 
 li.item-footer {
   font-family: "Light";
-  font-family: 16px;
+  font-size: 16px;
   color: #fff; }
 
 a.item-footer {
   text-decoration: none;
   font-family: "Light";
-  font-family: 16px;
+  font-size: 16px;
   color: #fff;
-  margin: 2px 0;
-  display: inline-block; }
+  margin: 2px 0; }
   a.item-footer:hover {
     color: #959494;
     text-decoration: none; }
 
+.logoHuevo:hover {
+  text-decoration: none !important; }
+
 .icon-logoHuevo {
   font-size: 42px; }
-  .icon-logoHuevo:hover {
-    text-decoration: none !important; }
 
 .class-aux {
   padding-left: 55px !important;
   padding-right: 55px !important; }
-
-body {
-  max-width: 100% !important; }
 
 .slide-lp {
   padding: 0 !important; }

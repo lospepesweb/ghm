@@ -8,6 +8,7 @@
 // Estilos Básicos
 // Botón del menú
 // Animación del Menú
+// Animación del Submenú
 
 
 
@@ -26,14 +27,17 @@
 			margin-left: 15px
 			@media (max-width: 991px)
 				margin-left: 0px
+				text-align: center
 			.dropdown-toggle::after
 				display: none !important
 			.dropdown-menu
 				border: none !important
-				background-color: rgba(0,0,0,0.5)
+				background-color: rgba(0,0,0,0.2)
 				padding: 0
 				border-radius: 0px
 				margin-top: 0
+				@media (max-width: 991px)
+					background-color: #fff !important
 				.dropdown-item
 					font-family: $regular
 					font-size: $FFmenu
@@ -41,13 +45,24 @@
 					padding: 8px
 					border-bottom: 1px solid white
 					&:hover
-						background-color: rgba(0,0,0,0.3)
+						background-color: rgba(0,0,0,0.1)
+					@media (max-width: 991px)
+						text-align: center
+						border-bottom: 1px solid $gris
+						color: $gris !important
+						&:hover
+							color: #fff !important
 	a.ghmLogo
 		display: block
 		height: 33px
 		img
 			display: block
 			vertical-align: middle
+
+.dropdown-menu.ultimo.show
+	min-width: 0 !important
+	@media (max-width: 1090px)
+		min-width: 100% !important
 
 
 
@@ -102,3 +117,29 @@
 	display: block
 	+border-radius(1px)
 	margin: 4.5px 0
+
+
+
+// --- ANIMACIÓN DEL SUBMENÚ --- //
+
+.dropdown-menu a:nth-child(1) 
+	animation-delay: 0s
+
+.dropdown-menu a:nth-child(2) 
+	animation-delay: 0.116s
+
+.dropdown-menu a:nth-child(3) 
+	animation-delay: 0.233s
+
+.dropdown-menu
+	transform: scaleY(0)
+	transform-origin: top center
+	animation-name: aparecer
+	animation-duration: 0.35s
+	animation-fill-mode: forwards
+
+@keyframes aparecer
+	from
+		transform: scaleY(0)
+	to
+		transform: scaleY(1)

@@ -60,30 +60,6 @@
     .texto {
       padding: 0px !important; } }
 
-.titulo-equipo {
-  margin-top: 10px;
-  margin-bottom: 0;
-  font-family: "Regular";
-  color: #585756; }
-
-.texto-equipo {
-  font-family: "Light";
-  color: #585756; }
-
-.titulo-footer {
-  font-family: "Mediun";
-  color: #fff; }
-
-.lista-footer {
-  padding: 0;
-  margin: 0; }
-
-.item-footer {
-  text-decoration: none;
-  list-style: none;
-  font-family: "Light";
-  color: #fff; }
-
 .btn-default {
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
@@ -116,15 +92,19 @@
       margin-left: 15px; }
       @media (max-width: 991px) {
         .navbar .navbar-nav .nav-item {
-          margin-left: 0px; } }
+          margin-left: 0px;
+          text-align: center; } }
       .navbar .navbar-nav .nav-item .dropdown-toggle::after {
         display: none !important; }
       .navbar .navbar-nav .nav-item .dropdown-menu {
         border: none !important;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.2);
         padding: 0;
         border-radius: 0px;
         margin-top: 0; }
+        @media (max-width: 991px) {
+          .navbar .navbar-nav .nav-item .dropdown-menu {
+            background-color: #fff !important; } }
         .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item {
           font-family: "Regular";
           font-size: 12px;
@@ -132,13 +112,26 @@
           padding: 8px;
           border-bottom: 1px solid white; }
           .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
-            background-color: rgba(0, 0, 0, 0.3); }
+            background-color: rgba(0, 0, 0, 0.1); }
+          @media (max-width: 991px) {
+            .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+              text-align: center;
+              border-bottom: 1px solid #959494;
+              color: #959494 !important; }
+              .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+                color: #fff !important; } }
   .navbar a.ghmLogo {
     display: block;
     height: 33px; }
     .navbar a.ghmLogo img {
       display: block;
       vertical-align: middle; }
+
+.dropdown-menu.ultimo.show {
+  min-width: 0 !important; }
+  @media (max-width: 1090px) {
+    .dropdown-menu.ultimo.show {
+      min-width: 100% !important; } }
 
 .navbar-toggler {
   padding: 0;
@@ -210,10 +203,72 @@
   border-radius: 1px;
   margin: 4.5px 0; }
 
+.dropdown-menu a:nth-child(1) {
+  animation-delay: 0s; }
+
+.dropdown-menu a:nth-child(2) {
+  animation-delay: 0.116s; }
+
+.dropdown-menu a:nth-child(3) {
+  animation-delay: 0.233s; }
+
+.dropdown-menu {
+  transform: scaleY(0);
+  transform-origin: top center;
+  animation-name: aparecer;
+  animation-duration: 0.35s;
+  animation-fill-mode: forwards; }
+
+@keyframes aparecer {
+  from {
+    transform: scaleY(0); }
+  to {
+    transform: scaleY(1); } }
 footer {
   background-color: #585756;
   padding: 75px 0;
   margin-top: 0; }
+
+.lista-footer {
+  margin-bottom: 30px !important;
+  padding: 0;
+  margin: 0;
+  list-style-type: none !important; }
+
+.lista-footer.redes a {
+  font-size: 24px;
+  color: #fff;
+  padding: 0 2px; }
+  .lista-footer.redes a:hover {
+    color: #959494;
+    text-decoration: none !important; }
+
+.titulo-footer {
+  font-family: "Mediun";
+  color: #fff; }
+
+li.item-footer {
+  font-family: "Light";
+  font-family: 16px;
+  color: #fff; }
+
+a.item-footer {
+  text-decoration: none;
+  font-family: "Light";
+  font-family: 16px;
+  color: #fff;
+  margin: 2px 0;
+  display: inline-block; }
+  a.item-footer:hover {
+    color: #959494;
+    text-decoration: none; }
+
+.class-aux {
+  padding-left: 55px !important;
+  padding-right: 55px !important; }
+
+body {
+  max-width: 100% !important; }
 
 .slide-lp {
   padding: 0 !important; }
@@ -248,7 +303,7 @@ footer {
     margin-bottom: 10px; }
     @media (max-width: 991px) {
       .huevo .titulo {
-        margin-top: 20px; } }
+        margin-top: 50px; } }
   .huevo .texto {
     padding: 0 !important; }
 
@@ -267,6 +322,17 @@ footer {
       margin-bottom: 0 !important; } }
   .equipo figure {
     padding: 0 10px; }
+  .equipo .titulo-equipo {
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-family: "Regular";
+    color: #585756; }
+    @media (max-width: 390px) {
+      .equipo .titulo-equipo {
+        font-size: 24px; } }
+  .equipo .texto-equipo {
+    font-family: "Light";
+    color: #585756; }
 
 .clientes {
   padding: 75px 0 0 0; }

@@ -30,6 +30,6 @@ icon.addEventListener("click", agregarClase);
 // --- CONFIGURACIÓN PERSONALIZADA DEL SLIDER --- //
 
 $('.carousel').carousel({
-  interval: 2000,
+  interval: 4000,
   pause: false
 })

@@ -44,6 +44,14 @@
 .icon-mouse:before {
   content: ""; }
 
+.icon-logo:before {
+  content: "";
+  color: #595757; }
+
+.icon-logoHuevo:before {
+  content: "";
+  color: #fff; }
+
 .titulo {
   color: #585756;
   font-family: "Mediun";
@@ -122,10 +130,13 @@
                 color: #fff !important; } }
   .navbar a.ghmLogo {
     display: block;
-    height: 33px; }
-    .navbar a.ghmLogo img {
+    height: 33px;
+    font-size: 32px; }
+    .navbar a.ghmLogo span {
       display: block;
       vertical-align: middle; }
+    .navbar a.ghmLogo:hover {
+      text-decoration: none !important; }
 
 .dropdown-menu.ultimo.show {
   min-width: 0 !important; }
@@ -227,7 +238,7 @@
 footer {
   background-color: #585756;
   padding: 75px 0;
-  margin-top: 0; }
+  margin-top: 0 !important; }
 
 .lista-footer {
   margin-bottom: 30px !important;
@@ -263,6 +274,11 @@ a.item-footer {
     color: #959494;
     text-decoration: none; }
 
+.icon-logoHuevo {
+  font-size: 42px; }
+  .icon-logoHuevo:hover {
+    text-decoration: none !important; }
+
 .class-aux {
   padding-left: 55px !important;
   padding-right: 55px !important; }
@@ -277,6 +293,20 @@ body {
   width: 100%; }
 .carousel-item h4, .carousel-item p {
   font-family: "Regular"; }
+
+.videos {
+  margin-top: 5px;
+  width: 100%; }
+  .videos div {
+    width: calc(50% - 2.5px);
+    float: left; }
+  .videos .video1, .videos .video3 {
+    margin-right: 5px; }
+  .videos .video1, .videos .video2 {
+    margin-bottom: 5px; }
+
+.clear {
+  clear: both; }
 
 .intro {
   padding: 75px 0; }

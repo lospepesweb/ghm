@@ -50,6 +50,7 @@ $(document).ready(function() {
 	    animation: "slide",
 	    controlNav: false,
 	    directionNav: false,
-	    reverse: true
+	    reverse: true,
+	    useCSS: false
 	  });
-	});
+});

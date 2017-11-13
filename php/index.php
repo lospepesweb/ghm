@@ -1,3 +1,4 @@
+<?php require_once 'php/programacion.php'; ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -5,94 +6,20 @@
 	<title>GHM Contenidos</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/flexslider.css">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
 	<!-- Header -->
 	<header class="container-fluid">
-		<nav class="navbar navbar-expand-lg navbar-light">
-			<div class="container">
-				
-				<!-- Logo de GHM -->
-				<a class="ghmLogo" href="#">
-					<span class="icon-logo"></span>
-				</a>
-				<!-- Fin de Logo -->
-					
-				<!-- Menú hamburguesa -->
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
-					<div id="nav-icon" class="nav-icon">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</div>
-				</button>
-				<!-- Fin del meú hamburguesa -->
-						
-				<!-- Opciones del menú -->
-				<div class="collapse navbar-collapse" id="navbar">
-					<ul class="navbar-nav" id="navbar-nav-lp">
-						<li class="nav-item dropdown">
-							<a href="#" class="nav-link dropdown-toggle" id="navBarAudiovisual" data-toggle="dropdown" role="button">AUDIOVISUAL</a>
-							<div class="dropdown-menu" aria-labelledby="navBarAudiovisual">
-					        	<a class="dropdown-item" href="#.">Institucional</a>
-					        	<a class="dropdown-item" href="#.">Infraestructura</a>
-					        	<a class="dropdown-item" href="#.">Educativo</a>
-					        	<a class="dropdown-item" href="#.">Publicitario</a>
-					        	<a class="dropdown-item" href="#.">Mappig</a>
-					        </div>
-						</li>
-						<li class="nav-item dropdown">
-							<a href="#" class="nav-link dropdown-toggle" id="navBarFotografia" data-toggle="dropdown" role="button">FOTOGRAFÍA</a>
-							<div class="dropdown-menu" aria-labelledby="navBarFotografia">
-					        	<a class="dropdown-item" href="fotografia/naturaleza.html">Naturaleza</a>
-					        	<a class="dropdown-item" href="fotografia/institucional.html">Institucional</a>
-					        	<a class="dropdown-item" href="#">Infraestructura</a>
-					        	<a class="dropdown-item" href="#">Artístico</a>
-					        	<a class="dropdown-item" href="#">Extremo</a>
-					        	<a class="dropdown-item" href="#">Publicitaria</a>
-					        	<a class="dropdown-item" href="#">Retrato</a>
-					        	<a class="dropdown-item" href="#">Producciones en estudio</a>
-					        </div>
-						</li>
-						<li class="nav-item dropdown">
-							<a href="#" class="nav-link dropdown-toggle" id="navBarDiseño" data-toggle="dropdown" role="button">DISEÑO</a>
-							<div class="dropdown-menu" aria-labelledby="navBarDiseño">
-					        	<a class="dropdown-item" href="#">Gráfica</a>
-					        	<a class="dropdown-item" href="#">Editorial</a>
-					        	<a class="dropdown-item" href="#">Digital</a>
-					        </div>
-						</li>
-						<li class="nav-item dropdown">
-							<a href="#" class="nav-link" dropdown-toggle" id="navBarEspacios" data-toggle="dropdown" role="button">ESPACIOS</a>
-							<div class="dropdown-menu" aria-labelledby="navBarEspacios">
-					        	<a class="dropdown-item" href="#">Stand</a>
-					        	<a class="dropdown-item" href="#">Arquigrafía</a>
-					        	<a class="dropdown-item" href="#">Exposiciones</a>
-					        </div>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link">MONITOREO</a>
-						</li>
-						<li class="nav-item dropdown">
-							<a href="#" class="nav-link dropdown-toggle" id="navBarVuelos" data-toggle="dropdown" role="button"">VUELOS</a>
-							<div class="dropdown-menu ultimo" aria-labelledby="navBarVuelos">
-					        	<a class="dropdown-item" href="#">Drone</a>
-					        	<a class="dropdown-item" href="#">Helicóptero</a>
-					        </div>
-						</li>
-					</ul>
-				</div>
-				<!-- Fin de opciones de menú -->
-			</div>
-		</nav>
+		<?php include 'modulos/nav.php'; ?>
 	</header>
 
 	<!-- Slider -->
 	<section class="container-fluid">
 		<div class="row">
 			<div class="col-12 slide-lp">
-				<div class="carousel slide" id="primary-carousel" data-ride="carousel">
+				<!-- <div class="carousel slide" id="primary-carousel" data-ride="carousel">
 
 					<div class="carousel-inner">
 
@@ -110,6 +37,19 @@
 
 					</div>
 					
+				</div> -->
+				<div class="flexslider">
+				    <ul class="slides">
+					    <li>
+					      	<img src="img/slide1.jpg" />
+					    </li>
+					    <li>
+					      	<img src="img/slide2.jpg" />
+					    </li>
+					    <li>
+					      	<img src="img/slide3.jpg" />
+					    </li>
+				    </ul>
 				</div>
 			</div>
 		</div>
@@ -399,100 +339,17 @@
 	</section>
 
 	<!-- Mapa -->
-	<div class="mapa">
-		<iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.501456166583!2d-68.5625626852397!3d-31.537849981363834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9681404df64be35f%3A0x2d3fc6fb19bffb93!2sghm+contenidos!5e0!3m2!1ses-419!2sar!4v1510436185485" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-	</div>
+	<iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.501456166583!2d-68.5625626852397!3d-31.537849981363834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9681404df64be35f%3A0x2d3fc6fb19bffb93!2sghm+contenidos!5e0!3m2!1ses-419!2sar!4v1510436185485" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 	<!-- Footer -->
-	<footer>
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="d-12 col-md-6 col-lg-3 class-aux">
-					<h6 class="titulo-footer">Home</h6>
-					<ul class="lista-footer">
-						<li><a class="item-footer" href="#">Acerca de GHM</a></li>
-						<li><a class="item-footer" href="huevo.html">Gustavo Muñoz Lorenzo</a></li>
-						<li><a class="item-footer" href="#.">Equipo</a></li>
-						<li><a class="item-footer" href="#.">Clientes</a></li>
-						<li><a class="item-footer" href="#.">Noticias</a></li>
-						<li><a class="item-footer" href="#.">Contacto</a></li>
-					</ul>
-					<h6 class="titulo-footer">Audiovisual</h6>
-					<ul class="lista-footer">
-						<li class="item-footer"><a href="#." class="item-footer">Institucional</a></li>
-						<li class="item-footer"><a href="#." class="item-footer">Infraestructura</a></li>
-						<li class="item-footer"><a href="#." class="item-footer">Educativo</a></li>
-						<li class="item-footer"><a href="#." class="item-footer">Publicitario</a></li>
-						<li class="item-footer"><a href="#." class="item-footer">Mapping</a></li>
-					</ul>
-				</div>
-				<div class="d-12 col-md-6 col-lg-3 class-aux">
-					<h6 class="titulo-footer">Fotografía</h6>
-					<ul class="lista-footer">
-						<li><a class="item-footer" href="fotografia/naturaleza.html">Naturaleza</a></li>
-						<li><a class="item-footer" href="#.">Institucional</a></li>
-						<li><a class="item-footer" href="#.">Infraestructura</a></li>
-						<li><a class="item-footer" href="#.">Artístico</a></li>
-						<li><a class="item-footer" href="#.">Extremo</a></li>
-						<li><a class="item-footer" href="#.">Publicitaria</a></li>
-						<li><a class="item-footer" href="#.">Retrato</a></li>
-						<li><a class="item-footer" href="#.">Producciones en estudio</a></li>
-					</ul>
-					<h6 class="titulo-footer">Diseño</h6>
-					<ul class="lista-footer">
-						<li class="item-footer"><a href="#." class="item-footer">Gráfica</a></li>
-						<li class="item-footer"><a href="#." class="item-footer">Editorial</a></li>
-						<li class="item-footer"><a href="#." class="item-footer">Digital</a></li>
-					</ul>
-				</div>
-				<div class="d-12 col-md-6 col-lg-3 class-aux">
-					<h6 class="titulo-footer">Espacios</h6>
-					<ul class="lista-footer">
-						<li><a class="item-footer" href="#.">Stand</a></li>
-						<li><a class="item-footer" href="#.">Arquigrafía</a></li>
-						<li><a class="item-footer" href="#.">Exposiciones</a></li>
-					</ul>
-					<h6 class="titulo-footer">Monitoreo</h6>
-					<ul class="lista-footer">
-					</ul>
-					<h6 class="titulo-footer">Vuelos</h6>
-					<ul class="lista-footer">
-						<li><a class="item-footer" href="#.">Drone</a></li>
-						<li><a class="item-footer" href="#.">Helicóptero</a></li>
-					</ul>
-				</div>
-				<div class="d-12 col-md-6 col-lg-3 class-aux">
-					<h6 class="titulo-footer">Nuestra oficina</h6>
-					<ul class="lista-footer">
-						<li class="item-footer">Esteban Echeverría <br class="d-none d-lg-block">772 Sur (5400)</li>
-						<li class="item-footer">San Juan · Argentina</li>
-						<li class="item-footer">+54 264 4266621 | 4085014</li>
-						<li><a class="item-footer" href="mailto:ghmtv@ghmtv.com">ghmtv@ghmtv.com</a></li>
-					</ul>
-					<ul class="lista-footer redes">
-						<a href="https://www.youtube.com/channel/UC1i1fEIsMjAJA5peqehEHiw" target="_blank"><span class="icon-youtube"></span></a>
-						<a href="https://www.facebook.com/Ghmtv/" target="_blank"><span class="icon-facebook"></span></a>
-						<a href="#"><span class="icon-instagram"></span></a>
-					</ul>
-					<h6 class="titulo-footer">Trabajá con nosotros</h6>
-					<ul class="lista-footer">
-						<li><a class="item-footer" href="mailto:ghmtv@ghmtv.com">ghmtv@ghmtv.com</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="row">
-				<div class="d-12 col-md-6 col-lg-3 ml-auto class-aux">
-					<a href="#" class="logoHuevo"><span class="icon-logoHuevo"></span></a>
-				</div>
-			</div>
-		</div>
-	</footer>
+	<?php include 'modulos/footer.php'; ?>
 
 
 
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/popper.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>

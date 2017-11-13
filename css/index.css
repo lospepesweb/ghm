@@ -74,7 +74,7 @@
   -ms-border-radius: 40px;
   border-radius: 40px;
   border: 1px solid #959494;
-  color: #959494;
+  color: #585756;
   display: inline-block;
   font-family: "Light";
   font-size: 14px;
@@ -282,6 +282,10 @@ a.item-footer {
   padding-left: 55px !important;
   padding-right: 55px !important; }
 
+.class-aux:last-child {
+  padding-left: 55px !important;
+  padding-right: 55px !important; }
+
 .slide-lp {
   padding: 0 !important; }
 
@@ -296,6 +300,8 @@ a.item-footer {
   .videos div {
     width: calc(50% - 2.5px);
     float: left; }
+    .videos div img {
+      width: 100%; }
   .videos .video1, .videos .video3 {
     margin-right: 5px; }
   .videos .video1, .videos .video2 {
@@ -391,8 +397,7 @@ a.item-footer {
       text-decoration: none; }
 
 .mapa {
-  margin: 0 !important;
-  padding: 0 !important;
-  box-sizing: border-box !important; }
+  height: 445px;
+  overflow: hidden; }
 
 /*# sourceMappingURL=index.css.map */

@@ -282,7 +282,19 @@ a.item-footer {
   padding-left: 55px !important;
   padding-right: 55px !important; }
 
-.page-construc .row {
-  min-height: 500px; }
+.bio {
+  padding: 75px 0; }
 
-/*# sourceMappingURL=ADinstitucional.css.map */
+.div-sp {
+  padding: 0; }
+  .div-sp .img-fluid {
+    width: 100%; }
+
+.titulo,
+.texto {
+  padding-left: 50px; }
+
+.titulo {
+  margin-bottom: 10px; }
+
+/*# sourceMappingURL=huevo.css.map */

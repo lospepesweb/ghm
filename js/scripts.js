@@ -8,6 +8,32 @@
 
 
 
+// --- BOTÓN SELECTOR DE IDIOMA --- //
+
+// VARIABLES
+var esp = document.getElementById("langEsp");
+var	eng = document.getElementById("langEng");
+
+// FUNCIONES
+function claseIdiomaEsp(){
+	if(esp.className == "lang") {
+		esp.className = "lang active";
+		eng.className = "lang";
+	}
+}
+
+function claseIdiomaEng(){
+	if(eng.className == "lang") {
+		eng.className = "lang active";
+		esp.className = "lang";
+	}
+}
+// EVENTOS
+esp.addEventListener("click", claseIdiomaEsp);
+eng.addEventListener("click", claseIdiomaEng);
+
+
+
 // --- ANIMACIÓN DEL MENU HAMBURGUESA --- //
 
 // VARIABLES
@@ -33,3 +59,7 @@ $('.carousel').carousel({
   interval: 5000,
   pause: false
 })
+
+
+
+

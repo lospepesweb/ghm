@@ -26,31 +26,31 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.icon-chevron-thin-right:before {
-  content: ""; }
+.icon-logo:before {
+  content: "";
+  color: #595757; }
 
 .icon-youtube:before {
-  content: ""; }
+  content: ""; }
+
+.icon-chevron-thin-right:before {
+  content: ""; }
+
+.icon-mouse:before {
+  content: ""; }
+
+.icon-phone:before {
+  content: ""; }
+
+.icon-logoHuevo:before {
+  content: "";
+  color: #fff !important; }
 
 .icon-facebook:before {
   content: ""; }
 
 .icon-instagram:before {
   content: ""; }
-
-.icon-phone:before {
-  content: ""; }
-
-.icon-mouse:before {
-  content: ""; }
-
-.icon-logo:before {
-  content: "";
-  color: #595757; }
-
-.icon-logoHuevo:before {
-  content: "";
-  color: #fff; }
 
 .titulo {
   color: #585756;
@@ -89,19 +89,24 @@
     font-size: 12px; }
 
 .navbar {
-  margin-top: 40px;
+  margin-top: 16px;
   padding-bottom: 0; }
   .navbar .navbar-nav {
     margin-right: 0;
     margin-left: auto;
     font-family: "Regular";
     font-size: 12px; }
+    @media (max-width: 991px) {
+      .navbar .navbar-nav {
+        border-top: 1px solid #585756; } }
     .navbar .navbar-nav .nav-item {
       margin-left: 15px; }
       @media (max-width: 991px) {
         .navbar .navbar-nav .nav-item {
           margin-left: 0px;
-          text-align: center; } }
+          border-bottom: 1px solid #585756;
+          padding-top: 10px;
+          padding-bottom: 10px; } }
       .navbar .navbar-nav .nav-item .dropdown-toggle::after {
         display: none !important; }
       .navbar .navbar-nav .nav-item .dropdown-menu {
@@ -123,8 +128,7 @@
             background-color: rgba(0, 0, 0, 0.1); }
           @media (max-width: 991px) {
             .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item {
-              text-align: center;
-              border-bottom: 1px solid #959494;
+              border-bottom: none;
               color: #959494 !important; }
               .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
                 color: #fff !important; } }
@@ -138,11 +142,31 @@
     .navbar a.ghmLogo:hover {
       text-decoration: none !important; }
 
+.dropdown:hover > .dropdown-menu {
+  display: block; }
+
 .dropdown-menu.ultimo.show {
   min-width: 0 !important; }
   @media (max-width: 1090px) {
     .dropdown-menu.ultimo.show {
       min-width: 100% !important; } }
+
+.lang-container {
+  margin-top: 10px; }
+
+.lang {
+  background-color: #fff;
+  border: none;
+  font-family: "Regular";
+  font-size: 12px;
+  color: #959494; }
+
+button.lang {
+  cursor: pointer;
+  outline: none; }
+
+button.lang.active {
+  color: #585756; }
 
 .navbar-toggler {
   padding: 0;
@@ -154,7 +178,7 @@
     cursor: pointer; }
 
 .nav-icon {
-  padding: 10px 20px; }
+  padding: 10px 2px; }
 
 .nav-icon span {
   -webkit-transform: rotate(0deg);
@@ -300,12 +324,54 @@ a.item-footer {
   .videos div {
     width: calc(50% - 2.5px);
     float: left; }
+    @media (max-width: 991px) {
+      .videos div {
+        float: none;
+        width: 100%; } }
     .videos div img {
-      width: 100%; }
+      width: 100%;
+      z-index: 2 !important; }
+  .videos .video1, .videos .video2, .videos .video3, .videos .video4 {
+    position: relative;
+    cursor: pointer; }
   .videos .video1, .videos .video3 {
     margin-right: 5px; }
+    @media (max-width: 991px) {
+      .videos .video1, .videos .video3 {
+        margin-right: 0;
+        margin-bottom: 5px; } }
   .videos .video1, .videos .video2 {
     margin-bottom: 5px; }
+
+.video1:hover > .noticia,
+.video2:hover > .noticia,
+.video3:hover > .noticia,
+.video4:hover > .noticia {
+  visibility: visible;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.noticia {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  height: 100%;
+  z-index: 1000;
+  width: 100% !important;
+  padding: 80px 50px;
+  text-align: center;
+  visibility: hidden;
+  transition: all 0.2s ease !important; }
+  .noticia .titulo, .noticia .texto {
+    color: #fff; }
+  @media (max-width: 991px) {
+    .noticia {
+      padding: 15px; }
+      .noticia .titulo {
+        font-size: 24px;
+        margin-bottom: 10px; }
+      .noticia .texto {
+        font-size: 12px; } }
 
 .clear {
   clear: both; }
@@ -331,6 +397,9 @@ a.item-footer {
     display: block;
     margin-left: auto;
     margin-right: auto; }
+    @media (max-width: 577px) {
+      .huevo img {
+        width: 80%; } }
   .huevo .titulo {
     margin-bottom: 10px; }
     @media (max-width: 991px) {

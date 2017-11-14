@@ -16,18 +16,22 @@
 // --- ESTILOS BÁSICOS --- //
 
 .navbar
-	margin-top: 40px
+	margin-top: 16px
 	padding-bottom: 0
 	.navbar-nav
 		margin-right: 0
 		margin-left: auto
 		font-family: $regular
 		font-size: $FFmenu
+		@media (max-width: 991px)
+			border-top: 1px solid $grisOscuro
 		.nav-item
 			margin-left: 15px
 			@media (max-width: 991px)
 				margin-left: 0px
-				text-align: center
+				border-bottom: 1px solid $grisOscuro
+				padding-top: 10px
+				padding-bottom: 10px
 			.dropdown-toggle::after
 				display: none !important
 			.dropdown-menu
@@ -47,25 +51,46 @@
 					&:hover
 						background-color: rgba(0,0,0,0.1)
 					@media (max-width: 991px)
-						text-align: center
-						border-bottom: 1px solid $gris
+						border-bottom: none
 						color: $gris !important
 						&:hover
 							color: #fff !important
+
 	a.ghmLogo
 		display: block
 		height: 33px
 		font-size: 32px
+		@media (max-width: 991px)
+			// position: absolute
 		span
 			display: block
 			vertical-align: middle
 		&:hover
 			text-decoration: none !important
 
+// Activar o comentar estas lineas de código para hacer abrir los submenu al hover
+.dropdown:hover > .dropdown-menu
+	display: block
+
+
 .dropdown-menu.ultimo.show
 	min-width: 0 !important
 	@media (max-width: 1090px)
 		min-width: 100% !important
+
+.lang-container
+	margin-top: 10px
+.lang
+	background-color: #fff
+	border: none
+	font-family: $regular
+	font-size: $FFmenu
+	color: $gris
+button.lang
+	cursor: pointer
+	outline: none
+button.lang.active
+	color: $grisOscuro
 
 
 
@@ -81,7 +106,7 @@
 		cursor: pointer
 
 .nav-icon
-	padding: 10px 20px
+	padding: 10px 2px
 
 
 

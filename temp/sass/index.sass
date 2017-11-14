@@ -48,12 +48,52 @@
 	div
 		width: calc(50% - 2.5px)
 		float: left
+		@media (max-width: 991px)
+			float: none
+			width: 100%
 		img
 			width: 100%
+			z-index: 2 !important
+	.video1, .video2, .video3, .video4
+		position: relative
+		cursor: pointer
 	.video1, .video3
 		margin-right: 5px
+		@media (max-width: 991px)
+			margin-right: 0
+			margin-bottom: 5px
 	.video1, .video2
 		margin-bottom: 5px
+
+.video1:hover > .noticia,
+.video2:hover > .noticia,
+.video3:hover > .noticia,
+.video4:hover > .noticia
+	visibility: visible
+	color: #fff
+	background-color: rgba(0,0,0,.5)
+
+.noticia
+	position: absolute
+	overflow: hidden
+	top: 0
+	height: 100%
+	z-index: 1000
+	width: 100% !important
+	padding: 80px 50px
+	text-align: center
+	visibility: hidden
+	transition: all 0.2s ease !important
+	.titulo, .texto
+		color: #fff
+	@media (max-width: 991px)
+		padding: 15px
+		.titulo
+			font-size: 24px
+			margin-bottom: 10px
+		.texto	
+			font-size: 12px
+
 .clear
 	clear: both
 
@@ -83,6 +123,8 @@
 		display: block
 		margin-left: auto
 		margin-right: auto
+		@media (max-width: 577px)
+			width: 80%
 	.titulo
 		margin-bottom: 10px
 		@media (max-width: 991px)

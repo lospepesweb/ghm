@@ -142,9 +142,9 @@
     .navbar a.ghmLogo:hover {
       text-decoration: none !important; }
 
-.dropdown:hover > .dropdown-menu {
-  display: block; }
-
+@media (min-width: 992px) {
+  .dropdown:hover > .dropdown-menu {
+    display: block; } }
 .dropdown-menu.ultimo.show {
   min-width: 0 !important; }
   @media (max-width: 1090px) {

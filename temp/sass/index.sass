@@ -62,7 +62,6 @@
 	div
 		width: calc(50% - 2.5px)
 		float: left
-		// position: relative
 		@media (max-width: 991px)
 			float: none
 			width: 100%
@@ -73,6 +72,7 @@
 	.video1, .video2, .video3, .video4
 		position: relative
 		cursor: pointer
+		height: 100%
 	.video1, .video3
 		margin-right: 5px
 		@media (max-width: 991px)
@@ -94,10 +94,10 @@
 	position: absolute
 	overflow: hidden
 	top: 0
-	height: 100%
+	height: calc(100% - 7px)
 	z-index: 1000
 	width: 100% !important
-	padding: 104px 80px 104px 80px
+	padding: 105px 80px 100px 80px
 	text-align: left
 	visibility: hidden
 	transition: all 0.2s ease !important
@@ -107,7 +107,7 @@
 		color: #fff
 		padding: 0
 	@media (max-width: 991px)
-		padding: 104px 80px 104px 80px
+		padding: 54px 20px
 		text-align: center
 		.titulo
 			font-size: 24px

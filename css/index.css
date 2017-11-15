@@ -488,6 +488,11 @@ a.item-footer {
 
 .mapa {
   height: 445px;
+  width: 100%;
   overflow: hidden; }
+  .mapa #map {
+    height: 445px;
+    width: 100%;
+    margin: auto; }
 
 /*# sourceMappingURL=index.css.map */

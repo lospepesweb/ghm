@@ -153,13 +153,16 @@
 
 .lang-container {
   margin-top: 10px; }
+  .lang-container .ml-auto {
+    padding-right: 21px; }
 
 .lang {
   background-color: #fff;
   border: none;
   font-family: "Regular";
   font-size: 12px;
-  color: #959494; }
+  color: #959494;
+  padding: 0; }
 
 button.lang {
   cursor: pointer;
@@ -312,29 +315,47 @@ a.item-footer {
 
 .bio {
   padding: 75px 0; }
+  .bio .row {
+    margin-left: 0;
+    margin-right: 0; }
 
 .div-sp {
   padding: 0; }
   .div-sp .img-fluid {
     width: 100%; }
 
+.titulo {
+  margin-bottom: 10px;
+  font-size: 32px; }
+
 .titulo,
 .texto {
   padding-left: 50px;
-  padding-right: 100px; }
+  padding-right: 110px; }
   @media (max-width: 991px) {
     .titulo,
     .texto {
       padding-left: 15px !important;
       padding-right: 15px !important; } }
 
+@media (max-width: 767px) {
+  .titulo,
+  .texto {
+    text-align: center; }
+
+  .text-container {
+    padding-top: 60px;
+    padding-bottom: 60px; } }
 @media (max-width: 991px) {
   .titulo {
-    font-size: 24px; }
+    font-size: 28px; }
 
   .texto {
-    font-size: 12px; } }
-.titulo {
-  margin-bottom: 10px; }
+    font-size: 14px; }
+
+  .texto.text-bio,
+  .titulo.text-bio {
+    padding-left: 5px !important;
+    padding-right: 5px !important; } }
 
 /*# sourceMappingURL=fotografia.css.map */

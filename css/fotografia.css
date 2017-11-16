@@ -328,6 +328,18 @@ a.item-footer {
   margin-bottom: 10px;
   font-size: 32px; }
 
+.img-container {
+  width: 100%; }
+  .img-container img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 312px; }
+  @media (max-width: 991px) {
+    .img-container {
+      padding-top: 50px;
+      padding-bottom: 50px; } }
+
 .titulo,
 .texto {
   padding-left: 50px;

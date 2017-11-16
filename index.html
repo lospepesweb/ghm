@@ -6,21 +6,6 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<style>
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-      #map {
-        height: 80%;
-        width: 80%;
-        margin: auto;
-      }
-      /* Optional: Makes the sample page fill the window. */
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-    </style>
 </head>
 <body>
 	<!-- Header -->
@@ -71,12 +56,14 @@
 							<div class="dropdown-menu" aria-labelledby="navBarFotografia">
 					        	<a class="dropdown-item" href="fotografia/naturaleza.html">Naturaleza</a>
 					        	<a class="dropdown-item" href="fotografia/institucional.html">Institucional</a>
-					        	<a class="dropdown-item" href="#">Infraestructura</a>
-					        	<a class="dropdown-item" href="#">Artístico</a>
-					        	<a class="dropdown-item" href="#">Extremo</a>
-					        	<a class="dropdown-item" href="#">Publicitaria</a>
-					        	<a class="dropdown-item" href="#">Retrato</a>
-					        	<a class="dropdown-item" href="#">Producciones en estudio</a>
+					        	<a class="dropdown-item" href="fotografia/infraestructura.html">Infraestructura</a>
+					        	<a class="dropdown-item" href="fotografia/artistico.html">Artístico</a>
+					        	<a class="dropdown-item" href="fotografia/extremo.html">Extremo</a>
+					        	<a class="dropdown-item" href="fotografia/publicitaria.html">Publicitaria</a>
+					        	<a class="dropdown-item" href="fotografia/retrato.html">Retrato</a>
+					        	<a class="dropdown-item" href="fotografia/pruducciones.html">Producciones en estudio</a>
+					        	<a class="dropdown-item" href="fotografia/agricultura.html">Agricultura</a>
+					        	<a class="dropdown-item" href="fotografia/cruce.html">Cruce de Los Andes</a>
 					        </div>
 						</li>
 						<li class="nav-item dropdown">
@@ -439,26 +426,24 @@
 
 	<!-- Mapa -->
 	<div class="mapa">
-<!-- 		<iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.501456166583!2d-68.5625626852397!3d-31.537849981363834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9681404df64be35f%3A0x2d3fc6fb19bffb93!2sghm+contenidos!5e0!3m2!1ses-419!2sar!4v1510436185485" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
-
-    <div id="map"></div>
-    <script>
-      function initMap() {
-        var ghm = {lat: -31.537869, lng: -68.560407};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 17,
-          center: ghm
-        });
-        var marker = new google.maps.Marker({
-          position: ghm,
-          map: map,
-          icon: 'img/huevoMapa.png',
-          zoomControl: false,
-          scaleControl: true
-        });
-      }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_uJhI8xR2Rw67F6EH_Jo7OkQtXyDFtxU&callback=initMap" async defer></script>
+    	<div id="map"></div>
+	    <script>
+	      function initMap() {
+	        var ghm = {lat: -31.537869, lng: -68.560407};
+	        var map = new google.maps.Map(document.getElementById('map'), {
+	          zoom: 17,
+	          center: ghm
+	        });
+	        var marker = new google.maps.Marker({
+	          position: ghm,
+	          map: map,
+	          icon: 'img/huevoMapa.png',
+	          zoomControl: false,
+	          scaleControl: true
+	        });
+	      }
+	    </script>
+    	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_uJhI8xR2Rw67F6EH_Jo7OkQtXyDFtxU&callback=initMap" async defer></script>
 	</div>
 
     
@@ -490,13 +475,15 @@
 					<h6 class="titulo-footer">Fotografía</h6>
 					<ul class="lista-footer">
 						<li><a class="item-footer" href="fotografia/naturaleza.html">Naturaleza</a></li>
-						<li><a class="item-footer" href="#.">Institucional</a></li>
-						<li><a class="item-footer" href="#.">Infraestructura</a></li>
-						<li><a class="item-footer" href="#.">Artístico</a></li>
-						<li><a class="item-footer" href="#.">Extremo</a></li>
-						<li><a class="item-footer" href="#.">Publicitaria</a></li>
-						<li><a class="item-footer" href="#.">Retrato</a></li>
-						<li><a class="item-footer" href="#.">Producciones en estudio</a></li>
+						<li><a class="item-footer" href="fotografia/institucional.html">Institucional</a></li>
+						<li><a class="item-footer" href="fotografia/infraestructura.html">Infraestructura</a></li>
+						<li><a class="item-footer" href="fotografia/artistico.html">Artístico</a></li>
+						<li><a class="item-footer" href="fotografia/extremo.html">Extremo</a></li>
+						<li><a class="item-footer" href="fotografia/publicitaria.html">Publicitaria</a></li>
+						<li><a class="item-footer" href="fotografia/retrato.html">Retrato</a></li>
+						<li><a class="item-footer" href="fotografia/prudcciones.html">Producciones en estudio</a></li>
+						<li><a class="item-footer" href="fotografia/agricultura.html">Agricultura</a></li>
+						<li><a class="item-footer" href="fotografia/cruce.html">Cruce de Los Andes</a></li>
 					</ul>
 					<h6 class="titulo-footer">Diseño</h6>
 					<ul class="lista-footer">

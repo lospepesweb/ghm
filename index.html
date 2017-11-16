@@ -4,10 +4,10 @@
 	<meta charset="UTF-8">
 	<title>GHM Contenidos</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
-<body>
+<body class="index">
 	<!-- Header -->
 	<header class="container-fluid">
 		<div class="container lang-container d-none d-lg-block">
@@ -42,7 +42,7 @@
 				<div class="collapse navbar-collapse" id="navbar">
 					<ul class="navbar-nav" id="navbar-nav-lp">
 						<li class="nav-item dropdown">
-							<a href="#" class="nav-link dropdown-toggle" id="navBarAudiovisual" data-toggle="dropdown" role="button">AUDIOVISUAL</a>
+							<a href="#" class="nav-link dropdown-toggle" id="navBarAudiovisual" data-toggle="dropdown" role="button">AUDIOVISUAL<span id="closeNav1" class="closeNav d-lg-none">+</span></a>
 							<div class="dropdown-menu" aria-labelledby="navBarAudiovisual">
 					        	<a class="dropdown-item" href="#.">Institucional</a>
 					        	<a class="dropdown-item" href="#.">Infraestructura</a>
@@ -50,9 +50,10 @@
 					        	<a class="dropdown-item" href="#.">Publicitario</a>
 					        	<a class="dropdown-item" href="#.">Mapping</a>
 					        </div>
+
 						</li>
 						<li class="nav-item dropdown">
-							<a href="#" class="nav-link dropdown-toggle" id="navBarFotografia" data-toggle="dropdown" role="button">FOTOGRAFÍA</a>
+							<a href="#" class="nav-link dropdown-toggle" id="navBarFotografia" data-toggle="dropdown" role="button">FOTOGRAFÍA<span class="closeNav d-lg-none">+</span></a>
 							<div class="dropdown-menu" aria-labelledby="navBarFotografia">
 					        	<a class="dropdown-item" href="fotografia/naturaleza.html">Naturaleza</a>
 					        	<a class="dropdown-item" href="fotografia/institucional.html">Institucional</a>
@@ -67,7 +68,7 @@
 					        </div>
 						</li>
 						<li class="nav-item dropdown">
-							<a href="#" class="nav-link dropdown-toggle" id="navBarDiseño" data-toggle="dropdown" role="button">DISEÑO</a>
+							<a href="#" class="nav-link dropdown-toggle" id="navBarDiseño" data-toggle="dropdown" role="button">DISEÑO<span class="closeNav d-lg-none">+</span></a>
 							<div class="dropdown-menu" aria-labelledby="navBarDiseño">
 					        	<a class="dropdown-item" href="#">Gráfica</a>
 					        	<a class="dropdown-item" href="#">Editorial</a>
@@ -75,32 +76,44 @@
 					        </div>
 						</li>
 						<li class="nav-item dropdown">
-							<a href="#" class="nav-link" dropdown-toggle" id="navBarEspacios" data-toggle="dropdown" role="button">ESPACIOS</a>
+							<a href="#" class="nav-link" dropdown-toggle" id="navBarEspacios" data-toggle="dropdown" role="button">ESPACIOS<span class="closeNav d-lg-none">+</span></a>
 							<div class="dropdown-menu" aria-labelledby="navBarEspacios">
 					        	<a class="dropdown-item" href="#">Stand</a>
 					        	<a class="dropdown-item" href="#">Arquigrafía</a>
 					        	<a class="dropdown-item" href="#">Exposiciones</a>
 					        </div>
 						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link">MONITOREO</a>
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle" id="navBarMonitoreo" data-toggle="dropdown" role="button"">MONITOREO<span class="closeNav d-lg-none">+</span></a>
+							<div class="dropdown-menu" aria-labelledby="navBarMonitoreo">
+					        </div>
 						</li>
 						<li class="nav-item dropdown">
-							<a href="#" class="nav-link dropdown-toggle" id="navBarVuelos" data-toggle="dropdown" role="button"">VUELOS</a>
+							<a href="#" class="nav-link dropdown-toggle" id="navBarVuelos" data-toggle="dropdown" role="button"">VUELOS<span class="closeNav d-lg-none">+</span></a>
 							<div class="dropdown-menu ultimo" aria-labelledby="navBarVuelos">
 					        	<a class="dropdown-item" href="#">Drone</a>
 					        	<a class="dropdown-item" href="#">Helicóptero</a>
 					        </div>
 						</li>
 					</ul>
+					<div id="lang-container" class="container lang-container d-block d-lg-none">
+						<div class="row">
+							<div class="col-12 text-left">
+								<button id="langEsp" class="lang active">ES</button>
+								<span class="lang">/</span>
+								<button id="langEng" class="lang">EN</button>
+							</div>
+						</div>
+					</div>
 				</div>
 				<!-- Fin de opciones de menú -->
 			</div>
+
 		</nav>
 	</header>
 
 	<!-- Slider -->
-	<section class="container-fluid">
+	<section class="index container-fluid">
 		<div class="row">
 			<div class="col-12 slide-lp">
 				<div class="carousel slide" id="primary-carousel" data-ride="carousel">
@@ -119,7 +132,7 @@
 			</div>
 		</div>
 	</section>
-	<div class="clear"></div>
+	<div class="index clear"></div>
 
 	<!-- Videos -->
 	<section class="videos">
@@ -156,10 +169,10 @@
 			</div>
 		</div>
 	</section>
-	<div class="clear"></div>
+	<div class="index clear"></div>
 
 	<!-- Intro -->
-	<section class="container intro">
+	<section class="index container intro">
 		<div class="row justify-content-center">
 			<div class="col-12 col-lg-10 text-center">
 				<h1 class="titulo">Creatividad, profesionalismo y trayectoria</h1>
@@ -169,7 +182,7 @@
 	</section>
 
 	<!-- Huevo -->
-	<section class="huevo">
+	<section class="index huevo">
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
 				<div class="col-12 col-lg-4">
@@ -189,7 +202,7 @@
 	</section>
 
 	<!-- Equipo -->
-	<section class="container equipo">
+	<section class="index container equipo">
 
 		<div class="row justify-content-center">
 			<div class="col-12 col-lg-8 text-center">
@@ -284,7 +297,7 @@
 	</section>
 
 	<!-- Clientes -->
-	<section class="container clientes">
+	<section class="index container clientes">
 		<div class="row justify-content-center align-items-center">
 			<div class="col-12 text-center">
 				<h2 class="titulo">Clientes</h2>
@@ -390,7 +403,7 @@
 	</section>
 
 	<!-- Contacto  -->
-	<section class="contacto">
+	<section class="index contacto">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 text-center">
@@ -425,7 +438,7 @@
 	</section>
 
 	<!-- Mapa -->
-	<div class="mapa">
+	<div class="index mapa">
     	<div id="map"></div>
 	    <script>
 	      function initMap() {

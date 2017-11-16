@@ -7,32 +7,6 @@
 // Configuración personalizada del slider
 
 
-
-// --- BOTÓN SELECTOR DE IDIOMA --- //
-
-// //VARIABLES
-// var esp = document.getElementById("langEsp");
-// var	eng = document.getElementById("langEng");
-
-// // FUNCIONES
-// function claseIdiomaEsp(){
-// 	if(esp.className == "lang") {
-// 		esp.className = "lang active";
-// 		eng.className = "lang";
-// 	}
-// }
-
-// function claseIdiomaEng(){
-// 	if(eng.className == "lang") {
-// 		eng.className = "lang active";
-// 		esp.className = "lang";
-// 	}
-// }
-
-// // EVENTOS
-// esp.addEventListener("click", claseIdiomaEsp);
-// eng.addEventListener("click", claseIdiomaEng);
-
 /*================================================
 =            BOTÓN SELECTRO DE IDIOMA            =
 ================================================*/
@@ -54,26 +28,6 @@ $('#langEng').click(function(){
 /*=====  End of BOTÓN SELECTRO DE IDIOMA  ======*/
 
 
-
-
-
-
-// --- ANIMACIÓN DEL MENU HAMBURGUESA --- //
-
-// // VARIABLES
-// var icon = document.getElementById("nav-icon");
-
-// // FUNCIONES
-// function agregarClase(){
-// 	if(icon.className == "nav-icon") {
-// 		icon.className = "nav-icon open";
-// 	} else {
-// 		icon.className = "nav-icon";
-// 	}
-// }
-
-// // EVENTOS
-// icon.addEventListener("click", agregarClase);
 
 /*=======================================================
 =            ANIMACIÓN DEL BOTÓN HAMBURGUESA            =
@@ -100,3 +54,35 @@ $('.carousel').carousel({
   interval: 4000,
   pause: false
 })
+
+
+
+
+// --- MARGIN-BOTTOM DE MENÚ PARA MOVILES --- //
+
+// VARIABLES
+var anchoPantalla = window.innerWidth;
+var alturaPantalla = window.innerHeight;
+var marginBottom = ((alturaPantalla - 398));
+var divLang = document.getElementById("lang-container");
+
+// FUNCIONES
+if (anchoPantalla < 991) {
+	divLang.setAttribute("style","margin-bottom:"+marginBottom+"px !important");
+}
+
+
+
+// ---  --- //
+
+// VARIABLES
+$('#closeNav1').click(function(){
+
+	if($(this).hasClass('open')){
+		$(this).toggleClass('open');
+	} else {
+		$(this).toggleClass('open');
+	}
+
+})
+

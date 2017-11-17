@@ -8,6 +8,7 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body class="index">
+
 	<!-- Header -->
 	<header class="container-fluid">
 		<div class="container lang-container d-none d-lg-block">
@@ -42,7 +43,7 @@
 				<div class="collapse navbar-collapse" id="navbar">
 					<ul class="navbar-nav" id="navbar-nav-lp">
 						<li class="nav-item dropdown">
-							<a href="#" class="nav-link dropdown-toggle" id="navBarAudiovisual" data-toggle="dropdown" role="button">AUDIOVISUAL<span id="closeNav1" class="closeNav d-lg-none">+</span></a>
+							<a href="#" class="nav-link dropdown-toggle navClose-link" id="navBarAudiovisual" data-toggle="dropdown" role="button">AUDIOVISUAL<span id="closeNav1" class="closeNav d-lg-none">+</span></a>
 							<div class="dropdown-menu" aria-labelledby="navBarAudiovisual">
 					        	<a class="dropdown-item" href="#.">Institucional</a>
 					        	<a class="dropdown-item" href="#.">Infraestructura</a>
@@ -53,7 +54,7 @@
 
 						</li>
 						<li class="nav-item dropdown">
-							<a href="#" class="nav-link dropdown-toggle" id="navBarFotografia" data-toggle="dropdown" role="button">FOTOGRAFÍA<span class="closeNav d-lg-none">+</span></a>
+							<a href="#" class="nav-link dropdown-toggle navClose-link" id="navBarFotografia" data-toggle="dropdown" role="button">FOTOGRAFÍA<span class="closeNav d-lg-none">+</span></a>
 							<div class="dropdown-menu" aria-labelledby="navBarFotografia">
 					        	<a class="dropdown-item" href="fotografia/naturaleza.html">Naturaleza</a>
 					        	<a class="dropdown-item" href="fotografia/institucional.html">Institucional</a>
@@ -68,7 +69,7 @@
 					        </div>
 						</li>
 						<li class="nav-item dropdown">
-							<a href="#" class="nav-link dropdown-toggle" id="navBarDiseño" data-toggle="dropdown" role="button">DISEÑO<span class="closeNav d-lg-none">+</span></a>
+							<a href="#" class="nav-link dropdown-toggle navClose-link" id="navBarDiseño" data-toggle="dropdown" role="button">DISEÑO<span class="closeNav d-lg-none">+</span></a>
 							<div class="dropdown-menu" aria-labelledby="navBarDiseño">
 					        	<a class="dropdown-item" href="#">Gráfica</a>
 					        	<a class="dropdown-item" href="#">Editorial</a>
@@ -76,7 +77,7 @@
 					        </div>
 						</li>
 						<li class="nav-item dropdown">
-							<a href="#" class="nav-link" dropdown-toggle" id="navBarEspacios" data-toggle="dropdown" role="button">ESPACIOS<span class="closeNav d-lg-none">+</span></a>
+							<a href="#" class="nav-link dropdown-toggle navClose-link" id="navBarEspacios" data-toggle="dropdown" role="button">ESPACIOS<span class="closeNav d-lg-none">+</span></a>
 							<div class="dropdown-menu" aria-labelledby="navBarEspacios">
 					        	<a class="dropdown-item" href="#">Stand</a>
 					        	<a class="dropdown-item" href="#">Arquigrafía</a>
@@ -84,12 +85,12 @@
 					        </div>
 						</li>
 						<li class="nav-item dropdown">
-							<a href="#" class="nav-link dropdown-toggle" id="navBarMonitoreo" data-toggle="dropdown" role="button"">MONITOREO<span class="closeNav d-lg-none">+</span></a>
+							<a href="#" class="nav-link dropdown-toggle navClose-link" id="navBarMonitoreo" data-toggle="dropdown" role="button">MONITOREO<span class="closeNav d-lg-none">+</span></a>
 							<div class="dropdown-menu" aria-labelledby="navBarMonitoreo">
 					        </div>
 						</li>
 						<li class="nav-item dropdown">
-							<a href="#" class="nav-link dropdown-toggle" id="navBarVuelos" data-toggle="dropdown" role="button"">VUELOS<span class="closeNav d-lg-none">+</span></a>
+							<a href="#" class="nav-link dropdown-toggle navClose-link" id="navBarVuelos" data-toggle="dropdown" role="button">VUELOS<span class="closeNav d-lg-none">+</span></a>
 							<div class="dropdown-menu ultimo" aria-labelledby="navBarVuelos">
 					        	<a class="dropdown-item" href="#">Drone</a>
 					        	<a class="dropdown-item" href="#">Helicóptero</a>
@@ -113,7 +114,7 @@
 	</header>
 
 	<!-- Slider -->
-	<section class="index container-fluid">
+	<section id="portada" class="index container-fluid">
 		<div class="row">
 			<div class="col-12 slide-lp">
 				<div class="carousel slide" id="primary-carousel" data-ride="carousel">
@@ -172,7 +173,7 @@
 	<div class="index clear"></div>
 
 	<!-- Intro -->
-	<section class="index container intro">
+	<section id="intro" class="index container intro">
 		<div class="row justify-content-center">
 			<div class="col-12 col-lg-10 text-center">
 				<h1 class="titulo">Creatividad, profesionalismo y trayectoria</h1>
@@ -182,7 +183,7 @@
 	</section>
 
 	<!-- Huevo -->
-	<section class="index huevo">
+	<section id="huevo" class="index huevo">
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
 				<div class="col-12 col-lg-4">
@@ -459,7 +460,6 @@
     	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_uJhI8xR2Rw67F6EH_Jo7OkQtXyDFtxU&callback=initMap" async defer></script>
 	</div>
 
-    
 
 	<!-- Footer -->
 	<footer>
@@ -547,7 +547,6 @@
 			</div>
 		</div>
 	</footer>
-
 
 
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>

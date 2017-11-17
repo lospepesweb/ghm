@@ -78,7 +78,7 @@
 		z-index: 1000
 		width: 100% !important
 		padding: 105px 80px 100px 80px
-		text-align: left
+		text-align: center
 		visibility: hidden
 		transition: all 0.2s ease !important
 		.titulo
@@ -99,7 +99,8 @@
 
 	// --- INTRO --- //
 	.index.intro
-		padding: 75px 0
+		@media (max-width: 991px)
+			padding: 75px 0
 		.row
 			margin-right: 0
 			margin-left: 0
@@ -191,7 +192,12 @@
 		height: 445px
 		width: 100%
 		overflow: hidden
+		background-image: url("../fondoMapa.png") !important
+		background-size: cover
 		#map 
 			height: 445px
 			width: 100%
 			margin: auto
+			z-index: 10 !important
+			background-image: url("../fondoMapa.png") !important
+			background-size: cover

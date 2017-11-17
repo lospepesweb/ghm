@@ -348,7 +348,7 @@ button.lang.active {
   z-index: 1000;
   width: 100% !important;
   padding: 105px 80px 100px 80px;
-  text-align: left;
+  text-align: center;
   visibility: hidden;
   transition: all 0.2s ease !important; }
   .index .noticia .titulo {
@@ -367,13 +367,14 @@ button.lang.active {
         font-size: 12px; } }
 .index .clear {
   clear: both; }
-.index .index.intro {
-  padding: 75px 0; }
-  .index .index.intro .row {
-    margin-right: 0;
-    margin-left: 0; }
-  .index .index.intro .texto {
-    padding: 0 30px; }
+@media (max-width: 991px) {
+  .index .index.intro {
+    padding: 75px 0; } }
+.index .index.intro .row {
+  margin-right: 0;
+  margin-left: 0; }
+.index .index.intro .texto {
+  padding: 0 30px; }
 .index .huevo {
   background-color: #f2f2f2;
   padding: 95px 0; }
@@ -454,11 +455,65 @@ button.lang.active {
 .index .mapa {
   height: 445px;
   width: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  background-image: url("../fondoMapa.png") !important;
+  background-size: cover; }
   .index .mapa #map {
     height: 445px;
     width: 100%;
-    margin: auto; }
+    margin: auto;
+    z-index: 10 !important;
+    background-image: url("../fondoMapa.png") !important;
+    background-size: cover; }
+
+.fotografia .bio {
+  padding: 75px 0; }
+  .fotografia .bio .row {
+    margin-left: 0;
+    margin-right: 0; }
+.fotografia .div-sp {
+  padding: 0; }
+  .fotografia .div-sp .img-fluid {
+    width: 100%; }
+.fotografia .titulo {
+  margin-bottom: 10px;
+  font-size: 32px; }
+.fotografia .img-container {
+  width: 100%; }
+  .fotografia .img-container img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 312px; }
+  @media (max-width: 991px) {
+    .fotografia .img-container {
+      padding-top: 50px;
+      padding-bottom: 50px; } }
+.fotografia .titulo,
+.fotografia .texto {
+  padding-left: 50px;
+  padding-right: 110px; }
+  @media (max-width: 991px) {
+    .fotografia .titulo,
+    .fotografia .texto {
+      padding-left: 15px !important;
+      padding-right: 15px !important; } }
+@media (max-width: 767px) {
+  .fotografia .titulo,
+  .fotografia .texto {
+    text-align: center; }
+  .fotografia .text-container {
+    padding-top: 60px;
+    padding-bottom: 60px; } }
+@media (max-width: 991px) {
+  .fotografia .titulo {
+    font-size: 28px; }
+  .fotografia .texto {
+    font-size: 14px; }
+  .fotografia .texto.text-bio,
+  .fotografia .titulo.text-bio {
+    padding-left: 5px !important;
+    padding-right: 5px !important; } }
 
 footer {
   background-color: #585756;

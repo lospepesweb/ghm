@@ -35,13 +35,18 @@ $('#langEng').click(function(){
 
 $('#nav-icon').click(function(){
 
-	if($(this).hasClass('open')){
-		$(this).toggleClass('open');
-	} else {
-		$(this).toggleClass('open');
+	$(this).toggleClass('open');
+
+	if($('.navClose-link').children().hasClass("open")){
+		$('.navClose-link').children().toggleClass("open");
 	}
 
 })
+
+$('.navClose-link').click(function(){
+	$(this).children().toggleClass("open")
+})
+
 
 /*=====  End of ANIMACIÓN DEL BOTÓN HAMBURGUESA  ======*/
 
@@ -76,13 +81,15 @@ if (anchoPantalla < 991) {
 // ---  --- //
 
 // VARIABLES
-$('#closeNav1').click(function(){
 
-	if($(this).hasClass('open')){
-		$(this).toggleClass('open');
-	} else {
-		$(this).toggleClass('open');
-	}
+var portada = document.getElementById("portada");
+var intro = document.getElementById("intro");
+var huevo = document.getElementById("huevo");
 
-})
+var alturaIntro = intro.offsetHeight;
+var paddingIntro = ((portada.offsetHeight - alturaIntro - 226) / 2);
+var alturaHuevo = huevo.offsetHeight;
+var paddingHuevo = ((portada.offsetHeight - alturaHuevo - 35) / 2);
 
+intro.setAttribute("style","padding-bottom:"+paddingIntro+"px !important; padding-top:"+paddingIntro+"px !important");
+huevo.setAttribute("style","padding-bottom:"+paddingHuevo+"px !important; padding-top:"+paddingHuevo+"px !important");

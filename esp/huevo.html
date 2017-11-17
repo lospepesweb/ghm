@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>GHM - Biografía Huevo</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body class="fotografia">
@@ -13,9 +13,9 @@
 		<div class="container lang-container d-none d-lg-block">
 			<div class="row">
 				<div class="col-2 text-right ml-auto">
-					<button id="langEsp" class="lang active">ESP</button>
+					<a href="#" id="langEsp" class="lang active">ES</a>
 					<span class="lang">/</span>
-					<button id="langEng" class="lang">ENG</button>
+					<a href="../eng/huevo.html" id="langEng" class="lang">EN</a>
 				</div>
 			</div>
 		</div>
@@ -42,7 +42,7 @@
 				<div class="collapse navbar-collapse" id="navbar">
 					<ul class="navbar-nav" id="navbar-nav-lp">
 						<li class="nav-item dropdown">
-							<a href="#" class="nav-link dropdown-toggle" id="navBarAudiovisual" data-toggle="dropdown" role="button">AUDIOVISUAL</a>
+							<a href="#" class="nav-link dropdown-toggle navClose-link" id="navBarAudiovisual" data-toggle="dropdown" role="button">AUDIOVISUAL<span id="closeNav1" class="closeNav d-lg-none">+</span></a>
 							<div class="dropdown-menu" aria-labelledby="navBarAudiovisual">
 					        	<a class="dropdown-item" href="#.">Institucional</a>
 					        	<a class="dropdown-item" href="#.">Infraestructura</a>
@@ -50,22 +50,25 @@
 					        	<a class="dropdown-item" href="#.">Publicitario</a>
 					        	<a class="dropdown-item" href="#.">Mapping</a>
 					        </div>
+
 						</li>
 						<li class="nav-item dropdown">
-							<a href="#" class="nav-link dropdown-toggle" id="navBarFotografia" data-toggle="dropdown" role="button">FOTOGRAFÍA</a>
+							<a href="#" class="nav-link dropdown-toggle navClose-link" id="navBarFotografia" data-toggle="dropdown" role="button">FOTOGRAFÍA<span class="closeNav d-lg-none">+</span></a>
 							<div class="dropdown-menu" aria-labelledby="navBarFotografia">
 					        	<a class="dropdown-item" href="fotografia/naturaleza.html">Naturaleza</a>
-					        	<a class="dropdown-item" href="#">Institucional</a>
-					        	<a class="dropdown-item" href="#">Infraestructura</a>
-					        	<a class="dropdown-item" href="#">Artístico</a>
-					        	<a class="dropdown-item" href="#">Extremo</a>
-					        	<a class="dropdown-item" href="#">Publicitaria</a>
-					        	<a class="dropdown-item" href="#">Retrato</a>
-					        	<a class="dropdown-item" href="#">Producciones en estudio</a>
+					        	<a class="dropdown-item" href="fotografia/institucional.html">Institucional</a>
+					        	<a class="dropdown-item" href="fotografia/infraestructura.html">Infraestructura</a>
+					        	<a class="dropdown-item" href="fotografia/artistico.html">Artístico</a>
+					        	<a class="dropdown-item" href="fotografia/extremo.html">Extremo</a>
+					        	<a class="dropdown-item" href="fotografia/publicitaria.html">Publicitaria</a>
+					        	<a class="dropdown-item" href="fotografia/retrato.html">Retrato</a>
+					        	<a class="dropdown-item" href="fotografia/pruducciones.html">Producciones en estudio</a>
+					        	<a class="dropdown-item" href="fotografia/agricultura.html">Agricultura</a>
+					        	<a class="dropdown-item" href="fotografia/cruce.html">Cruce de Los Andes</a>
 					        </div>
 						</li>
 						<li class="nav-item dropdown">
-							<a href="#" class="nav-link dropdown-toggle" id="navBarDiseño" data-toggle="dropdown" role="button">DISEÑO</a>
+							<a href="#" class="nav-link dropdown-toggle navClose-link" id="navBarDiseño" data-toggle="dropdown" role="button">DISEÑO<span class="closeNav d-lg-none">+</span></a>
 							<div class="dropdown-menu" aria-labelledby="navBarDiseño">
 					        	<a class="dropdown-item" href="#">Gráfica</a>
 					        	<a class="dropdown-item" href="#">Editorial</a>
@@ -73,33 +76,45 @@
 					        </div>
 						</li>
 						<li class="nav-item dropdown">
-							<a href="#" class="nav-link" dropdown-toggle" id="navBarEspacios" data-toggle="dropdown" role="button">ESPACIOS</a>
+							<a href="#" class="nav-link dropdown-toggle navClose-link" id="navBarEspacios" data-toggle="dropdown" role="button">ESPACIOS<span class="closeNav d-lg-none">+</span></a>
 							<div class="dropdown-menu" aria-labelledby="navBarEspacios">
 					        	<a class="dropdown-item" href="#">Stand</a>
 					        	<a class="dropdown-item" href="#">Arquigrafía</a>
 					        	<a class="dropdown-item" href="#">Exposiciones</a>
 					        </div>
 						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link">MONITOREO</a>
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle navClose-link" id="navBarMonitoreo" data-toggle="dropdown" role="button">MONITOREO<span class="closeNav d-lg-none">+</span></a>
+							<div class="dropdown-menu" aria-labelledby="navBarMonitoreo">
+					        </div>
 						</li>
 						<li class="nav-item dropdown">
-							<a href="#" class="nav-link dropdown-toggle" id="navBarVuelos" data-toggle="dropdown" role="button"">VUELOS</a>
+							<a href="#" class="nav-link dropdown-toggle navClose-link" id="navBarVuelos" data-toggle="dropdown" role="button">VUELOS<span class="closeNav d-lg-none">+</span></a>
 							<div class="dropdown-menu ultimo" aria-labelledby="navBarVuelos">
 					        	<a class="dropdown-item" href="#">Drone</a>
 					        	<a class="dropdown-item" href="#">Helicóptero</a>
 					        </div>
 						</li>
 					</ul>
+					<div id="lang-container" class="container lang-container d-block d-lg-none">
+						<div class="row">
+							<div class="col-12 text-left">
+								<a href="#" id="langEsp" class="lang active">ES</a>
+								<span class="lang">/</span>
+								<a href="../eng/huevo.html" id="langEng" class="lang">EN</a>
+							</div>
+						</div>
+					</div>
 				</div>
 				<!-- Fin de opciones de menú -->
 			</div>
+
 		</nav>
 	</header>
 	
 	<div>
-		<img src="img/BIOGRAFIA-HUEVO-01.jpg" class="d-none d-md-block img-fluid">
-		<img src="img/BIOGRAFIA-HUEVO.jpg" class="d-block d-md-none img-fluid">
+		<img src="../img/BIOGRAFIA-HUEVO-01.jpg" class="d-none d-md-block img-fluid">
+		<img src="../img/BIOGRAFIA-HUEVO.jpg" class="d-block d-md-none img-fluid">
 	</div>
 
 	<div class="container bio">
@@ -114,7 +129,7 @@
 	<div class="container-fluid">
 		<div class="row align-items-center">
 			<div class="col-12 col-md-6 order-1 div-sp">
-				<img src="img/video.png" class="img-fluid">
+				<img src="../img/video.png" class="img-fluid">
 			</div>
 			<div class="col-12 col-md-6 order-2 div-sp text-container">
 				<h2 class="titulo">Lorem ipsum.</h2>
@@ -128,13 +143,13 @@
 				<p class="texto">Lorem ipsum dolor sit.</p>
 			</div>
 			<div class="col-12 col-md-6 order-1 order-md-2 div-sp">
-				<img src="img/video.png" class="img-fluid">
+				<img src="../img/video.png" class="img-fluid">
 			</div>
 		</div>
 
 		<div class="row align-items-center">
 			<div class="col-12 col-md-6 order-1 div-sp">
-				<img src="img/video.png" class="img-fluid">
+				<img src="../img/video.png" class="img-fluid">
 			</div>
 			<div class="col-12 col-md-6 order-2 div-sp text-container">
 				<h2 class="titulo">Lorem ipsum.</h2>
@@ -147,19 +162,18 @@
 				<p class="texto">Lorem ipsum dolor sit.</p>
 			</div>
 			<div class="col-12 col-md-6 order-1 order-md-2 div-sp">
-				<img src="img/video.png" class="img-fluid">
+				<img src="../img/video.png" class="img-fluid">
 			</div>
 		</div>
 		<div class="row align-items-center">
 			<div class="col-12 col-md-6 order-1 div-sp">
-				<img src="img/video.png" class="img-fluid">
+				<img src="../img/video.png" class="img-fluid">
 			</div>
 			<div class="col-12 col-md-6 order-2 div-sp text-container">
 				<h2 class="titulo">Lorem ipsum.</h2>
 				<p class="texto">Lorem ipsum dolor sit.</p>
 			</div>
 		</div>
-
 	</div>
 	<!-- Footer -->
 	<footer>

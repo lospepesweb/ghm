@@ -136,7 +136,7 @@
           .navbar .navbar-nav .nav-item .dropdown-menu {
             background-color: #fff !important; } }
         .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item {
-          font-family: "Regular";
+          font-family: "Light";
           font-size: 12px;
           color: #959494;
           padding: 12px 20px 12px 0;
@@ -186,11 +186,14 @@
   color: #959494;
   padding: 0; }
 
-button.lang {
+a.lang {
   cursor: pointer;
   outline: none; }
+  a.lang:hover {
+    text-decoration: none;
+    color: #959494; }
 
-button.lang.active {
+a.lang.active {
   color: #585756; }
 
 .navbar-toggler {
@@ -347,8 +350,9 @@ button.lang.active {
   height: calc(100% - 7px);
   z-index: 1000;
   width: 100% !important;
-  padding: 105px 80px 100px 80px;
-  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: left;
   visibility: hidden;
   transition: all 0.2s ease !important; }
   .index .noticia .titulo {

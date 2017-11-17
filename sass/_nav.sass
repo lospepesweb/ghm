@@ -24,6 +24,7 @@
 		font-size: $FFmenu
 		@media (max-width: 991px)
 			border-top: 1px solid $grisOscuro
+			margin-top: 30px
 		.nav-item
 			margin-left: 15px
 			@media (max-width: 991px)
@@ -32,11 +33,13 @@
 				padding-top: 10px
 				padding-bottom: 10px
 				vertical-align: middle
+				&:last-child
+					border-bottom: 2px solid $grisOscuro
 			.nav-link
 				padding: 8px 8px 8px 15px
 				.closeNav
 					display: inline-block
-					right: 10px
+					right: 8px
 					top: 14px
 					position: absolute
 					font-size: 18px
@@ -56,7 +59,7 @@
 					font-family: $light
 					font-size: $FFmenu
 					color: $gris
-					padding: 12px 20px 12px 0
+					padding: 12px 35px 12px 0
 					border-bottom: 1px solid $gris
 					&:hover
 						color: $grisOscuro
@@ -70,7 +73,6 @@
 					padding-top: 15px
 				.dropdown-item:last-child
 					border-bottom: none
-
 
 	a.ghmLogo
 		display: block
@@ -136,29 +138,53 @@ a.lang.active
 
 .nav-icon span
 	+transform(rotate(0deg))
-	+transition(.25s ease-in-out)
+	+transition(.5s ease-in-out)
 
 .nav-icon span:nth-child(1)
 	top: 0px
-	+transform-origin(left center)
+	+transform-origin(center center)
 
 .nav-icon span:nth-child(2)
-	top: 18px
-	+transform-origin(left center)
-
-.nav-icon span:nth-child(3)
-	top: 36px
-	+transform-origin(left center)
+	top: 100%
+	+transform-origin(center center)
 
 .nav-icon.open span:nth-child(1)
-	+transform(rotate(35deg))
+	+transform(translateY(100%) rotate(135deg))
+
 
 .nav-icon.open span:nth-child(2)
-	width: 0%
-	opacity: 0
+	+transform(translateY(-200%) rotate(45deg))
 
-.nav-icon.open span:nth-child(3)
-	+transform(rotate(-35deg))
+
+// Esta transformacion tambien esta buena pero es con tres elementos span
+
+// .nav-icon span
+// 	+transform(rotate(0deg))
+// 	+transition(.25s ease-in-out)
+
+// .nav-icon span:nth-child(1)
+// 	top: 0px
+// 	+transform-origin(center center)
+
+// .nav-icon span:nth-child(2)
+// 	top: 50%
+// 	+transform-origin(left center)
+
+// .nav-icon span:nth-child(3)
+// 	top: 100%
+// 	+transform-origin(center center)
+
+// .nav-icon.open span:nth-child(1)
+// 	+transform(translateY(320%) translateX(-3px) rotate(45deg))
+
+// .nav-icon.open span:nth-child(2)
+// 	width: 0%
+// 	opacity: 0
+
+// .nav-icon.open span:nth-child(3)
+// 	+transform(translateY(-320%) translateX(-3px) rotate(-45deg))
+
+
 
 .icon-bar
 	background-color: $gris
@@ -168,10 +194,11 @@ a.lang.active
 	+border-radius(1px)
 	margin: 4.5px 0
 
+// --- ANIMACIÓN DEL SUBMENÚ --- //
+
+
 .closeNav.open
 	+transform(rotate(45deg))
-
-// --- ANIMACIÓN DEL SUBMENÚ --- //
 
 .dropdown-menu a:nth-child(1) 
 	animation-delay: 0s

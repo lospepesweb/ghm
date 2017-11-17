@@ -63,22 +63,26 @@ $('.navClose-link').click(function(e){
 
 
 
-// --- CONFIGURACIÓN PERSONALIZADA DEL SLIDER --- //
+/*=======================================================
+=        CONFIGURACION PERSONALIZADA DEL SLIDER         =
+=======================================================*/
 
 $('.carousel').carousel({
   interval: 4000,
   pause: false
 })
 
+/*===  End of CONFIGURACION PERSONALIZADA DEL SLIDER  ====*/
 
 
-
-// --- MARGIN-BOTTOM DE MENÚ PARA MOVILES --- //
+/*=======================================================
+=             MARGIN BOOTOM DEL MENU MOVIL              =
+=======================================================*/
 
 // VARIABLES
 var anchoPantalla = window.innerWidth;
 var alturaPantalla = window.innerHeight;
-var marginBottom = ((alturaPantalla - 398));
+var marginBottom = ((alturaPantalla - 398) - 60); // El 398 es el alto del header y el 60 es el margin-top que tiene el .navbar-nav
 var divLang = document.getElementById("lang-container");
 
 // FUNCIONES
@@ -86,20 +90,27 @@ if (anchoPantalla < 991) {
 	divLang.setAttribute("style","margin-bottom:"+marginBottom+"px !important");
 }
 
+/*====  End of MARGIN BOOTOM DEL MENU MOVI  ====*/
 
 
-// ---  --- //
-
-// VARIABLES
+/*=======================================================
+=            PADDING DE SECCIONES DEL INDEX             =
+=======================================================*/
 
 var portada = document.getElementById("portada");
 var intro = document.getElementById("intro");
 var huevo = document.getElementById("huevo");
 
+var alturaPortada = portada.offsetHeight;
 var alturaIntro = intro.offsetHeight;
-var paddingIntro = ((portada.offsetHeight - alturaIntro - 226) / 2);
 var alturaHuevo = huevo.offsetHeight;
-var paddingHuevo = ((portada.offsetHeight - alturaHuevo - 35) / 2);
+
+var relacion = 0.75;
+
+var paddingIntro = (((alturaPortada * relacion) - alturaIntro) / 2);
+var paddingHuevo = (((alturaPortada * relacion) - alturaHuevo) / 2);
 
 intro.setAttribute("style","padding-bottom:"+paddingIntro+"px !important; padding-top:"+paddingIntro+"px !important");
 huevo.setAttribute("style","padding-bottom:"+paddingHuevo+"px !important; padding-top:"+paddingHuevo+"px !important");
+
+/*====  End of PADDING DE SECCIONES DEL INDEX  ====*/

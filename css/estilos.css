@@ -527,6 +527,9 @@ footer {
     .lista-footer.redes a:hover {
       color: #959494;
       text-decoration: none !important; }
+  @media (max-width: 991px) {
+    .lista-footer.redes {
+      padding-left: 15px; } }
 
 .titulo-footer {
   font-family: "Mediun";
@@ -589,9 +592,6 @@ a.item-footer {
   a.item-footer:hover {
     color: #959494;
     text-decoration: none; }
-  @media (max-width: 991px) {
-    a.item-footer {
-      padding-left: 15px; } }
 
 @media (max-width: 991px) {
   footer .logoHuevo-container {

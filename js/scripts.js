@@ -134,39 +134,16 @@ huevo.setAttribute("style","padding-bottom:"+paddingHuevo+"px !important; paddin
 
 
 /*=======================================================
-=            PADDING DE SECCIONES DEL INDEX             =
+=            Comportamiento footer             =
 =======================================================*/
 
 
-$('#closeNav1').click(function(){
-	$(this).children().toggleClass('open');
+$('.titulo-footer').click(function(){
+
+	var id = $(this).attr('id');
+
+	$('#'+id).children().toggleClass('open');
+
 })
 
-$('#closeNav2').click(function(){
-	$(this).children().toggleClass('open');
-})
-
-$('#closeNav3').click(function(){
-	$(this).children().toggleClass('open');
-})
-
-$('#closeNav4').click(function(){
-	$(this).children().toggleClass('open');
-})
-
-$('#closeNav5').click(function(){
-	$(this).children().toggleClass('open');
-})
-
-$('#closeNav6').click(function(){
-	$(this).children().toggleClass('open');
-})
-
-$('#closeNav7').click(function(){
-	$(this).children().toggleClass('open');
-})
-
-$('#closeNav8').click(function(){
-	$(this).children().toggleClass('open');
-})
-/*====  End of PADDING DE SECCIONES DEL INDEX  ====*/
+/*====  End of Comportamiento footer  ====*/

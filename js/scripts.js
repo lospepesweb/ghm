@@ -140,9 +140,9 @@ huevo.setAttribute("style","padding-bottom:"+paddingHuevo+"px !important; paddin
 
 $('.titulo-footer').click(function(){
 
-	var id = $(this).attr('id');
-
-	$('#'+id).children().toggleClass('open');
+	$(this).children().toggleClass('open');
+	// var id = $(this).attr('id');
+	// $('#'+id).children().toggleClass('open');
 
 })
 

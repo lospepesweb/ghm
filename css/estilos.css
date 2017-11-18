@@ -546,7 +546,7 @@ footer {
   .titulo-footer .closeNav {
     display: inline-block;
     right: 5px;
-    top: 5px;
+    top: 8px;
     position: absolute;
     font-size: 18px;
     -webkit-transform-origin: center center;
@@ -605,9 +605,9 @@ footer .logoHuevo:hover {
 .class-aux {
   padding-left: 55px !important;
   padding-right: 55px !important; }
-
-.class-aux:last-child {
-  padding-left: 55px !important;
-  padding-right: 55px !important; }
+  @media (max-width: 991px) {
+    .class-aux {
+      padding-left: 30px !important;
+      padding-right: 30px !important; } }
 
 /*# sourceMappingURL=estilos.css.map */

@@ -43,7 +43,7 @@ footer
 	.closeNav
 		display: inline-block
 		right: 5px
-		top: 5px
+		top: 8px
 		position: absolute
 		font-size: 18px
 		+transform-origin(center center)
@@ -60,7 +60,7 @@ div.class-aux.border-top
 	@media (max-width: 991px)
 		border-top: 1px solid #fff
 		height: 1px
-		
+
 li.item-footer
 	font-family: $light
 	font-size: $FStexto
@@ -95,7 +95,6 @@ footer
 .class-aux
 	padding-left: 55px !important
 	padding-right: 55px !important
-
-.class-aux:last-child
-	padding-left: 55px !important
-	padding-right: 55px !important
+	@media (max-width: 991px)
+		padding-left: 30px !important
+		padding-right: 30px !important

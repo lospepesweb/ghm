@@ -67,7 +67,7 @@ $('.navClose-link').click(function(e){
 =======================================================*/
 
 $(document).ready(
-	function agregarTadaToggle(){
+	function agregarDataToggle(){
 		if (anchoPantalla < 991) {
 			$('.titulo-footer').attr("data-toggle", "collapse");
 			$('.lista-footer').toggleClass("show");

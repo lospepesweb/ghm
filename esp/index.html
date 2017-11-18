@@ -16,7 +16,7 @@
 				<div class="col-2 text-right ml-auto">
 					<a href="#" id="langEsp" class="lang active">ES</a>
 					<span class="lang">/</span>
-					<a href="../eng/index.html" id="langEng" class="lang">EN</a>
+					<a href="../en/index.html" id="langEng" class="lang">EN</a>
 				</div>
 			</div>
 		</div>
@@ -448,18 +448,20 @@
 
 	<!-- Mapa -->
 	<div class="index mapa">
-    	<div id="map"></div>
+    	<div id="map">
+    		<div class="fondo-mapa"></div>
+    	</div>
 	    <script>
 	      function initMap() {
 	        var ghm = {lat: -31.537869, lng: -68.560407};
 	        var map = new google.maps.Map(document.getElementById('map'), {
-	          zoom: 17,
+	          zoom: 16,
 	          center: ghm
 	        });
 	        var marker = new google.maps.Marker({
 	          position: ghm,
 	          map: map,
-	          icon: 'img/huevoMapa.png',
+	          icon: '../img/huevoMapa.png',
 	          zoomControl: false,
 	          scaleControl: true
 	        });
@@ -467,7 +469,6 @@
 	    </script>
     	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_uJhI8xR2Rw67F6EH_Jo7OkQtXyDFtxU&callback=initMap" async defer></script>
 	</div>
-
 
 	<!-- Footer -->
 	<footer>
@@ -555,7 +556,6 @@
 			</div>
 		</div>
 	</footer>
-
 
 	<script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="../js/popper.min.js"></script>

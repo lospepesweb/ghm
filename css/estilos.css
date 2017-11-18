@@ -453,16 +453,11 @@ a.lang.active {
 .index .mapa {
   height: 445px;
   width: 100%;
-  overflow: hidden;
-  background-image: url("../fondoMapa.png") !important;
-  background-size: cover; }
+  overflow: hidden; }
   .index .mapa #map {
     height: 445px;
     width: 100%;
-    margin: auto;
-    z-index: 10 !important;
-    background-image: url("../fondoMapa.png") !important;
-    background-size: cover; }
+    margin: auto; }
 
 .fotografia .bio {
   padding: 75px 0; }

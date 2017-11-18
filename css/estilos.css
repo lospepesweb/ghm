@@ -43,8 +43,7 @@
   content: ""; }
 
 .icon-logoHuevo:before {
-  content: "";
-  color: #fff !important; }
+  content: ""; }
 
 .icon-facebook:before {
   content: ""; }
@@ -81,10 +80,11 @@
   margin-top: 40px;
   padding: 5px 15px 5px 10px;
   transition: 0.2s ease all; }
-  .btn-default:hover {
+  .btn-default:hover, .btn-default:focus {
     text-decoration: none;
     color: #fff !important;
-    background-color: rgba(0, 0, 0, 0.5); }
+    background-color: rgba(0, 0, 0, 0.5);
+    outline: none; }
   .btn-default span {
     font-size: 12px; }
 
@@ -600,7 +600,8 @@ footer .logoHuevo:hover {
   text-decoration: none !important; }
 
 .icon-logoHuevo {
-  font-size: 42px; }
+  font-size: 42px;
+  color: #fff; }
 
 .class-aux {
   padding-left: 55px !important;
@@ -609,5 +610,27 @@ footer .logoHuevo:hover {
     .class-aux {
       padding-left: 30px !important;
       padding-right: 30px !important; } }
+
+.login .row {
+  font-family: "Light";
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-top: 50px;
+  color: #585756; }
+  .login .row .form-group {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto; }
+  .login .row input {
+    border-color: #959494;
+    color: #959494;
+    padding: 6px 10px; }
+  .login .row .btn-default {
+    margin-top: 20px; }
+  .login .row h1 {
+    color: #585756 !important; }
+    .login .row h1 .icon-logoHuevo {
+      color: #585756 !important;
+      font-size: 100px; }
 
 /*# sourceMappingURL=estilos.css.map */

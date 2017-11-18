@@ -62,6 +62,22 @@ $('.navClose-link').click(function(e){
 
 
 
+/*=======================================================
+=              TOGGLE DEL FOOTER EN MOVIL              =
+=======================================================*/
+
+$(document).ready(
+	function agregarTadaToggle(){
+		if (anchoPantalla < 991) {
+			$('.titulo-footer').attr("data-toggle", "collapse");
+			$('.lista-footer').toggleClass("show");
+		}
+	}
+);
+
+/*========  End of TOGGLE DEL FOOTER EN MOVIL  =========*/
+
+
 
 /*=======================================================
 =        CONFIGURACION PERSONALIZADA DEL SLIDER         =

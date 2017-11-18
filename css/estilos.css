@@ -518,22 +518,67 @@ footer {
   padding: 0;
   list-style-type: none !important; }
 
-.lista-footer.redes a {
-  font-size: 24px;
-  color: #fff;
-  padding: 0 2px; }
-  .lista-footer.redes a:hover {
-    color: #959494;
-    text-decoration: none !important; }
+.lista-footer.redes {
+  margin-top: 10px; }
+  .lista-footer.redes a {
+    font-size: 24px;
+    color: #fff;
+    padding: 0 2px; }
+    .lista-footer.redes a:hover {
+      color: #959494;
+      text-decoration: none !important; }
 
 .titulo-footer {
   font-family: "Mediun";
-  color: #fff; }
+  color: #fff;
+  cursor: default;
+  display: block;
+  margin-bottom: 8px;
+  position: relative; }
+  .titulo-footer:hover {
+    color: #fff;
+    text-decoration: none;
+    cursor: default; }
+  @media (max-width: 991px) {
+    .titulo-footer {
+      margin-bottom: 0px;
+      padding: 10px 0 10px 5px; } }
+  .titulo-footer .closeNav {
+    display: inline-block;
+    right: 5px;
+    top: 5px;
+    position: absolute;
+    font-size: 18px;
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -transform-origin: center center;
+    -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -ms-transition: 0.25s ease-in-out;
+    -transition: 0.25s ease-in-out; }
+  .titulo-footer .closeNav.open {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -transform: rotate(45deg); }
+
+@media (max-width: 991px) {
+  .titulo-footer.border-top {
+    border-top: 1px solid #fff; } }
+
+@media (max-width: 991px) {
+  div.class-aux.border-top {
+    border-top: 1px solid #fff;
+    height: 1px; } }
 
 li.item-footer {
   font-family: "Light";
   font-size: 16px;
   color: #fff; }
+  @media (max-width: 991px) {
+    li.item-footer {
+      padding-left: 8px; } }
 
 a.item-footer {
   text-decoration: none;
@@ -544,8 +589,14 @@ a.item-footer {
   a.item-footer:hover {
     color: #959494;
     text-decoration: none; }
+  @media (max-width: 991px) {
+    a.item-footer {
+      padding-left: 8px; } }
 
-.logoHuevo:hover {
+@media (max-width: 991px) {
+  footer .logoHuevo-container {
+    margin-top: 75px; } }
+footer .logoHuevo:hover {
   text-decoration: none !important; }
 
 .icon-logoHuevo {

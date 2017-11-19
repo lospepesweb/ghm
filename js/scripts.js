@@ -1,14 +1,11 @@
-// -------------------------------------
-//         SCRIPTS FRONT-END
-// -------------------------------------
+// ------------------------------------------------
+// 			   SCRIPTS FRONT-END
+// ------------------------------------------------
 
-// CONTENIDO:
-// Animación del menú hamburgesa
-// Configuración personalizada del slider
 
 
 /*================================================
-=            BOTÓN SELECTRO DE IDIOMA            =
+=            BOTÓN SELECTOR DE IDIOMA            =
 ================================================*/
 
 $('#langEsp').click(function(){
@@ -57,8 +54,28 @@ $('.navClose-link').click(function(e){
 
 })
 
-
 /*=====  End of ANIMACIÓN DEL BOTÓN HAMBURGUESA  ======*/
+
+
+
+
+/*=======================================================
+=             MARGIN BOOTOM DEL MENU MOVIL              =
+=======================================================*/
+
+// VARIABLES
+var anchoPantalla = window.innerWidth;
+var alturaPantalla = window.innerHeight;
+var marginBottom = ((alturaPantalla - 398) - 60); // El 398 es el alto del header y el 60 es el doble del margin-top que tiene el .navbar-nav
+var divLang = document.getElementById("lang-container");
+
+// FUNCIONES
+if (anchoPantalla < 991) {
+	divLang.setAttribute("style","margin-bottom:"+marginBottom+"px !important");
+}
+
+/*====  End of MARGIN BOOTOM DEL MENU MOVI  ====*/
+
 
 
 
@@ -80,33 +97,15 @@ $(document).ready(
 
 
 /*=======================================================
-=        CONFIGURACION PERSONALIZADA DEL SLIDER         =
+=               COMPORTAMIENTO DEL FOOTER                =
 =======================================================*/
 
-$('.carousel').carousel({
-  interval: 4000,
-  pause: false
+$('.titulo-footer').click(function(){
+	$(this).children().toggleClass('open');
 })
 
-/*===  End of CONFIGURACION PERSONALIZADA DEL SLIDER  ====*/
+/*==========  End of COMPORTAMIENTO DEL FOOTER  =========*/
 
-
-/*=======================================================
-=             MARGIN BOOTOM DEL MENU MOVIL              =
-=======================================================*/
-
-// VARIABLES
-var anchoPantalla = window.innerWidth;
-var alturaPantalla = window.innerHeight;
-var marginBottom = ((alturaPantalla - 398) - 60); // El 398 es el alto del header y el 60 es el margin-top que tiene el .navbar-nav
-var divLang = document.getElementById("lang-container");
-
-// FUNCIONES
-if (anchoPantalla < 991) {
-	divLang.setAttribute("style","margin-bottom:"+marginBottom+"px !important");
-}
-
-/*====  End of MARGIN BOOTOM DEL MENU MOVI  ====*/
 
 
 /*=======================================================
@@ -129,21 +128,20 @@ var paddingHuevo = (((alturaPortada * relacion) - alturaHuevo) / 2);
 intro.setAttribute("style","padding-bottom:"+paddingIntro+"px !important; padding-top:"+paddingIntro+"px !important");
 huevo.setAttribute("style","padding-bottom:"+paddingHuevo+"px !important; padding-top:"+paddingHuevo+"px !important");
 
-/*====  End of PADDING DE SECCIONES DEL INDEX  ====*/
+/*======  End of PADDING DE SECCIONES DEL INDEX  ======*/
 
 
 
 /*=======================================================
-=            Comportamiento footer             =
+=        CONFIGURACION PERSONALIZADA DEL SLIDER         =
 =======================================================*/
 
-
-$('.titulo-footer').click(function(){
-
-	$(this).children().toggleClass('open');
-	// var id = $(this).attr('id');
-	// $('#'+id).children().toggleClass('open');
-
+$('.carousel').carousel({
+  interval: 4000,
+  pause: false
 })
 
-/*====  End of Comportamiento footer  ====*/
+/*===  End of CONFIGURACION PERSONALIZADA DEL SLIDER  ====*/
+
+
+

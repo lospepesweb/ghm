@@ -9,7 +9,7 @@
 </head>
 <body class="login">
 	<div class="row justify-content-center align-items-center">
-		<div class="col-4">
+		<div id="form-login" class="col-12 col-lg-4">
 			<form class="text-center">
 				<h1 class="titulo"><span class="icon-logoHuevo"></span></h1>
 				<div class="form-group">
@@ -22,7 +22,14 @@
 			  </div>
 			  <button type="submit" class="btn-default"><span class="icon-chevron-thin-right"></span>Entrar</button>
 			</form>
+			<div class="alert alert-danger" role="alert">
+				Usuario y/o contraseña incorrecta.
+			</div>
+			<div class="alert alert-danger" role="alert">
+				Ha ingresado 3 veces incorrectamente su contraseña, por favor, utilice un captchapt.
+			</div>
 		</div>
 	</div>
+
 </body>
 </html>

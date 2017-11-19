@@ -12,16 +12,19 @@
 		font-family: $light
 		margin-left: 0 !important
 		margin-right: 0 !important
-		margin-top: 50px
 		color: $grisOscuro
+		margin-top: 50px
 		.form-group
 			width: 50%
 			margin-left: auto
 			margin-right: auto
+			@media (max-width: 575px)
+				width: 80%
 		input
 			border-color: $gris
 			color: $gris
 			padding: 6px 10px
+			text-align: center
 		.btn-default
 			margin-top: 20px
 		h1
@@ -29,3 +32,7 @@
 			.icon-logoHuevo
 				color: $grisOscuro !important
 				font-size: 100px
+				@media (max-width: 575px)
+					font-size: 70px
+		.alert
+			margin-top: 20px

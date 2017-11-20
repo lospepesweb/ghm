@@ -611,35 +611,4 @@ footer .logoHuevo:hover {
       padding-left: 30px !important;
       padding-right: 30px !important; } }
 
-.login .row {
-  font-family: "Light";
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  color: #585756;
-  margin-top: 50px; }
-  .login .row .form-group {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto; }
-    @media (max-width: 575px) {
-      .login .row .form-group {
-        width: 80%; } }
-  .login .row input {
-    border-color: #959494;
-    color: #959494;
-    padding: 6px 10px;
-    text-align: center; }
-  .login .row .btn-default {
-    margin-top: 20px; }
-  .login .row h1 {
-    color: #585756 !important; }
-    .login .row h1 .icon-logoHuevo {
-      color: #585756 !important;
-      font-size: 100px; }
-      @media (max-width: 575px) {
-        .login .row h1 .icon-logoHuevo {
-          font-size: 70px; } }
-  .login .row .alert {
-    margin-top: 20px; }
-
 /*# sourceMappingURL=estilos.css.map */

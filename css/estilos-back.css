@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Light";
+  src: url("../fonts/Roboto-Light.ttf"); }
+@font-face {
+  font-family: "Regular";
+  src: url("../fonts/Roboto-Regular.ttf"); }
+@font-face {
+  font-family: "Mediun";
+  src: url("../fonts/Roboto-Medium.ttf"); }
+@font-face {
+  font-family: "Icomoon";
+  src: url("../fonts/icomoon.eot?vofcvj");
+  src: url("../fonts/icomoon.eot?vofcvj#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?vofcvj") format("truetype"), url("../fonts/icomoon.woff?vofcvj") format("woff"), url("../fonts/icomoon.svg?vofcvj#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+[class^="icon-"], [class*=" icon-"] {
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-logo:before {
+  content: "";
+  color: #595757; }
+
+.icon-youtube:before {
+  content: ""; }
+
+.icon-chevron-thin-right:before {
+  content: ""; }
+
+.icon-mouse:before {
+  content: ""; }
+
+.icon-phone:before {
+  content: ""; }
+
+.icon-logoHuevo:before {
+  content: ""; }
+
+.icon-facebook:before {
+  content: ""; }
+
+.icon-instagram:before {
+  content: ""; }
+
+.titulo {
+  color: #585756;
+  font-family: "Mediun";
+  font-size: 38px;
+  margin-bottom: 30px; }
+
+.texto {
+  color: #585756;
+  font-family: "Light";
+  font-size: 16px;
+  margin-bottom: 0;
+  padding: 0 30px; }
+  @media (max-width: 767px) {
+    .texto {
+      padding: 0px !important; } }
+
+.btn-default {
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  border-radius: 40px;
+  border: 1px solid #959494;
+  color: #585756;
+  display: inline-block;
+  font-family: "Light";
+  font-size: 14px;
+  margin-top: 40px;
+  padding: 5px 15px 5px 10px;
+  transition: 0.2s ease all; }
+  .btn-default:hover, .btn-default:focus {
+    text-decoration: none;
+    color: #fff !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    outline: none; }
+  .btn-default span {
+    font-size: 12px; }
+
+.login {
+  font-family: "Light";
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  color: #585756;
+  margin-top: 50px; }
+  .login .form-group {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto; }
+    @media (max-width: 575px) {
+      .login .form-group {
+        width: 80%; } }
+  .login input {
+    border-color: #959494;
+    color: #959494;
+    padding: 6px 10px;
+    text-align: center; }
+  .login .btn-default {
+    margin-top: 20px; }
+  .login h1 {
+    color: #585756 !important; }
+    .login h1 .icon-logoHuevo {
+      color: #585756 !important;
+      font-size: 100px; }
+      @media (max-width: 575px) {
+        .login h1 .icon-logoHuevo {
+          font-size: 70px; } }
+  .login .alert {
+    margin-top: 20px; }
+
+/*# sourceMappingURL=estilos-back.css.map */

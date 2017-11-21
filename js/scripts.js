@@ -136,7 +136,31 @@ $('.titulo-footer').click(function(){
 =        CONFIGURACION PERSONALIZADA DEL SLIDER         =
 =======================================================*/
 
-$('.carousel').carousel({
+$('#primary-carousel').carousel({
+  interval: 4000,
+  pause: false
+})
+
+$('#segundo-carousel').carousel({
+  interval: 3000,
+  pause: false
+})
+
+$('#tercer-carousel').carousel({
+  interval: 3500,
+  pause: false
+})
+
+$('#cuarto-carousel').carousel({
+  interval: 3250,
+  pause: false
+})
+
+$('#quinto-carousel').carousel({
+  interval: 3750,
+  pause: false
+})
+$('#decimo-carousel').carousel({
   interval: 4000,
   pause: false
 })

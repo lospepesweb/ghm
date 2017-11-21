@@ -513,6 +513,23 @@ a.lang.active {
     padding-left: 5px !important;
     padding-right: 5px !important; } }
 
+.diseno {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-bottom: 10px !important; }
+  .diseno .row {
+    margin: 0px !important; }
+    .diseno .row .slide-lp {
+      padding: 0px !important; }
+  .diseno .btn-default {
+    position: absolute;
+    margin: 0px !important;
+    right: 50px;
+    bottom: 50px; }
+
+.diseno.ultimo {
+  padding-bottom: 0px !important; }
+
 footer {
   background-color: #585756;
   padding: 75px 0;

@@ -112,21 +112,21 @@ $('.titulo-footer').click(function(){
 =            PADDING DE SECCIONES DEL INDEX             =
 =======================================================*/
 
-var portada = document.getElementById("portada");
-var intro = document.getElementById("intro");
-var huevo = document.getElementById("huevo");
+// var portada = document.getElementById("portada");
+// var intro = document.getElementById("intro");
+// var huevo = document.getElementById("huevo");
 
-var alturaPortada = portada.offsetHeight;
-var alturaIntro = intro.offsetHeight;
-var alturaHuevo = huevo.offsetHeight;
+// var alturaPortada = portada.offsetHeight;
+// var alturaIntro = intro.offsetHeight;
+// var alturaHuevo = huevo.offsetHeight;
 
-var relacion = 0.75;
+// var relacion = 0.50;
 
-var paddingIntro = (((alturaPortada * relacion) - alturaIntro) / 2);
-var paddingHuevo = (((alturaPortada * relacion) - alturaHuevo) / 2);
+// var paddingIntro = (((alturaPortada * relacion) - alturaIntro) / 2);
+// var paddingHuevo = (((alturaPortada * relacion) - alturaHuevo) / 2);
 
-intro.setAttribute("style","padding-bottom:"+paddingIntro+"px !important; padding-top:"+paddingIntro+"px !important");
-huevo.setAttribute("style","padding-bottom:"+paddingHuevo+"px !important; padding-top:"+paddingHuevo+"px !important");
+// intro.setAttribute("style","padding-bottom:"+paddingIntro+"px !important; padding-top:"+paddingIntro+"px !important");
+// huevo.setAttribute("style","padding-bottom:"+paddingHuevo+"px !important; padding-top:"+paddingHuevo+"px !important");
 
 /*======  End of PADDING DE SECCIONES DEL INDEX  ======*/
 

@@ -516,7 +516,8 @@ a.lang.active {
 .diseno {
   padding-left: 0px !important;
   padding-right: 0px !important;
-  padding-bottom: 10px !important; }
+  padding-bottom: 10px !important;
+  margin: 0px !important; }
   .diseno .row {
     margin: 0px !important; }
     .diseno .row .slide-lp {
@@ -531,6 +532,9 @@ a.lang.active {
     .diseno .btn-default:hover, .diseno .btn-default:active, .diseno .btn-default:focus {
       background-color: #959494;
       border-color: #959494 !important; }
+
+.row.diseno.d-digital {
+  padding-bottom: 0px !important; }
 
 .diseno.ultimo {
   padding-bottom: 0px !important; }

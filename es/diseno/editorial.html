@@ -7,16 +7,494 @@
 	<link rel="stylesheet" type="text/css" href="../../css/estilos.css">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
-<body class="index">
-
+<body>
 	
-	<div class="row mt-5">
-		<div class="col-12 text-center">
-			<p class="titulo">Hello world!</p>
+	<!-- Header -->
+	<header class="container-fluid">
+		<div class="container lang-container d-none d-lg-block">
+			<div class="row">
+				<div class="col-2 text-right ml-auto">
+					<a href="#" id="langEsp" class="lang active">ES</a>
+					<span class="lang">/</span>
+					<a href="../../en/diseno/editorial.html" id="langEng" class="lang">EN</a>
+				</div>
+			</div>
 		</div>
-	</div>
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container">
+				
+				<!-- Logo de GHM -->
+				<a class="ghmLogo" href="../index.html">
+					<span class="icon-logo"></span>
+				</a>
+				<!-- Fin de Logo -->
+					
+				<!-- Menú hamburguesa -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+					<div id="nav-icon" class="nav-icon">
+						<span class="icon-bar"></span>
+						<!-- <span class="icon-bar"></span> -->
+						<span class="icon-bar"></span>
+					</div>
+				</button>
+				<!-- Fin del meú hamburguesa -->
+						
+				<!-- Opciones del menú -->
+				<div class="collapse navbar-collapse" id="navbar">
+					<ul class="navbar-nav" id="navbar-nav-lp">
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle navClose-link" id="navBarAudiovisual" data-toggle="dropdown" role="button">AUDIOVISUAL<span class="closeNav d-lg-none">+</span></a>
+							<div class="dropdown-menu" aria-labelledby="navBarAudiovisual">
+					        	<a class="dropdown-item" href="../audiovisual/institucional.html">Institucional</a>
+					        	<a class="dropdown-item" href="../audiovisual/infraestructura.html">Infraestructura</a>
+					        	<a class="dropdown-item" href="../audiovisual/educativo.html">Educativo</a>
+					        	<a class="dropdown-item" href="../audiovisual/publicitario.html">Publicitario</a>
+					        	<a class="dropdown-item" href="../audiovisual/mapping.html">Mapping</a>
+					        </div>
+
+						</li>
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle navClose-link" id="navBarFotografia" data-toggle="dropdown" role="button">FOTOGRAFÍA<span class="closeNav d-lg-none">+</span></a>
+							<div class="dropdown-menu" aria-labelledby="navBarFotografia">
+					        	<a class="dropdown-item" href="../fotografia/naturaleza.html">Naturaleza</a>
+					        	<a class="dropdown-item" href="../fotografia/institucional.html">Institucional</a>
+					        	<a class="dropdown-item" href="../fotografia/infraestructura.html">Infraestructura</a>
+					        	<a class="dropdown-item" href="../fotografia/artistico.html">Artístico</a>
+					        	<a class="dropdown-item" href="../fotografia/extremo.html">Extremo</a>
+					        	<a class="dropdown-item" href="../fotografia/publicitaria.html">Publicitaria</a>
+					        	<a class="dropdown-item" href="../fotografia/retrato.html">Retrato</a>
+					        	<a class="dropdown-item" href="../fotografia/producciones.html">Producciones en estudio</a>
+					        	<a class="dropdown-item" href="../fotografia/agricultura.html">Agricultura</a>
+					        	<a class="dropdown-item" href="#">Cruce de Los Andes</a>
+					        </div>
+						</li>
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle navClose-link" id="navBarDiseño" data-toggle="dropdown" role="button">DISEÑO<span class="closeNav d-lg-none">+</span></a>
+							<div class="dropdown-menu" aria-labelledby="navBarDiseño">
+					        	<a class="dropdown-item" href="../diseno/grafico.html">Gráfica</a>
+					        	<a class="dropdown-item" href="../diseno/editorial.html">Editorial</a>
+					        	<a class="dropdown-item" href="../diseno/digital.html">Digital</a>
+					        </div>
+						</li>
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle navClose-link" id="navBarEspacios" data-toggle="dropdown" role="button">ESPACIOS<span class="closeNav d-lg-none">+</span></a>
+							<div class="dropdown-menu" aria-labelledby="navBarEspacios">
+					        	<a class="dropdown-item" href="../espacios/stand.html">Stand</a>
+					        	<a class="dropdown-item" href="../espacios/arquigrafia.html">Arquigrafía</a>
+					        	<a class="dropdown-item" href="../espacios/exposiciones.html">Exposiciones</a>
+					        </div>
+						</li>
+						<li class="nav-item dropdown">
+							<a href="../monitoreo/monitoreo.html" class="nav-link navClose-link" id="navBarMonitoreo" data-toggle="" role="button">MONITOREO</a>
+							<div class="dropdown-menu" aria-labelledby="navBarMonitoreo">
+					        </div>
+						</li>
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle navClose-link" id="navBarVuelos" data-toggle="dropdown" role="button">VUELOS<span class="closeNav d-lg-none">+</span></a>
+							<div class="dropdown-menu ultimo" aria-labelledby="navBarVuelos">
+					        	<a class="dropdown-item" href="../vuelos/drone.html">Drone</a>
+					        	<a class="dropdown-item" href="../vuelos/helicoptero.html">Helicóptero</a>
+					        </div>
+						</li>
+					</ul>
+					<div id="lang-container" class="container lang-container d-block d-lg-none">
+						<div class="row">
+							<div class="col-12 text-left">
+								<a href="#" id="langEsp" class="lang active">ES</a>
+								<span class="lang">/</span>
+								<a href="../eng/diseno/editorial.html" id="langEng" class="lang">EN</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Fin de opciones de menú -->
+			</div>
+
+		</nav>
+	</header>
+
+	<!-- Slider 1 -->
+	<section class="diseno container-fluid">
+		<div class="row">
+			<div class="col-12 slide-lp">
+				<div class="carousel slide" id="primary-carousel" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-PRINCIPAL-01.jpg" alt="Dieño Editorial">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-PRINCIPAL-01-M.jpg" alt="Dieño Editorial">
+						</div>
+					</div>
+				</div>			
+			</div>
+		</div>
+	</section>
+
+	<!-- Slider 2 -->
+	<section class="diseno container-fluid">
+		<div class="row">
+			<div class="col-12 slide-lp">
+				<div class="carousel slide" id="segundo-carousel" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-200-anos-01.jpg" alt="200 Años">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-200-anos-01-M.jpg" alt="200 Años">
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-200-anos-02.jpg" alt="200 Años">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-200-anos-02-M.jpg" alt="200 Años">
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-200-anos-03.jpg" alt="200 Años">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-200-anos-03-M.jpg" alt="200 Años">
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-200-anos-04.jpg" alt="200 Años">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-200-anos-04-M.jpg" alt="200 Años">
+						</div>
+					</div>
+					<a class="btn-default" href="https://www.google.com" target="_blank"><span class="icon-chevron-thin-right"></span> Comprar</a>
+				</div>			
+			</div>
+		</div>
+	</section>
+
+	<!-- Slider 3 -->
+	<section class="diseno container-fluid">
+		<div class="row">
+			<div class="col-12 slide-lp">
+				<div class="carousel slide" id="tercer-carousel" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-SAN-JUAN-01.jpg" alt="San Juan, Argentina">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-SAN-JUAN-01-M.jpg" alt="San Juan, Argentina">
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-SAN-JUAN-02.jpg" alt="San Juan, Argentina">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-SAN-JUAN-02-M.jpg" alt="San Juan, Argentina">
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-SAN-JUAN-03.jpg" alt="San Juan, Argentina">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-SAN-JUAN-03-M.jpg" alt="San Juan, Argentina">
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-SAN-JUAN-04.jpg" alt="San Juan, Argentina">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-SAN-JUAN-04-M.jpg" alt="San Juan, Argentina">
+						</div>
+					</div>
+					<a class="btn-default" href="https://www.google.com" target="_blank"><span class="icon-chevron-thin-right"></span> Comprar</a>
+				</div>			
+			</div>
+		</div>
+	</section>
+
+	<!-- Slider 4 -->
+	<section class="diseno container-fluid">
+		<div class="row">
+			<div class="col-12 slide-lp">
+				<div class="carousel slide" id="cuarto-carousel" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-TRASHUMANTES-01.jpg" alt="TRAHUMANTES">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-TRASHUMANTES-01-M.jpg" alt="TRAHUMANTES">
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-TRASHUMANTES-02.jpg" alt="TRAHUMANTES">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-TRASHUMANTES-02-M.jpg" alt="TRAHUMANTES">
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-TRASHUMANTES-03.jpg" alt="TRAHUMANTES">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-TRASHUMANTES-03-M.jpg" alt="TRAHUMANTES">
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-TRASHUMANTES-04.jpg" alt="TRAHUMANTES">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-TRASHUMANTES-04-M.jpg" alt="TRAHUMANTES">
+						</div>
+					</div>
+					<a class="btn-default" href="https://www.google.com" target="_blank"><span class="icon-chevron-thin-right"></span> Comprar</a>
+				</div>			
+			</div>
+		</div>
+	</section>
+
+	<!-- Slider 5 -->
+	<section class="diseno container-fluid">
+		<div class="row">
+			<div class="col-12 slide-lp">
+				<div class="carousel slide" id="quinto-carousel" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-SUSANA-CASTRO-01.jpg" alt="Susan Castro">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-SUSANA-CASTRO-01-M.jpg" alt="Susan Castro">
+
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-SUSANA-CASTRO-02.jpg" alt="Susan Castro">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-SUSANA-CASTRO-02-M.jpg" alt="Susan Castro">
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-SUSANA-CASTRO-03.jpg" alt="Susan Castro">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-SUSANA-CASTRO-03-M.jpg" alt="Susan Castro">
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-SUSANA-CASTRO-04.jpg" alt="Susan Castro">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-SUSANA-CASTRO-04-M.jpg" alt="Susan Castro">
+						</div>
+					</div>
+				</div>			
+			</div>
+		</div>
+	</section>
+
+	<!-- Slider 6 -->
+	<section class="diseno container-fluid">
+		<div class="row">
+			<div class="col-12 slide-lp">
+				<div class="carousel slide" id="sexto-carousel" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-PROSAP-01.jpg" alt="PROSAP">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-PROSAP-01-M.jpg" alt="PROSAP">
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-PROSAP-02.jpg" alt="PROSAP">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-PROSAP-02-M.jpg" alt="PROSAP">
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-PROSAP-03.jpg" alt="PROSAP">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-PROSAP-03-M.jpg" alt="PROSAP">
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-PROSAP-04.jpg" alt="PROSAP">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-PROSAP-04-M.jpg" alt="PROSAP">
+						</div>
+					</div>
+				</div>			
+			</div>
+		</div>
+	</section>
+
+	<!-- Slider 7 -->
+	<section class="diseno container-fluid">
+		<div class="row">
+			<div class="col-12 slide-lp">
+				<div class="carousel slide" id="septimo-carousel" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-CONGRESO-01.jpg" alt="V Congreso Mundial por los derechos de la  Infancia y  la Adolescencia">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-CONGRESO-01-M.jpg" alt="V Congreso Mundial por los derechos de la  Infancia y  la Adolescencia">
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-CONGRESO-02.jpg" alt="V Congreso Mundial por los derechos de la  Infancia y  la Adolescencia">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-CONGRESO-02-M.jpg" alt="V Congreso Mundial por los derechos de la  Infancia y  la Adolescencia">
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-CONGRESO-03.jpg" alt="V Congreso Mundial por los derechos de la  Infancia y  la Adolescencia">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-CONGRESO-03-M.jpg" alt="V Congreso Mundial por los derechos de la  Infancia y  la Adolescencia">
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-CONGRESO-04.jpg" alt="V Congreso Mundial por los derechos de la  Infancia y  la Adolescencia">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-CONGRESO-04-M.jpg" alt="V Congreso Mundial por los derechos de la  Infancia y  la Adolescencia">
+						</div>
+					</div>
+				</div>			
+			</div>
+		</div>
+	</section>
+
+	<!-- Slider 8 -->
+	<section class="diseno container-fluid">
+		<div class="row">
+			<div class="col-12 slide-lp">
+				<div class="carousel slide" id="octavo-carousel" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-CARACOLES-01.jpg" alt="Los Caracoles, Techint">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-CARACOLES-01-M.jpg" alt="Los Caracoles, Techint">
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-CARACOLES-02.jpg" alt="Los Caracoles, Techint">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-CARACOLES-02-M.jpg" alt="Los Caracoles, Techint">
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-CARACOLES-03.jpg" alt="Los Caracoles, Techint">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-CARACOLES-03-M.jpg" alt="Los Caracoles, Techint">
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-CARACOLES-04.jpg" alt="Los Caracoles, Techint">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-CARACOLES-04-M.jpg" alt="Los Caracoles, Techint">
+						</div>
+					</div>
+				</div>			
+			</div>
+		</div>
+	</section>
+
+	<!-- Slider 9 -->
+	<section class="diseno container-fluid">
+		<div class="row">
+			<div class="col-12 slide-lp">
+				<div class="carousel slide" id="noveno-carousel" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-RUTA-40-01.jpg" alt="Ruta 40">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-RUTA-40-01-M.jpg" alt="Ruta 40">
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-RUTA-40-02.jpg" alt="Ruta 40">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-RUTA-40-02-M.jpg" alt="Ruta 40">
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-RUTA-40-03.jpg" alt="Ruta 40">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-RUTA-40-03-M.jpg" alt="Ruta 40">
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-RUTA-40-04.jpg" alt="Ruta 40">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-RUTA-40-04-M.jpg" alt="Ruta 40">
+						</div>
+					</div>
+				</div>			
+			</div>
+		</div>
+	</section>
+
+	<!-- Slider 10 -->
+	<section class="diseno ultimo container-fluid">
+		<div class="row">
+			<div class="col-12 slide-lp">
+				<div class="carousel slide" id="decimo-carousel" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-RAMON-OSSA-01.jpg" alt="Ramon Ossa">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-RAMON-OSSA-01-M.jpg" alt="Ramon Ossa">
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-RAMON-OSSA-02.jpg" alt="Ramon Ossa">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-RAMON-OSSA-02-M.jpg" alt="Ramon Ossa">
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-RAMON-OSSA-03.jpg" alt="Ramon Ossa">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-RAMON-OSSA-03-M.jpg" alt="Ramon Ossa">
+						</div>
+						<div class="carousel-item">
+							<img class="d-none d-lg-block w-100 img-fluid" src="../../img/DISENO-EDITORIAL-RAMON-OSSA-04.jpg" alt="Ramon Ossa">
+							<img class="d-xs-block d-lg-none w-100 img-fluid" src="../../img/DISENO-EDITORIAL-RAMON-OSSA-04-M.jpg" alt="Ramon Ossa">
+						</div>
+					</div>
+				</div>			
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="d-12 col-md-6 col-lg-3 class-aux">
+
+					<a id="closeNav1" data-toggle="" href="#footer-home" aria-expanded="false" aria-controls="collapseOne" class="titulo-footer">Home<span class="closeNav d-lg-none">+</span></a>
+					<ul id="footer-home" class="collapse show lista-footer" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+						<li class="item-footer"><a class="item-footer" href="../index.html">Acerca de GHM</a></li>
+						<li class="item-footer"><a class="item-footer" href="../huevo.html">Gustavo Muñoz Lorenzo</a></li>
+						<li class="item-footer"><a class="item-footer" href="../index.html">Equipo</a></li>
+						<li class="item-footer"><a class="item-footer" href="../index.html">Clientes</a></li>
+						<li class="item-footer"><a class="item-footer" href="../index.html">Noticias</a></li>
+						<li class="item-footer"><a class="item-footer" href="../index.html">Contacto</a></li>
+					</ul>
+
+					<a id="closeNav2" data-toggle="" href="#footer-audiovisual" aria-expanded="false" aria-controls="collapseOne" class="titulo-footer border-top">Audiovisual<span class="closeNav d-lg-none">+</span></a>
+					<ul id="footer-audiovisual" class="collapse show lista-footer" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+						<li class="item-footer"><a href="../audiovisual/institucional.html" class="item-footer">Institucional</a></li>
+						<li class="item-footer"><a href="../audiovisual/infraestructura.html" class="item-footer">Infraestructura</a></li>
+						<li class="item-footer"><a href="../audiovisual/educativo.html" class="item-footer">Educativo</a></li>
+						<li class="item-footer"><a href="../audiovisual/publicitario.html" class="item-footer">Publicitario</a></li>
+						<li class="item-footer"><a href="../audiovisual/mapping.html" class="item-footer">Mapping</a></li>
+					</ul>
+
+				</div>
 
 
+
+				<div class="d-12 col-md-6 col-lg-3 class-aux">
+
+					<a id="closeNav3" data-toggle="" href="#footer-fotografia" aria-expanded="false" aria-controls="collapseOne" class="titulo-footer border-top">Fotografía<span class="closeNav d-lg-none">+</span></a>
+					<ul id="footer-fotografia" class="collapse show lista-footer" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+						<li class="item-footer"><a class="item-footer" href="../fotografia/naturaleza.html">Naturaleza</a></li>
+						<li class="item-footer"><a class="item-footer" href="../fotografia/institucional.html">Institucional</a></li>
+						<li class="item-footer"><a class="item-footer" href="../fotografia/infraestructura.html">Infraestructura</a></li>
+						<li class="item-footer"><a class="item-footer" href="../fotografia/artistico.html">Artístico</a></li>
+						<li class="item-footer"><a class="item-footer" href="../fotografia/extremo.html">Extremo</a></li>
+						<li class="item-footer"><a class="item-footer" href="../fotografia/publicitaria.html">Publicitaria</a></li>
+						<li class="item-footer"><a class="item-footer" href="../fotografia/retrato.html">Retrato</a></li>
+						<li class="item-footer"><a class="item-footer" href="../fotografia/producciones.html">Producciones en estudio</a></li>
+						<li class="item-footer"><a class="item-footer" href="../fotografia/agricultura.html">Agricultura</a></li>
+						<li class="item-footer"><a class="item-footer" href="../fotografia/cruce.html">Cruce de Los Andes</a></li>
+					</ul>
+
+					<a id="closeNav4" data-toggle="" href="#footer-diseño" aria-expanded="false" aria-controls="collapseOne" class="titulo-footer border-top">Diseño<span class="closeNav d-lg-none">+</span></a>
+					<ul id="footer-diseño" class="collapse show lista-footer" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+						<li class="item-footer"><a href="../diseno/grafico.html" class="item-footer">Gráfica</a></li>
+						<li class="item-footer"><a href="../diseno/editorial.html" class="item-footer">Editorial</a></li>
+						<li class="item-footer"><a href="../diseno/digital.html" class="item-footer">Digital</a></li>
+					</ul>
+
+				</div>
+
+
+
+				<div class="d-12 col-md-6 col-lg-3 class-aux">
+
+					<a id="closeNav5" data-toggle="" href="#footer-espacios" aria-expanded="false" aria-controls="collapseOne" class="titulo-footer border-top">Espacios<span class="closeNav d-lg-none">+</span></a>
+					<ul id="footer-espacios" class="collapse show lista-footer" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+						<li class="item-footer"><a class="item-footer" href="../espacios/stand.html">Stand</a></li>
+						<li class="item-footer"><a class="item-footer" href="../espacios/arquigrafia.html">Arquigrafía</a></li>
+						<li class="item-footer"><a class="item-footer" href="../espacios/exposiciones.html">Exposiciones</a></li>
+					</ul>
+
+					<a data-toggle="" href="../monitoreo/monitoreo.html" aria-expanded="false" aria-controls="collapseOne" class="titulo-footer border-top">Monitoreo</a>
+					<ul class="d-none d-lg-block lista-footer">
+					</ul>
+
+					<a id="closeNav6" data-toggle="" href="#footer-Drone" aria-expanded="false" aria-controls="collapseOne" class="titulo-footer border-top">Vuelos<span class="closeNav d-lg-none">+</span></a>
+					<ul id="footer-Drone" class="collapse show lista-footer" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+						<li class="item-footer"><a class="item-footer" href="../vuelos/drone.html">Drone</a></li>
+						<li class="item-footer"><a class="item-footer" href="../vuelos/helicoptero.html">Helicóptero</a></li>
+					</ul>
+				</div>
+
+
+
+				<div class="d-12 col-md-6 col-lg-3 class-aux">
+
+					<a id="closeNav7" data-toggle="" href="#footer-oficinas" aria-expanded="false" aria-controls="collapseOne" class="titulo-footer border-top">Nuestra oficina<span class="closeNav d-lg-none">+</span></a>
+					<ul id="footer-oficinas" class="collapse show lista-footer" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+						<li class="item-footer">Esteban Echeverría <br class="d-none d-lg-block">772 Sur (5400)</li>
+						<li class="item-footer">San Juan · Argentina</li>
+						<li class="item-footer">+54 264 4266621 | 4085014</li>
+						<li class="item-footer"><a class="item-footer" href="mailto:ghmtv@ghmtv.com">ghmtv@ghmtv.com</a></li>
+						<ul class="lista-footer redes">
+							<a href="https://www.youtube.com/channel/UC1i1fEIsMjAJA5peqehEHiw" target="_blank"><span class="icon-youtube"></span></a>
+							<a href="https://www.facebook.com/Ghmtv/" target="_blank"><span class="icon-facebook"></span></a>
+							<a href="#"><span class="icon-instagram"></span></a>
+						</ul>
+					</ul>
+
+
+					<a id="closeNav8" data-toggle="" href="#footer-trabaja" aria-expanded="false" aria-controls="collapseOne" class="titulo-footer border-top">Trabajá con nosotros<span class="closeNav d-lg-none">+</span></a>
+					<ul id="footer-trabaja" class="collapse show lista-footer" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+						<li class="item-footer"><a class="item-footer" href="mailto:ghmtv@ghmtv.com">ghmtv@ghmtv.com</a></li>
+					</ul>
+					<div class="d-12 col-md-6 col-lg-3 class-aux border-top"></div>
+
+				</div>
+
+			</div>
+			<div class="row logoHuevo-container">
+				<div class="d-12 col-md-6 col-lg-3 ml-auto class-aux">
+					<a href="#" class="logoHuevo"><span class="icon-logoHuevo"></span></a>
+				</div>
+			</div>
+		</div>
+	</footer>
 
 	<script type="text/javascript" src="../../js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="../../js/popper.min.js"></script>

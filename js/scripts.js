@@ -160,10 +160,34 @@ $('#quinto-carousel').carousel({
   interval: 3750,
   pause: false
 })
+
+$('#sexto-carousel').carousel({
+  interval: 3000,
+  pause: false
+})
+
+$('#septimo-carousel').carousel({
+  interval: 3750,
+  pause: false
+})
+
+$('#octavo-carousel').carousel({
+  interval: 3000,
+  pause: false
+})
+
+$('#noveno-carousel').carousel({
+  interval: 3500,
+  pause: false
+})
+
 $('#decimo-carousel').carousel({
   interval: 4000,
   pause: false
 })
+
+
+
 
 /*===  End of CONFIGURACION PERSONALIZADA DEL SLIDER  ====*/
 

@@ -30,6 +30,23 @@
 		&:hover, &:active, &:focus
 			background-color: $gris
 			border-color: $gris !important
+	.carousel-control-prev, .carousel-control-next
+		background-color: rgba(0,0,0,0)
+		width: 80px
+		transition: ease 0.5s all
+		&:hover
+			background-color: rgba(0,0,0,0.2)
+			@media (max-width: 991px)
+				background-color: rgba(0,0,0,0)
+			.icon-chevron-thin-right, .icon-chevron-thin-left
+				color: white
+		.icon-chevron-thin-right, .icon-chevron-thin-left
+			color: transparent
+			@media (max-width: 991px)
+				color: $grisOscuro
+		.carousel-control-prev-icon, .carousel-control-next-icon
+			background-image: none !important
+
 .row.diseno.d-digital
 	padding-bottom: 0px !important
 	

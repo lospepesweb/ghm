@@ -141,55 +141,76 @@ $('#primary-carousel').carousel({
   pause: false
 })
 
+$('#primary-carousel-d').carousel({
+  interval: 60000,
+  pause: false
+})
+
 $('#segundo-carousel').carousel({
-  interval: 3000,
+  interval: 60000,
   pause: false
 })
 
 $('#tercer-carousel').carousel({
-  interval: 3500,
+  interval: 60000,
   pause: false
 })
 
 $('#cuarto-carousel').carousel({
-  interval: 3250,
+  interval: 60000,
   pause: false
 })
 
 $('#quinto-carousel').carousel({
-  interval: 3750,
+  interval: 60000,
   pause: false
 })
 
 $('#sexto-carousel').carousel({
-  interval: 3000,
+  interval: 60000,
   pause: false
 })
 
 $('#septimo-carousel').carousel({
-  interval: 3750,
+  interval: 60000,
   pause: false
 })
 
 $('#octavo-carousel').carousel({
-  interval: 3000,
+  interval: 60000,
   pause: false
 })
 
 $('#noveno-carousel').carousel({
-  interval: 3500,
+  interval: 60000,
   pause: false
 })
 
 $('#decimo-carousel').carousel({
-  interval: 4000,
+  interval: 60000,
   pause: false
 })
-
-
-
 
 /*===  End of CONFIGURACION PERSONALIZADA DEL SLIDER  ====*/
 
 
+/*=======================================================
+=                     SCROLL SPY                      =
+=======================================================*/
 
+$(document).ready(function(){
+	$('.scrollspy').click(function(){
+		$('body, html').animate({
+			scrollTop: '0px'
+		}, 300);
+	});
+	$(window).scroll(function(){
+		if( $(this).scrollTop() > 92 ){
+			$('.scrollspy').slideDown(300);
+		} else {
+			$('.scrollspy').slideUp(300);
+		}
+	});
+});
+
+/*===============  End of SCROLL SPY  ================*/

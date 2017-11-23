@@ -27,20 +27,25 @@
 		bottom: 5%
 		background-color: #fff
 		border-color: #fff
+		z-index: 1000 !important
 		&:hover, &:active, &:focus
 			background-color: $gris
 			border-color: $gris !important
+	.carousel-control-prev
+		justify-content: flex-start !important
+		padding-left: 80px
+	.carousel-control-next
+		justify-content: flex-end !important
+		padding-right: 80px
 	.carousel-control-prev, .carousel-control-next
-		background-color: rgba(0,0,0,0)
-		width: 80px
+		background-color: transparent
+		width: 25%
 		transition: ease 0.5s all
 		&:hover
-			background-color: rgba(0,0,0,0.2)
-			@media (max-width: 991px)
-				background-color: rgba(0,0,0,0)
 			.icon-chevron-thin-right, .icon-chevron-thin-left
-				color: white
+				color: $grisOscuro
 		.icon-chevron-thin-right, .icon-chevron-thin-left
+			transition: ease 0.5s all
 			color: transparent
 			@media (max-width: 991px)
 				color: $grisOscuro

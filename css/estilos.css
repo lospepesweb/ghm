@@ -588,6 +588,14 @@ a.lang.active {
       .scrollspy .texto {
         padding-left: 10px !important; } }
 
+body::-webkit-scrollbar {
+  background-color: #fff;
+  width: 7px; }
+
+body::-webkit-scrollbar-thumb {
+  background: #959494;
+  border-radius: 7px; }
+
 footer {
   background-color: #585756;
   padding: 75px 0;

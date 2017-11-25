@@ -545,9 +545,15 @@ a.lang.active {
   .diseno .carousel-control-prev {
     justify-content: flex-start !important;
     padding-left: 80px; }
+    @media (max-width: 576px) {
+      .diseno .carousel-control-prev {
+        padding-left: 30px; } }
   .diseno .carousel-control-next {
     justify-content: flex-end !important;
     padding-right: 80px; }
+    @media (max-width: 576px) {
+      .diseno .carousel-control-next {
+        padding-right: 30px; } }
   .diseno .carousel-control-prev, .diseno .carousel-control-next {
     background-color: transparent;
     width: 25%;
@@ -569,6 +575,16 @@ a.lang.active {
 .diseno.ultimo {
   padding-bottom: 0px !important; }
 
+.monitoreo {
+  padding: 0 !important; }
+  .monitoreo .row {
+    maring-left: 0 !important;
+    margin-right: 0 !important; }
+  .monitoreo .col-12 {
+    padding: 0 0 10px 0; }
+  .monitoreo .col-12.ultimo {
+    padding-bottom: 0 !important; }
+
 .scrollspy {
   display: none;
   background-color: transparent;
@@ -582,11 +598,10 @@ a.lang.active {
   z-index: 9999 !important;
   box-shadow: 0px 2px 5px #959494;
   padding-left: 0 !important; }
-  .scrollspy .scrollspy-container {
-    padding-left: 0 !important; }
   .scrollspy .texto {
     padding-left: 7px !important;
-    line-height: 30px; }
+    line-height: 30px;
+    text-align: left; }
     @media (max-width: 621px) {
       .scrollspy .texto {
         padding-left: 10px !important; } }
@@ -687,6 +702,9 @@ a.item-footer {
   a.item-footer:hover {
     color: #959494;
     text-decoration: none; }
+
+.btn-monitoreo, .btn-monitoreo:hover {
+  cursor: pointer; }
 
 @media (max-width: 991px) {
   footer .logoHuevo-container {

@@ -147,17 +147,17 @@ $('#primary-carousel-d').carousel({
 })
 
 $('#segundo-carousel').carousel({
-  interval: 60000,
+  interval: 60250,
   pause: false
 })
 
 $('#tercer-carousel').carousel({
-  interval: 60000,
+  interval: 60500,
   pause: false
 })
 
 $('#cuarto-carousel').carousel({
-  interval: 60000,
+  interval: 60750,
   pause: false
 })
 
@@ -167,17 +167,17 @@ $('#quinto-carousel').carousel({
 })
 
 $('#sexto-carousel').carousel({
-  interval: 60000,
+  interval: 60250,
   pause: false
 })
 
 $('#septimo-carousel').carousel({
-  interval: 60000,
+  interval: 60500,
   pause: false
 })
 
 $('#octavo-carousel').carousel({
-  interval: 60000,
+  interval: 60750,
   pause: false
 })
 

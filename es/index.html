@@ -553,12 +553,12 @@
 				<div class="d-12 col-md-6 col-lg-3 class-aux">
 					<a id="closeNav1" data-toggle="" href="#footer-home" aria-expanded="false" aria-controls="collapseOne" class="titulo-footer">Home<span class="closeNav d-lg-none">+</span></a>
 					<ul id="footer-home" class="collapse show lista-footer" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
-						<li class="item-footer"><a class="item-footer" href="#intro">Acerca de GHM</a></li>
-						<li class="item-footer"><a class="item-footer" href="#huevo">Gustavo Muñoz Lorenzo</a></li>
-						<li class="item-footer"><a class="item-footer" href="#equipo">Equipo</a></li>
-						<li class="item-footer"><a class="item-footer" href="#clientes">Clientes</a></li>
-						<li class="item-footer"><a class="item-footer" href="#noticias">Noticias</a></li>
-						<li class="item-footer"><a class="item-footer" href="#contacto">Contacto</a></li>
+						<li class="item-footer"><a id="btn-slide-intro" class="item-footer" href="#intro">Acerca de GHM</a></li>
+						<li class="item-footer"><a id="btn-slide-huevo" class="item-footer" href="#huevo">Gustavo Muñoz Lorenzo</a></li>
+						<li class="item-footer"><a id="btn-slide-equipo" class="item-footer" href="#equipo">Equipo</a></li>
+						<li class="item-footer"><a id="btn-slide-clientes" class="item-footer" href="#clientes">Clientes</a></li>
+						<li class="item-footer"><a id="btn-slide-noticias" class="item-footer" href="#noticias">Noticias</a></li>
+						<li class="item-footer"><a id="btn-slide-contacto" class="item-footer" href="#contacto">Contacto</a></li>
 					</ul>
 
 					<a id="closeNav2" data-toggle="" href="#footer-audiovisual" aria-expanded="false" aria-controls="collapseOne" class="titulo-footer border-top">Audiovisual<span class="closeNav d-lg-none">+</span></a>
@@ -649,24 +649,32 @@
 	<script type="text/javascript" src="../js/popper.min.js"></script>
 	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="../js/scripts.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript">
-		$(function(){
-		     $('a[href*=#]').click(function() {
-		     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-		         && location.hostname == this.hostname) {
 
-		             var $target = $(this.hash);
-		             $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+		// Con este escript lo que hacemos que al seleccionar una de las opciones del footer del index se deslice hasta esa sección suavemente.
+		var listaIDS = [document.getElementById('btn-slide-intro'),
+				document.getElementById('btn-slide-huevo'),
+				document.getElementById('btn-slide-equipo'),
+				document.getElementById('btn-slide-clientes'),
+				document.getElementById('btn-slide-noticias'),
+				document.getElementById('btn-slide-contacto')
+				];
 
-		             if ($target.length) {
-		                 var targetOffset = $target.offset().top;
-		                 $('html,body').animate({scrollTop: targetOffset}, 600);
-		                 return false;
-		            }
-		       }
-		   });
-		});
+		for (var i=0; i<listaIDS.length; i++) {
+			$(listaIDS[i]).click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+					var $target = $(this.hash);
+					$target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+
+					if ($target.length) {
+						var targetOffset = $target.offset().top;
+						$('html,body').animate({scrollTop: targetOffset}, 900); // modificar este numero para que el deslizamiento sea mas rápido o mas lento.
+						return false;
+					}
+				}
+			});
+		}
 	</script>
 </body>
 </html>

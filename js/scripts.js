@@ -88,7 +88,9 @@ $(document).ready(
 		if (anchoPantalla < 991) {
 			$('.titulo-footer').attr("data-toggle", "collapse");
 			$('.lista-footer').toggleClass("show");
+			$('.btn-monitoreo').attr("data-toggle", "");
 		}
+
 	}
 );
 

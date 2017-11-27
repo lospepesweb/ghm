@@ -338,6 +338,7 @@ a.lang.active {
 .index .video3:hover > .noticia,
 .index .video4:hover > .noticia {
   height: calc(100% - 5px);
+  visibility: visible;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.8); }
 .index .noticia {

@@ -1,0 +1,20 @@
+
+ErrorDocument 404 /oops.html
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^ghmtv.com [NC]
+RewriteRule ^(.*)$ http://www.ghmtv.com/$1 [L,R=301]
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresDefault "access plus 1 year"
+ExpiresByType text/css "access plus 1 day"
+ExpiresByType aplication/javascript "access plus 1 month"
+ExpiresByType image/jpg "access plus 1 year"
+ExpiresByType image/png "access plus 1 year"
+</IfModule>
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# NOTE this account's php is controlled via FPM and the vhost, this is a place holder.
+# Do not edit. This next line is to support the cPanel php wrapper (php_cli).
+# AddType application/x-httpd-ea-php54 .php .phtml
+# php -- END cPanel-generated handler, do not edit

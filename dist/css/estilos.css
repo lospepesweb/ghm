@@ -57,6 +57,18 @@
 .icon-instagram:before {
   content: ""; }
 
+.icon-image:before {
+  content: ""; }
+
+.icon-key:before {
+  content: ""; }
+
+.icon-exit:before {
+  content: ""; }
+
+.icon-play2:before {
+  content: ""; }
+
 .titulo {
   color: #585756;
   font-family: "Mediun";
@@ -578,10 +590,10 @@ a.lang.active {
 .monitoreo {
   padding: 0 !important; }
   .monitoreo .row {
-    maring-left: 0 !important;
+    margin-left: 0 !important;
     margin-right: 0 !important; }
   .monitoreo .col-12 {
-    padding: 0 0 10px 0; }
+    padding: 0 0 5px 0 !important; }
   .monitoreo .col-12.ultimo {
     padding-bottom: 0 !important; }
 

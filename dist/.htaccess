@@ -4,7 +4,7 @@ ErrorDocument 403 /403.html
 ErrorDocument 500 /500.html
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^ghmtv.com [NC]
-RewriteRule ^(.*)$ http://www.ghmtv.com/$1 [L,R=301]
+RewriteRule ^(.*)$ https://www.ghmtv.com/$1 [L,R=301]
 
 <IfModule mod_expires.c>
 ExpiresActive On

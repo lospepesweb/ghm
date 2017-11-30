@@ -36,6 +36,12 @@
 .icon-chevron-thin-right:before {
   content: ""; }
 
+.icon-chevron-thin-left:before {
+  content: ""; }
+
+.icon-chevron-thin-left {
+  transform: rotateY(180deg); }
+
 .icon-mouse:before {
   content: ""; }
 
@@ -50,6 +56,18 @@
 
 .icon-instagram:before {
   content: ""; }
+
+.icon-image:before {
+  content: ""; }
+
+.icon-key:before {
+  content: ""; }
+
+.icon-exit:before {
+  content: ""; }
+
+.icon-play2:before {
+  content: ""; }
 
 .titulo {
   color: #585756;
@@ -118,5 +136,46 @@
           font-size: 70px; } }
   .login .alert {
     margin-top: 20px; }
+
+.dashboard {
+  background: #fff;
+  padding: 0; }
+  .dashboard .row {
+    margin: 0; }
+  .dashboard .menu-lateral {
+    background: #000;
+    color: #fff;
+    min-width: 225px;
+    min-height: 100vh;
+    padding: 0; }
+    .dashboard .menu-lateral .logo {
+      padding: 20px 0;
+      text-align: center; }
+      .dashboard .menu-lateral .logo a {
+        color: #fff; }
+      .dashboard .menu-lateral .logo a:hover {
+        color: #fff;
+        text-decoration: none; }
+      .dashboard .menu-lateral .logo .icon-logoHuevo {
+        font-size: 48px; }
+    .dashboard .menu-lateral .menu a {
+      color: #fff;
+      display: block;
+      padding: 20px;
+      border-bottom: 1px solid white; }
+      .dashboard .menu-lateral .menu a:hover {
+        background: #959494;
+        text-decoration: none; }
+      .dashboard .menu-lateral .menu a i {
+        margin-right: 20px;
+        padding-bottom: 5px;
+        display: inline-block; }
+  .dashboard .videos {
+    padding: 20px 25px 0 25px; }
+    .dashboard .videos .video-carga {
+      border: 1px dashed #000;
+      padding: 15px; }
+      .dashboard .videos .video-carga video {
+        width: 400px; }
 
 /*# sourceMappingURL=estilos-back.css.map */

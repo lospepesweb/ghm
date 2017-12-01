@@ -26,6 +26,7 @@
 	<!-- LINKS -->
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="../css/responsiveslides.css">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	
 </head>
@@ -139,6 +140,18 @@
 	<section id="portada" class="index container-fluid">
 		<div class="row">
 			<div class="col-12 slide-lp">
+
+
+
+			    <ul class="rslides" id="slider1">
+			      <li><img src="../img/slide1.jpg" class="d-none d-lg-block" alt=""></li>
+			      <li><img src="../img/slide2.jpg" class="d-none d-lg-block" alt=""></li>
+			      <li><img src="../img/slide3.jpg" class="d-none d-lg-block" alt=""></li>
+			      <li><img src="../img/slide4.jpg" class="d-none d-lg-block" alt=""></li>
+			    </ul>
+
+				<!-- Este es el slider de Bootstrap que lo reemplazamos por el que esta arriba.
+
 				<div class="carousel slide" id="primary-carousel" data-ride="carousel">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
@@ -158,7 +171,9 @@
 							<img class="d-block d-lg-none w-100 img-fluid" src="../img/slide4-m.jpg" alt="Slide 01">
 						</div>
 					</div>
-				</div>			
+				</div>
+
+				-->		
 			</div>
 		</div>
 	</section>
@@ -651,7 +666,14 @@
 	<script type="text/javascript" src="../js/popper.min.js"></script>
 	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="../js/scripts.js"></script>
+	<script type="text/javascript" src="../js/responsiveslides.min.js"></script>
 	<script type="text/javascript">
+		// Configuración del slider de portada
+		$("#slider1").responsiveSlides({
+	        speed: 0,
+	        timeout: 5000
+	      });
+
 
 		// Con este escript lo que hacemos que al seleccionar una de las opciones del footer del index se deslice hasta esa sección suavemente.
 		var listaIDS = [document.getElementById('btn-slide-intro'),

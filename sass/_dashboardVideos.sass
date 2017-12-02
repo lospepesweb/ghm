@@ -6,8 +6,9 @@
 
 
 .dashboard
-	.videos
+	.carga-video
 		padding-top: 20px
+		margin-left: 225px
 		.btn-default
 			margin-top: 0
 			&:active, &:focus
@@ -18,8 +19,7 @@
 			padding: 10px
 			border: 1px dashed $gris
 			margin-top: 30px
-			.col-12.col-lg-6
-				// float: left
+			.col-12.col-lg-6, .col-12.d-flex.justify-content-between
 				padding: 5px
 			.col-12
 				padding: 0
@@ -33,3 +33,49 @@
 				margin-top: 10px
 				resize: none
 				min-height: 83px
+
+
+
+	.vista-previa
+		padding-top: 60px
+		margin-left: 225px
+		.btn-default
+			margin-top: 0
+			&:active, &:focus
+				outline: none
+		.seccion-videos
+			border: 1px dashed $gris
+			padding: 15px 0 0px 0
+			margin-top: 30px
+		.video
+			position: relative
+			video
+				width: 100%
+			&:hover
+				.noticia
+					visibility: visible
+					background-color: rgba(0,0,0,0.8)
+			.noticia
+				position: absolute
+				top: 0
+				overflow: hidden
+				visibility: hidden
+				transition: all 0.2s ease !important
+				width: calc(100% - 30px)
+				height: calc(100% - 30px - 44px)
+				.texto
+					color: #fff
+					padding: 0 !important
+					margin: 0 !important
+				.titulo
+					color: #fff
+					padding: 0 !important
+					margin: 0 !important
+			.btn-video-container
+				margin-bottom: 30px
+				.btn-default
+					margin-top: 5px
+					span
+						padding-right: 3px
+				.btn-default:first-child
+					margin-right: 15px

@@ -11,6 +11,9 @@
 	
 	<div class="container-fluid dashboard">
 		<div class="row">
+
+
+			
 			<!-- MENU -->
 			<div class="menu-lateral col-12 col-sm-auto">
 				<div class="logo">
@@ -28,14 +31,20 @@
 
 
 			<!-- VIDEOS -->
-			<div class="col videos">
-				<div class="row">
+			<div class="col">
+
+
+
+				<!-- Esta es primera parte, donde esta el titulo, el boton y el form de carga -->
+				<div class="row carga-video">
 					<div class="col-12">
 						<h2 class="titulo">Gestor de videos</h2>
 					</div>
+
 					<div class="col-12">
 						<button class="btn btn-default">+ Agregar video</button>
 					</div>
+
 					<div class="col-12">
 						<form id="" name="" class="row">
 							<div class="col-12 col-lg-6">
@@ -47,19 +56,213 @@
 								<textarea name="" class="" maxlength="100" placeholder="Noticia en ingles"></textarea>
 							</div>
 
-							<div class="col-12 d-flex justify-content-between">
-								<input type="file" name="" id="file" class="inputfile">
-								<input type="submit" name="" class="btn btn-default" value="Confirmar carga">
+							<div class="col-12 col-lg-6">
+								<input type="file" name="file" id="file" class="">
 							</div>
-
+							<div class="col-12 col-lg-6 d-flex justify-content-lg-end">
+								<input type="submit" name="" class="btn-default" value="Confirmar carga">
+							</div>
 						</form>
 					</div>
 				</div>
-				<div class="row">
+				<!-- Fin de esta primera parte -->
+
+
+
+				<!-- Esta es la parte donde se muestran todos los videos que estan subidos -->
+				<div class="row vista-previa">
+
+					<!-- Este es el encabezado de esta parte -->
 					<div class="col-12">
 						<h2 class="titulo">Vista previa</h2>
 					</div>
+
+					<div class="col-12">
+						<button class="btn-default">Modificar orden</button>
+					</div>
+					<!-- Finde de este pequeño encabezado -->
+
+
+					
+					<!-- Ahora empieza la seccion donde van a estar los videos. OJO con estos dos primeros divs. -->
+					<div class="col-12">
+						<div class="row seccion-videos">
+
+
+
+							<!-- Esta estructura se va a repetir por cada video-->
+							<div class="video col-12 col-lg-6">
+
+								<video class="video-src" autoplay muted loop>
+									<source src="../video/mustang.mp4" type="video/mp4">
+								</video>
+
+								<div class="noticia d-flex align-items-center">
+									<div class="col-12">
+										<h6 class="titulo">RELANZAMIENTO WEB SARMIENTO</h6>
+										<p class="texto">El 11 de septiembre del corriente se lanzó el nuevo sitio web de "Los viajes de Sarmiento" presentando nuevas secciones y contenidos.</p>
+									</div>
+								</div>
+
+								<div class="btn-video-container d-flex justify-content-center">
+									<button class="btn-default"><span class="icon-pencil"></span> Editar</button>
+									<button class="btn-default"><span class="icon-cross"></span> Eliminar</button>
+								</div>
+
+							</div>
+							<!-- Fin de la estructura que se repite por cada video -->
+
+
+
+							<!-- Desde aca repito varias veces la estructura que esta arriba para ver como quedaba con muchos videos. -->
+
+
+
+							<!-- Esta estructura se va a repetir por cada video-->
+							<div class="video col-12 col-lg-6">
+								<video autoplay muted loop>
+									<source src="../video/perito.mp4" type="video/mp4">
+								</video>
+								<div class="noticia d-flex align-items-center">
+									<div class="col-12">
+										<h6 class="titulo">RELANZAMIENTO WEB SARMIENTO</h6>
+										<p class="texto">El 11 de septiembre del corriente se lanzó el nuevo sitio web de "Los viajes de Sarmiento" presentando nuevas secciones y contenidos.</p>
+									</div>
+								</div>
+								<div class="btn-video-container d-flex justify-content-center">
+									<button class="btn-default"><span class="icon-pencil"></span> Editar</button>
+									<button class="btn-default"><span class="icon-cross"></span> Eliminar</button>
+								</div>
+							</div>
+							<!-- Fin de la estructura que se repite por cada video -->
+
+
+
+							<!-- Esta estructura se va a repetir por cada video-->
+							<div class="video col-12 col-lg-6">
+								<video autoplay muted loop>
+									<source src="../video/ballenas.mp4" type="video/mp4">
+								</video>
+								<div class="noticia d-flex align-items-center">
+									<div class="col-12">
+										<h6 class="titulo">RELANZAMIENTO WEB SARMIENTO</h6>
+										<p class="texto">El 11 de septiembre del corriente se lanzó el nuevo sitio web de "Los viajes de Sarmiento" presentando nuevas secciones y contenidos.</p>
+									</div>
+								</div>
+								<div class="btn-video-container d-flex justify-content-center">
+									<button class="btn-default"><span class="icon-pencil"></span> Editar</button>
+									<button class="btn-default"><span class="icon-cross"></span> Eliminar</button>
+								</div>
+							</div>
+							<!-- Fin de la estructura que se repite por cada video -->
+
+
+
+							<!-- Esta estructura se va a repetir por cada video-->
+							<div class="video col-12 col-lg-6">
+								<video autoplay muted loop>
+									<source src="../video/sarmiento.mp4" type="video/mp4">
+								</video>
+								<div class="noticia d-flex align-items-center">
+									<div class="col-12">
+										<h6 class="titulo">RELANZAMIENTO WEB SARMIENTO</h6>
+										<p class="texto">El 11 de septiembre del corriente se lanzó el nuevo sitio web de "Los viajes de Sarmiento" presentando nuevas secciones y contenidos.</p>
+									</div>
+								</div>
+								<div class="btn-video-container d-flex justify-content-center">
+									<button class="btn-default"><span class="icon-pencil"></span> Editar</button>
+									<button class="btn-default"><span class="icon-cross"></span> Eliminar</button>
+								</div>
+							</div>
+							<!-- Fin de la estructura que se repite por cada video -->
+
+
+
+							<!-- Esta estructura se va a repetir por cada video-->
+							<div class="video col-12 col-lg-6">
+								<video class="video-src" autoplay muted loop>
+									<source src="../video/mustang.mp4" type="video/mp4">
+								</video>
+								<div class="noticia d-flex align-items-center">
+									<div class="col-12">
+										<h6 class="titulo">RELANZAMIENTO WEB SARMIENTO</h6>
+										<p class="texto">El 11 de septiembre del corriente se lanzó el nuevo sitio web de "Los viajes de Sarmiento" presentando nuevas secciones y contenidos.</p>
+									</div>
+								</div>
+								<div class="btn-video-container d-flex justify-content-center">
+									<button class="btn-default"><span class="icon-pencil"></span> Editar</button>
+									<button class="btn-default"><span class="icon-cross"></span> Eliminar</button>
+								</div>
+							</div>
+							<!-- Fin de la estructura que se repite por cada video -->
+
+
+
+							<!-- Esta estructura se va a repetir por cada video-->
+							<div class="video col-12 col-lg-6">
+								<video autoplay muted loop>
+									<source src="../video/perito.mp4" type="video/mp4">
+								</video>
+								<div class="noticia d-flex align-items-center">
+									<div class="col-12">
+										<h6 class="titulo">RELANZAMIENTO WEB SARMIENTO</h6>
+										<p class="texto">El 11 de septiembre del corriente se lanzó el nuevo sitio web de "Los viajes de Sarmiento" presentando nuevas secciones y contenidos.</p>
+									</div>
+								</div>
+								<div class="btn-video-container d-flex justify-content-center">
+									<button class="btn-default"><span class="icon-pencil"></span> Editar</button>
+									<button class="btn-default"><span class="icon-cross"></span> Eliminar</button>
+								</div>
+							</div>
+							<!-- Fin de la estructura que se repite por cada video -->
+
+
+
+							<!-- Esta estructura se va a repetir por cada video-->
+							<div class="video col-12 col-lg-6">
+								<video autoplay muted loop>
+									<source src="../video/ballenas.mp4" type="video/mp4">
+								</video>
+								<div class="noticia d-flex align-items-center">
+									<div class="col-12">
+										<h6 class="titulo">RELANZAMIENTO WEB SARMIENTO</h6>
+										<p class="texto">El 11 de septiembre del corriente se lanzó el nuevo sitio web de "Los viajes de Sarmiento" presentando nuevas secciones y contenidos.</p>
+									</div>
+								</div>
+								<div class="btn-video-container d-flex justify-content-center">
+									<button class="btn-default"><span class="icon-pencil"></span> Editar</button>
+									<button class="btn-default"><span class="icon-cross"></span> Eliminar</button>
+								</div>
+							</div>
+							<!-- Fin de la estructura que se repite por cada video -->
+
+
+
+							<!-- Esta estructura se va a repetir por cada video-->
+							<div class="video col-12 col-lg-6">
+								<video autoplay muted loop>
+									<source src="../video/sarmiento.mp4" type="video/mp4">
+								</video>
+								<div class="noticia d-flex align-items-center">
+									<div class="col-12">
+										<h6 class="titulo">RELANZAMIENTO WEB SARMIENTO</h6>
+										<p class="texto">El 11 de septiembre del corriente se lanzó el nuevo sitio web de "Los viajes de Sarmiento" presentando nuevas secciones y contenidos.</p>
+									</div>
+								</div>
+								<div class="btn-video-container d-flex justify-content-center">
+									<button class="btn-default"><span class="icon-pencil"></span> Editar</button>
+									<button class="btn-default"><span class="icon-cross"></span> Eliminar</button>
+								</div>
+							</div>
+							<!-- Fin de la estructura que se repite por cada video -->
+
+
+
+
+						</div>
+					</div>
 				</div>
+				<!-- Fin de la parte de donde se muestranlos videos que estan subidos -->
 			</div>
 			<!-- FIN VIDEOS -->
 

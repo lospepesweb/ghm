@@ -127,26 +127,15 @@ input[type="file"] {
   input[type="file"]:hover {
     cursor: pointer; }
 
+input[type=name], input[type=password] {
+  border-color: #959494; }
+
 .login {
   font-family: "Light";
   margin-left: 0 !important;
   margin-right: 0 !important;
   color: #585756;
-  margin-top: 50px; }
-  .login .form-group {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto; }
-    @media (max-width: 575px) {
-      .login .form-group {
-        width: 80%; } }
-  .login input {
-    border-color: #959494;
-    color: #959494;
-    padding: 6px 10px;
-    text-align: center; }
-  .login .btn-default {
-    margin-top: 20px; }
+  height: 100vh; }
   .login h1 {
     color: #585756 !important; }
     .login h1 .icon-logoHuevo {
@@ -155,6 +144,25 @@ input[type="file"] {
       @media (max-width: 575px) {
         .login h1 .icon-logoHuevo {
           font-size: 70px; } }
+  .login label {
+    margin-bottom: 5px; }
+  .login input[type=name], .login input[type=password] {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #959494;
+    color: #959494;
+    padding: 6px 10px;
+    text-align: center; }
+    @media (max-width: 575px) {
+      .login input[type=name], .login input[type=password] {
+        width: 80%; } }
+    .login input[type=name]:focus, .login input[type=password]:focus {
+      border-color: #585756; }
+  .login input[type=name] {
+    margin-bottom: 20px; }
+  .login .btn-default {
+    margin-top: 20px; }
   .login .alert {
     margin-top: 20px; }
 
@@ -217,33 +225,35 @@ input[type="file"] {
       outline: none; }
   .dashboard .carga-video video {
     width: 100%; }
-  .dashboard .carga-video form {
-    padding: 10px;
-    border: 1px dashed #959494;
-    margin-top: 30px; }
-    .dashboard .carga-video form .col-12.col-lg-6, .dashboard .carga-video form .col-12.d-flex.justify-content-between {
-      padding: 5px; }
-    .dashboard .carga-video form .col-12 {
-      padding: 0; }
-    .dashboard .carga-video form input[type=text], .dashboard .carga-video form textarea {
-      width: 100%;
-      font-family: "Light";
-      -webkit-border-radius: 4px;
-      -moz-border-radius: 4px;
-      -ms-border-radius: 4px;
-      border-radius: 4px;
-      border: 1px solid #959494;
-      padding: 5px; }
-    .dashboard .carga-video form textarea {
-      margin-top: 10px;
-      resize: none;
-      min-height: 83px; }
+.dashboard form {
+  padding: 10px;
+  border: 1px dashed #959494;
+  margin-top: 30px !important; }
+  .dashboard form .col-12.col-lg-6, .dashboard form .col-12.d-flex.justify-content-between {
+    padding: 5px; }
+  .dashboard form .col-12 {
+    padding: 0; }
+  .dashboard form input[type=text], .dashboard form textarea {
+    width: 100%;
+    font-family: "Light";
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #959494;
+    padding: 5px; }
+  .dashboard form textarea {
+    margin-top: 10px;
+    resize: none;
+    min-height: 83px; }
 .dashboard .vista-previa {
   padding-top: 60px; }
   .dashboard .vista-previa .btn-default {
     margin-top: 0; }
     .dashboard .vista-previa .btn-default:active, .dashboard .vista-previa .btn-default:focus {
       outline: none; }
+  .dashboard .vista-previa .btn-default.edicion {
+    margin-left: 5px; }
   .dashboard .vista-previa .seccion-videos {
     border: 1px dashed #959494;
     padding: 15px 0 0px 0;

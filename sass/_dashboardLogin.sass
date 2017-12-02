@@ -10,20 +10,7 @@
 	margin-left: 0 !important
 	margin-right: 0 !important
 	color: $grisOscuro
-	margin-top: 50px
-	.form-group
-		width: 50%
-		margin-left: auto
-		margin-right: auto
-		@media (max-width: 575px)
-			width: 80%
-	input
-		border-color: $gris
-		color: $gris
-		padding: 6px 10px
-		text-align: center
-	.btn-default
-		margin-top: 20px
+	height: 100vh
 	h1
 		color: $grisOscuro !important
 		.icon-logoHuevo
@@ -31,5 +18,23 @@
 			font-size: 100px
 			@media (max-width: 575px)
 				font-size: 70px
+	label
+		margin-bottom: 5px
+	input[type=name], input[type=password]
+		width: 50%
+		margin-left: auto
+		margin-right: auto
+		border-color: $gris
+		color: $gris
+		padding: 6px 10px
+		text-align: center
+		@media (max-width: 575px)
+			width: 80%
+		&:focus
+			border-color: $grisOscuro
+	input[type=name]
+		margin-bottom: 20px
+	.btn-default
+		margin-top: 20px
 	.alert
 		margin-top: 20px

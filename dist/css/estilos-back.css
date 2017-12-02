@@ -113,12 +113,19 @@
     background-color: rgba(0, 0, 0, 0.5);
     outline: none !important;
     appearence: none !important;
-    box-shadow: none !important; }
+    box-shadow: none !important;
+    cursor: pointer; }
   .btn-default span {
     font-size: 12px; }
 
+.inputfile-container {
+  position: relative;
+  overflow: hidden; }
+
 input[type="file"] {
   font-family: "Light"; }
+  input[type="file"]:hover {
+    cursor: pointer; }
 
 .login {
   font-family: "Light";
@@ -161,8 +168,7 @@ input[type="file"] {
     color: #fff;
     min-width: 225px;
     min-height: 100vh;
-    padding: 0;
-    position: fixed; }
+    padding: 0; }
     .dashboard .menu-lateral .logo {
       padding: 20px 0;
       text-align: center; }
@@ -170,7 +176,8 @@ input[type="file"] {
         color: #fff; }
       .dashboard .menu-lateral .logo a:hover {
         color: #fff;
-        text-decoration: none; }
+        text-decoration: none;
+        cursor: pointer; }
       .dashboard .menu-lateral .logo .icon-logoHuevo {
         font-size: 48px; }
     .dashboard .menu-lateral .menu a {
@@ -180,15 +187,30 @@ input[type="file"] {
       border-bottom: 1px solid white; }
       .dashboard .menu-lateral .menu a:hover {
         background: #959494;
-        text-decoration: none; }
+        text-decoration: none;
+        cursor: pointer; }
       .dashboard .menu-lateral .menu a i {
         margin-right: 20px;
         padding-bottom: 5px;
         display: inline-block; }
 
+.dashboard {
+  background: #fff;
+  padding: 0; }
+  .dashboard .row {
+    margin: 0; }
+  .dashboard .home .titulo {
+    height: 100vh;
+    text-align: center;
+    font-size: 150px;
+    margin-bottom: 0;
+    line-height: 100vh; }
+    @media (max-width: 870px) {
+      .dashboard .home .titulo {
+        font-size: 100px; } }
+
 .dashboard .carga-video {
-  padding-top: 20px;
-  margin-left: 225px; }
+  padding-top: 20px; }
   .dashboard .carga-video .btn-default {
     margin-top: 0; }
     .dashboard .carga-video .btn-default:active, .dashboard .carga-video .btn-default:focus {
@@ -217,8 +239,7 @@ input[type="file"] {
       resize: none;
       min-height: 83px; }
 .dashboard .vista-previa {
-  padding-top: 60px;
-  margin-left: 225px; }
+  padding-top: 60px; }
   .dashboard .vista-previa .btn-default {
     margin-top: 0; }
     .dashboard .vista-previa .btn-default:active, .dashboard .vista-previa .btn-default:focus {
@@ -258,5 +279,21 @@ input[type="file"] {
           padding-right: 3px; }
       .dashboard .vista-previa .video .btn-video-container .btn-default:first-child {
         margin-right: 15px; }
+
+.dashboard {
+  background: #fff;
+  padding: 0; }
+  .dashboard .row {
+    margin: 0; }
+  .dashboard .seccion-pass {
+    padding-top: 20px; }
+
+.dashboard {
+  background: #fff;
+  padding: 0; }
+  .dashboard .row {
+    margin: 0; }
+  .dashboard .gestor-slider {
+    padding-top: 20px; }
 
 /*# sourceMappingURL=estilos-back.css.map */

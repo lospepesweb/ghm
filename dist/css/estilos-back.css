@@ -102,9 +102,15 @@
     text-decoration: none;
     color: #fff !important;
     background-color: rgba(0, 0, 0, 0.5);
-    outline: none; }
+    outline: none !important;
+    appearence: none !important;
+    box-shadow: none !important; }
   .btn-default span {
     font-size: 12px; }
+
+input[type="file"] {
+  font-family: "Light";
+  padding: 5px; }
 
 .login {
   font-family: "Light";
@@ -175,15 +181,15 @@
   padding-top: 20px; }
   .dashboard .videos .btn-default {
     margin-top: 0; }
-    .dashboard .videos .btn-default:active {
-      overline: none; }
+    .dashboard .videos .btn-default:active, .dashboard .videos .btn-default:focus {
+      outline: none; }
   .dashboard .videos video {
     width: 100%; }
   .dashboard .videos form {
     padding: 10px;
     border: 1px dashed #959494;
     margin-top: 30px; }
-    .dashboard .videos form .col-12.col-lg-4 {
+    .dashboard .videos form .col-12.col-lg-6 {
       padding: 5px; }
     .dashboard .videos form .col-12 {
       padding: 0; }

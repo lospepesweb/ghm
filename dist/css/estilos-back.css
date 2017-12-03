@@ -177,6 +177,10 @@ input[type=name], input[type=password] {
     min-width: 225px;
     min-height: 100vh;
     padding: 0; }
+    @media (max-width: 767px) {
+      .dashboard .menu-lateral {
+        min-height: auto;
+        min-width: 100%; } }
     .dashboard .menu-lateral .logo {
       padding: 20px 0;
       text-align: center; }
@@ -188,6 +192,9 @@ input[type=name], input[type=password] {
         cursor: pointer; }
       .dashboard .menu-lateral .logo .icon-logoHuevo {
         font-size: 48px; }
+    @media (max-width: 767px) {
+      .dashboard .menu-lateral {
+        display: inline-block; } }
     .dashboard .menu-lateral .menu a {
       color: #fff;
       display: block;
@@ -201,6 +208,16 @@ input[type=name], input[type=password] {
         margin-right: 20px;
         padding-bottom: 5px;
         display: inline-block; }
+    @media (max-width: 767px) {
+      .dashboard .menu-lateral .menu {
+        text-align: center; }
+        .dashboard .menu-lateral .menu a {
+          display: inline-block !important; }
+        .dashboard .menu-lateral .menu span {
+          display: none; }
+        .dashboard .menu-lateral .menu i {
+          padding: 20px !important;
+          margin-right: 0px !important; } }
 
 .dashboard {
   background: #fff;
@@ -323,14 +340,18 @@ input[type=name], input[type=password] {
       border: 1px dashed #959494; }
       .dashboard .carga-slider .row .img-container {
         position: relative; }
-        .dashboard .carga-slider .row .img-container button {
+        @media (max-width: 991px) {
+          .dashboard .carga-slider .row .img-container img {
+            padding-bottom: 5px; } }
+        .dashboard .carga-slider .row .img-container .icon-cross {
           position: absolute;
           top: 0px;
           right: 15px;
-          background: rgba(0, 0, 0, 0.8);
-          border: none;
-          vertical-align: middle; }
-          .dashboard .carga-slider .row .img-container button span {
-            color: #fff; }
+          padding: 10px;
+          background: rgba(0, 0, 0, 0.6);
+          color: #fff;
+          font-size: 8px; }
+          .dashboard .carga-slider .row .img-container .icon-cross:hover {
+            cursor: pointer; }
 
 /*# sourceMappingURL=estilos-back.css.map */

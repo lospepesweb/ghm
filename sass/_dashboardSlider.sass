@@ -30,12 +30,16 @@
 			border: 1px dashed $gris
 			.img-container
 				position: relative
-				button
+				@media (max-width: 991px)
+					img
+						padding-bottom: 5px
+				.icon-cross
 					position: absolute
 					top: 0px
 					right: 15px
-					background: rgba(0,0,0,0.8)
-					border: none
-					vertical-align: middle
-					span
-						color: #fff
+					padding: 10px
+					background: rgba(0,0,0,0.6)
+					color: #fff
+					font-size: 8px
+					&:hover
+						cursor: pointer

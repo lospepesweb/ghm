@@ -16,7 +16,9 @@
 		min-width: 225px
 		min-height: 100vh
 		padding: 0
-		// position: fixed
+		@media (max-width: 767px)
+			min-height: auto
+			min-width: 100%
 		.logo
 			padding: 20px 0
 			text-align: center
@@ -27,7 +29,9 @@
 				text-decoration: none
 				cursor: pointer
 			.icon-logoHuevo
-				font-size: 48px	
+				font-size: 48px
+		@media (max-width: 767px)
+			display: inline-block
 			
 		.menu
 			a
@@ -43,3 +47,12 @@
 					margin-right: 20px
 					padding-bottom: 5px
 					display: inline-block
+			@media (max-width: 767px)
+				text-align: center
+				a
+					display: inline-block !important
+				span
+					display: none
+				i
+					padding: 20px !important
+					margin-right: 0px !important

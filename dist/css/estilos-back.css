@@ -305,5 +305,32 @@ input[type=name], input[type=password] {
     margin: 0; }
   .dashboard .gestor-slider {
     padding-top: 20px; }
+  .dashboard .img-cms {
+    margin-top: 20px;
+    padding: 0; }
+    .dashboard .img-cms h4 {
+      font-size: 28px;
+      margin-bottom: 15px; }
+    .dashboard .img-cms p {
+      padding-left: 0; }
+    .dashboard .img-cms .btn-default {
+      margin-top: 20px;
+      margin-bottom: 20px; }
+  .dashboard .carga-slider {
+    padding: 0 15px; }
+    .dashboard .carga-slider .row {
+      padding: 15px 0;
+      border: 1px dashed #959494; }
+      .dashboard .carga-slider .row .img-container {
+        position: relative; }
+        .dashboard .carga-slider .row .img-container button {
+          position: absolute;
+          top: 0px;
+          right: 15px;
+          background: rgba(0, 0, 0, 0.8);
+          border: none;
+          vertical-align: middle; }
+          .dashboard .carga-slider .row .img-container button span {
+            color: #fff; }
 
 /*# sourceMappingURL=estilos-back.css.map */

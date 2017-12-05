@@ -1,0 +1,562 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Light";
+  src: url("../fonts/Roboto-Light.ttf"); }
+@font-face {
+  font-family: "Regular";
+  src: url("../fonts/Roboto-Regular.ttf"); }
+@font-face {
+  font-family: "Mediun";
+  src: url("../fonts/Roboto-Medium.ttf"); }
+@font-face {
+  font-family: "Icomoon";
+  src: url("../fonts/icomoon.eot?vofcvj");
+  src: url("../fonts/icomoon.eot?vofcvj#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?vofcvj") format("truetype"), url("../fonts/icomoon.woff?vofcvj") format("woff"), url("../fonts/icomoon.svg?vofcvj#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+[class^="icon-"], [class*=" icon-"] {
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-logo:before {
+  content: "";
+  color: #595757; }
+
+.icon-youtube:before {
+  content: ""; }
+
+.icon-chevron-thin-right:before {
+  content: ""; }
+
+.icon-chevron-thin-left:before {
+  content: ""; }
+
+.icon-chevron-thin-left {
+  transform: rotateY(180deg); }
+
+.icon-mouse:before {
+  content: ""; }
+
+.icon-phone:before {
+  content: ""; }
+
+.icon-logoHuevo:before {
+  content: ""; }
+
+.icon-facebook:before {
+  content: ""; }
+
+.icon-instagram:before {
+  content: ""; }
+
+.titulo {
+  color: #585756;
+  font-family: "Mediun";
+  font-size: 38px;
+  margin-bottom: 30px; }
+
+.texto {
+  color: #585756;
+  font-family: "Light";
+  font-size: 16px;
+  margin-bottom: 0;
+  padding: 0 30px; }
+  @media (max-width: 767px) {
+    .texto {
+      padding: 0px !important; } }
+
+div {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important; }
+
+.titulo {
+  font-size: 58px;
+  margin-top: 100px;
+  animation-name: aparecer;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  opacity: 0; }
+
+.titulo.error {
+  animation: none !important;
+  opacity: 1; }
+
+.texto {
+  padding-right: 30px !important;
+  padding-left: 30px !important; }
+  .texto span:nth-child(1) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 1.05s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(2) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 1.1s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(3) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 1.15s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(4) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(5) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 1.25s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(6) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 1.35s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(7) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 1.4s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(8) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 1.45s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(9) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(9) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 1.55s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(10) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 1.6s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(11) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 1.65s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(12) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 1.7s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(13) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 1.75s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(14) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 1.8s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(15) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 1.85s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(16) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 1.9s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(17) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 1.95s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(18) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(19) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 2.05s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(20) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 2.1s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(21) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 2.15s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(22) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 2.2s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(23) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 2.25s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(24) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(25) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 2.35s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(26) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 2.4s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(27) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 2.45s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(28) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(29) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 2.55s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(30) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 2.6s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(31) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 2.65s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(31) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 2.7s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(32) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 2.75s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(33) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 2.8s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(34) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 2.85s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(35) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 2.9s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(36) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 2.95s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(37) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(38) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 3.05s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(39) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 3.1s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(40) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 3.15s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(41) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 3.2s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(42) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 3.25s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(43) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 3.3s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(44) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 3.35s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(45) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 3.4s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(46) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 3.45s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(47) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(48) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 3.55s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(49) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 3.6s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(50) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 3.65s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(51) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 3.7s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(52) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 3.75s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(53) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 3.8s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(54) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 3.85s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(55) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 3.9s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(56) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 3.95s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(57) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(58) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 4.05s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(59) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 4.1s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(60) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 4.15s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(61) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 4.2s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(62) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 4.25s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(63) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 4.3s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(64) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 4.35s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(65) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 4.4s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(66) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 4.45s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(67) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 4.5s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(68) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 4.55s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(69) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 4.6s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(70) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 4.65s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(71) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 4.7s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(72) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 4.75s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto span:nth-child(73) {
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 4.8s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  .texto a {
+    color: #585756;
+    font-weight: bold; }
+    .texto a:hover {
+      text-decoration: none; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+
+/*# sourceMappingURL=mantenimiento.css.map */

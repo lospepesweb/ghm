@@ -8,7 +8,7 @@ class Videos {
 
 		foreach ($respuesta as $row => $item) {
 			
-			echo '<div class="video1">
+			echo '<div class="video-container">
 					<video autoplay loop muted height="100%" width="100%">
 						<source src="../admin/'.$item['ruta'].'" type="video/mp4">
 					</video>

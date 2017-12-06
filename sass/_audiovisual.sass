@@ -1,0 +1,35 @@
+// -------------------------------------
+//              AUDIOVISUAL
+// -------------------------------------
+
+// GHM Contenidos
+
+
+.audiovisual
+	.audiovisual-video-container
+		padding: 0
+		position: relative
+		&:hover
+			h2
+				z-index: -1
+		h2
+			position: absolute
+			background-color: rgba(0,0,0,.8)
+			color: #fff
+			top: 0
+			padding-left: 50px
+			line-height: 500px
+			width: calc(100% - 2.5px)
+			height: calc(100% - 5px)
+			vertical-align: middle
+			@media (max-width: 991px)
+				width: calc(100% - 0px)
+	.audiovisual-video-container:nth-child(odd)
+		padding-right: 2.5px
+		@media (max-width: 991px)
+			padding-right: 0px
+	.audiovisual-video-container:nth-child(even)
+		padding-left: 2.5px
+		@media (max-width: 991px)
+			padding-left: 0px
+

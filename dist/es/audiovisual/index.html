@@ -71,11 +71,11 @@
 						<li class="nav-item dropdown">
 							<a href="#" class="nav-link dropdown-toggle navClose-link" id="navBarAudiovisual" data-toggle="dropdown" role="button">AUDIOVISUAL<span class="closeNav d-lg-none">+</span></a>
 							<div class="dropdown-menu" aria-labelledby="navBarAudiovisual">
-					        	<a class="dropdown-item" href="../audiovisual/index.html#institucional">Institucional</a>
-					        	<a class="dropdown-item" href="../audiovisual/infraestructura.html">Infraestructura</a>
-					        	<a class="dropdown-item" href="../audiovisual/educativo.html">Educativo</a>
-					        	<a class="dropdown-item" href="../audiovisual/publicitario.html">Publicitario</a>
-					        	<a class="dropdown-item" href="../audiovisual/mapping.html">Mapping</a>
+					        	<a class="dropdown-item" id="btn-menu-institucional" href="#institucional">Institucional</a>
+					        	<a class="dropdown-item" href="#infraestructura">Infraestructura</a>
+					        	<a class="dropdown-item" href="#educativo">Educativo</a>
+					        	<a class="dropdown-item" href="#publicitario">Publicitario</a>
+					        	<a class="dropdown-item" href="#mapping">Mapping</a>
 					        </div>
 
 						</li>
@@ -213,13 +213,6 @@
 
 
 
-
-
-
-
-
-
-
 	<!-- Footer -->
 	<footer>
 		<div class="container">
@@ -237,11 +230,11 @@
 
 					<a id="closeNav2" data-toggle="" href="#footer-audiovisual" aria-expanded="false" aria-controls="collapseOne" class="titulo-footer border-top">Audiovisual<span class="closeNav d-lg-none">+</span></a>
 					<ul id="footer-audiovisual" class="collapse show lista-footer" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
-						<li class="item-footer"><a href="../audiovisual/institucional.html" class="item-footer">Institucional</a></li>
-						<li class="item-footer"><a href="../audiovisual/infraestructura.html" class="item-footer">Infraestructura</a></li>
-						<li class="item-footer"><a href="../audiovisual/educativo.html" class="item-footer">Educativo</a></li>
-						<li class="item-footer"><a href="../audiovisual/publicitario.html" class="item-footer">Publicitario</a></li>
-						<li class="item-footer"><a href="../audiovisual/mapping.html" class="item-footer">Mapping</a></li>
+						<li class="item-footer"><a id="btn-footer-institucional" href="#institucional" class="item-footer">Institucional</a></li>
+						<li class="item-footer"><a id="btn-footer-infraestructura" href="#infraestructura" class="item-footer">Infraestructura</a></li>
+						<li class="item-footer"><a id="btn-footer-educativo" href="#educativo" class="item-footer">Educativo</a></li>
+						<li class="item-footer"><a id="btn-footer-publicitario" href="#publicitario" class="item-footer">Publicitario</a></li>
+						<li class="item-footer"><a id="btn-footer-mapping" href="#mapping" class="item-footer">Mapping</a></li>
 					</ul>
 				</div>
 
@@ -333,5 +326,36 @@
 	<script type="text/javascript" src="../../js/popper.min.js"></script>
 	<script type="text/javascript" src="../../js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="../../js/scripts.js"></script>
+	<script type="text/javascript">
+
+		// Con este escript lo que hacemos que al seleccionar una de las opciones del footer del index se deslice hasta esa sección suavemente.
+		var listaIDS = [document.getElementById('btn-menu-institucional'),
+				document.getElementById('btn-menu-infraestructura'),
+				document.getElementById('btn-menu-educativo'),
+				document.getElementById('btn-menu-publicitario'),
+				document.getElementById('btn-menu-mapping'),
+				document.getElementById('btn-footer-institucional'),
+				document.getElementById('btn-footer-infraestructura'),
+				document.getElementById('btn-footer-educativo'),
+				document.getElementById('btn-footer-publicitario'),
+				document.getElementById('btn-footer-mapping')
+				];
+
+		for (var i=0; i<listaIDS.length; i++) {
+			$(listaIDS[i]).click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+					var $target = $(this.hash);
+					$target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+
+					if ($target.length) {
+						var targetOffset = $target.offset().top;
+						$('html,body').animate({scrollTop: targetOffset}, 900); // modificar este numero para que el deslizamiento sea mas rápido o mas lento.
+						return false;
+					}
+				}
+			});
+		}
+	</script>
 </body>
 </html>

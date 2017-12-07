@@ -57,7 +57,7 @@ class GestorVideos{
 			
 			echo '<div class="video col-12 col-lg-6" id="'.$item['id'].'">
 
-					<video class="video-src" autoplay muted loop>
+					<video class="video-src handleVideo" autoplay muted loop>
 						<source src="'.$item['ruta'].'" type="video/mp4">
 					</video>
 
@@ -171,6 +171,40 @@ class GestorVideos{
  			}
 
 
+		}
+
+	}
+
+	//Ordenar videos
+	public function actualizarOrdenController($datosController){
+		
+		GestorVideosModel::actualizarOrdenModel($datosController, 'videos');
+
+		$respuesta = GestorVideosModel::seleccionarOrdenModel('videos');
+
+		foreach ($respuesta as $row => $item) {
+			
+			echo '<div class="video col-12 col-lg-6" id="'.$item['id'].'">
+
+					<video class="video-src handleVideo" autoplay muted loop>
+						<source src="'.$item['ruta'].'" type="video/mp4">
+					</video>
+
+					<div class="noticia d-flex align-items-center">
+						<div class="col-12">
+							<h6 class="titulo tit_esp">'.$item['tit_esp'].'</h6>
+							<p class="texto noti_esp">'.$item['noti_esp'].'</p>
+							<h6 class="titulo tit_ing">'.$item['tit_ing'].'</h6>
+							<p class="texto noti_ing">'.$item['noti_ing'].'</p>
+						</div>
+					</div>
+
+					<div class="btn-video-container d-flex justify-content-center">
+						<button class="btn-default editarVideo"><span class="icon-pencil"></span> Editar</button>
+						<a href="index.php?pagina=videos&idBorrar='.$item['id'].'&rutaImagen='.$item['ruta'].'"><button class="btn-default"><span class="icon-cross"></span> Eliminar</button></a>
+					</div>
+
+				</div>';
 		}
 
 	}

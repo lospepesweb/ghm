@@ -58,7 +58,7 @@ $('.editarVideo').click(function(){
 	noti_ing = $('#'+idVideo).children('div').children('div').children('.noti_ing').html();
 	rutaVideo = $('#'+idVideo).children('video').children('source').attr('src');
 	
-	$('#'+idVideo).html('<div class="col-12"><form id="formEditarVideo" method="POST" enctype="multipart/form-data" class="row"><div class="col-12 col-lg-6"><input type="text" name="tit_esp_n" placeholder="Título en español" value="'+tit_esp+'"><textarea name="noti_esp_n" class="" maxlength="100" placeholder="Noticia en español">'+noti_esp+'</textarea></div><div class="col-12 col-lg-6"><input type="text" name="tit_ing_n" placeholder="Título en ingles" value="'+tit_ing+'"><textarea name="noti_ing_n" class="" maxlength="100" placeholder="Noticia en ingles">'+noti_ing+'</textarea></div><div class="col-12 col-lg-6 inputfile-container"><input type="file" name="nuevoVideo" id="nuevoVideo" class=""></div><input type="hidden" value="'+idVideo+'" name="id"><input type="hidden" value="'+rutaVideo+'" name="videoAntiguo"><div class="col-12 col-lg-6 d-flex justify-content-lg-end"><input type="submit" name="" class="btn-default" value="Confirmar carga"></div></form></div>');
+	$('#'+idVideo).html('<div class="col-12"><form id="formEditarVideo" method="POST" enctype="multipart/form-data" class="row"><div class="col-12 col-lg-6"><input type="text" name="tit_esp_n" placeholder="Título en español" value="'+tit_esp+'"><textarea name="noti_esp_n" class="" maxlength="100" placeholder="Noticia en español">'+noti_esp+'</textarea></div><div class="col-12 col-lg-6"><input type="text" name="tit_ing_n" placeholder="Título en ingles" value="'+tit_ing+'"><textarea name="noti_ing_n" class="" maxlength="100" placeholder="Noticia en ingles">'+noti_ing+'</textarea></div><div class="col-12 col-lg-6 inputfile-container"><input type="file" name="nuevoVideo" id="nuevoVideo" class=""></div><input type="hidden" value="'+idVideo+'" name="id"><input type="hidden" value="'+rutaVideo+'" name="videoAntiguo"><div class="col-12 col-lg-6 d-flex justify-content-lg-end"><input type="submit" name="" class="btn-default" value="Guardar cambios"></div></form></div>');
 
 	$('#nuevoVideo').change(function(){
 		video = this.files[0];
@@ -92,3 +92,88 @@ $('.editarVideo').click(function(){
 
 
 /*=====  End of EDITAR VIDEO  ======*/
+
+/*======================================
+=            ORDENAR VIDEOS            =
+======================================*/
+
+var ordenId = [];
+var ordenItem = [];
+
+$('#btnModificarOrdenVideos').click(function(){
+
+	$(this).hide();
+	$('#btnGuardarOrdenVideos').show();
+	$('div.video').removeClass('col-lg-6');
+	$('div.video').addClass('col-lg-3');
+	$('div.noticia').remove();
+	$('div.btn-video-container').remove();
+
+	$('.seccion-videos').css({'cursor':'move'});
+	
+	$('.seccion-videos').sortable({
+		revert: true,
+		connectWith: '.video',
+		handle: '.handleVideo',
+		stop: function(event){
+
+			for (var i = 0; i < $('.seccion-videos div').length; i++) {
+				
+				ordenId[i] = event.target.children[i].id;
+				ordenItem[i] = i+1;
+		
+			}
+
+		}
+
+	})
+
+})
+
+
+$('#btnGuardarOrdenVideos').click(function(){
+
+	$(this).hide();
+	$('#btnModificarOrdenVideos').show();
+
+	for (var i = 0; i < $('.seccion-videos div').length; i++) {
+				
+		var actualizarOrden = new FormData();
+		actualizarOrden.append('actualizarOrdenId', ordenId[i]);
+		actualizarOrden.append('actualizarOrdenItem', ordenItem[i]);
+
+		$.ajax({
+			url: 'views/ajax/gestorVideos.php',
+			method: 'POST',
+			data: actualizarOrden,
+			cache: false,
+			contentType: false,
+			processData: false,
+			success: function(respuesta){
+				
+				$('.seccion-videos').html(respuesta);
+
+				swal({
+					title: '¡OK!',
+					text: '¡El orden de ha actualizado correctamente!',
+					type: 'success',
+					confirmButtonText: 'Cerrar',
+					closeOnConfirm: false
+				},
+				function(isConfirm){
+					if(isConfirm){
+						window.location = 'videos';
+					}
+				});
+			}
+
+		})
+
+	}
+
+
+
+})
+
+/*=====  End of ORDENAR VIDEOS  ======*/
+

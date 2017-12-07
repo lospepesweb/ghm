@@ -62,6 +62,7 @@ include 'views/modulos/botonera.php';
 
 					<div class="col-12">
 						<button class="btn-default" id="btnModificarOrdenVideos">Modificar orden</button>
+						<button class="btn-default" id="btnGuardarOrdenVideos" style="display: none;">Guardar orden</button>
 					</div>
 					
 					<div class="col-12">

@@ -27,7 +27,7 @@ class GestorVideosModel{
 
 	static public function mostrarVideoModel($tabla) {
 		
-		$stmt = Conexion::conectar()->prepare("SELECT id,tit_esp,noti_esp, ruta FROM $tabla ORDER BY orden ASC");
+		$stmt = Conexion::conectar()->prepare("SELECT id, tit_esp, noti_esp, tit_ing, noti_ing ,ruta FROM $tabla ORDER BY orden ASC");
 
 		$stmt -> execute();
 
@@ -53,4 +53,54 @@ class GestorVideosModel{
 
 	}
 
+	//editar videos
+	static public function editarVideoModel($datosModel, $tabla){
+
+		$stmt = Conexion::conectar()->prepare("UPDATE $tabla SET tit_esp = :tit_esp_n, noti_esp = :noti_esp_n, tit_ing = :tit_ing_n, noti_ing = :noti_ing_n, ruta = :ruta WHERE id = :id");
+		$stmt -> bindParam(':tit_esp_n', $datosModel['tit_esp'], PDO::PARAM_STR);
+		$stmt -> bindParam(':noti_esp_n', $datosModel['noti_esp'], PDO::PARAM_STR);
+		$stmt -> bindParam(':tit_ing_n', $datosModel['tit_ing'], PDO::PARAM_STR);
+		$stmt -> bindParam(':noti_ing_n', $datosModel['noti_ing'], PDO::PARAM_STR);
+		$stmt -> bindParam(':ruta', $datosModel['ruta'], PDO::PARAM_STR);
+		$stmt -> bindParam(':id', $datosModel['id'], PDO::PARAM_INT);
+
+		if ($stmt -> execute()) {
+			return 'ok';
+		} else {
+			return 'error';
+		}
+	
+		$stmt->close();
+	
+	}
+
+	//ordenar videos
+	static public function actualizarOrdenModel($datosModel, $tabla){
+		
+		$stmt = Conexion::conectar()->prepare("UPDATE $tabla SET orden = :orden WHERE id = :id ");
+
+		$stmt->bindParam(':orden', $datosModel['ordenItem'],PDO::PARAM_INT);
+		$stmt->bindParam(':id', $datosModel['ordenId'],PDO::PARAM_INT);
+
+		if($stmt -> execute()){
+			return 'ok';
+		} else {
+			return 'error';
+		}
+
+		$stmt -> close();
+	
+	}
+
+	static public function seleccionarOrdenModel($tabla){
+
+		$stmt = Conexion::conectar()->prepare("SELECT id, tit_esp, noti_esp, tit_ing, noti_ing, ruta FROM $tabla ORDER BY orden ASC");
+	
+		$stmt -> execute();
+
+		return $stmt -> fetchAll();
+
+		$stmt -> close();
+
+	}
 }

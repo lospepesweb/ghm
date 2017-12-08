@@ -61,49 +61,19 @@ include 'views/modulos/botonera.php';
 					</div>
 
 					<div class="col-12">
-						<button class="btn-default">Modificar orden</button>
+						<button class="btn-default" id="btnModificarOrdenVideos">Modificar orden</button>
+						<button class="btn-default" id="btnGuardarOrdenVideos" style="display: none;">Guardar orden</button>
 					</div>
 					
-					<!-- Este es el formulario para editar el video -->
-					<!-- <div class="col-12">
-						<form id="" name="" class="row">
-							<div class="col-12 col-lg-6">
-								<input type="text" name="" placeholder="Título en español">
-								<textarea name="" class="" maxlength="100" placeholder="Noticia en español"></textarea>
-							</div>
-							<div class="col-12 col-lg-6">
-								<input type="text" name="" placeholder="Título en ingles">
-								<textarea name="" class="" maxlength="100" placeholder="Noticia en ingles"></textarea>
-							</div>
-
-							<div class="col-12 col-lg-6 inputfile-container">
-								<input type="file" name="file" id="file" class="">
-							</div>
-							<div class="col-12 col-lg-6 d-flex justify-content-lg-end">
-								<img src="../img/enviando.gif" style="height:33px; margin-right: 5px">
-								<input type="submit" name="" class="btn-default" value="Confirmar edición">
-							</div>
-						</form>
-
-						<div class="col-12 alert alert-danger" style="margin-top: 15px; margin-bottom: 0px">
-								Por si te hace falta un alert. Sino, volalo a la japi.
-						</div>
-						
-					</div> -->
-
-
-					
-					<!-- Ahora empieza la seccion donde van a estar los videos. OJO con estos dos primeros divs. -->
 					<div class="col-12">
 						<div class="row seccion-videos">
-
-
 
 							<!-- Esta estructura se va a repetir por cada video-->
 							<?php 
 								$video = new GestorVideos;
 								$video -> mostrarVideoController();
-								$video -> borrarArticuloController();
+								$video -> borrarVideoController();
+								$video -> editarVideoController();
 							?>	
 
 						</div>

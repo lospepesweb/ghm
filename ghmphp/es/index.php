@@ -11,6 +11,14 @@ require_once 'controllers/gestorVideos.php';
 	<title>GHM Contenidos</title>
 	<meta name="description" content="Somos una empresa de comunicación integral. Cada trabajo es desarrollado con la singularidad que aporta su contexto y finalidad, buscando sintetizar en imágenes poderosas el universo a cada cliente.">
 
+	<!-- ICONO -->
+	<link rel="icon" type="image/png" sizes="32x32" href="http://www.ghmtv.com/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="http://www.ghmtv.com/img/favicon-32x32.png">
+	<!-- LINKS -->
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	
 	<!-- METATAGS -->
 	<meta name="languaje" content="ES"/>
 	<meta name="robots" content="index, follow"/>
@@ -26,13 +34,6 @@ require_once 'controllers/gestorVideos.php';
 	<meta property="og:site_name" content="GHM Contenidos"/>
 	<meta property="og:description" content="Somos una empresa de comunicación integral. Cada trabajo es desarrollado con la singularidad que aporta su contexto y finalidad, buscando sintetizar en imágenes poderosas el universo a cada cliente."/>
 	<meta property="og:locale" content="es_LA"/>
-	<!-- ICONO -->
-	<link rel="icon" type="image/png" sizes="32x32" href="http://www.ghmtv.com/img/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="http://www.ghmtv.com/img/favicon-32x32.png">
-	<!-- LINKS -->
-	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	
 </head>
 <body class="index">
@@ -44,7 +45,7 @@ require_once 'controllers/gestorVideos.php';
 				<div class="col-2 text-right ml-auto">
 					<a href="#" id="langEsp" class="lang active">ES</a>
 					<span class="lang">/</span>
-					<a href="../en/index.html" id="langEng" class="lang">EN</a>
+					<a href="../en/index.php" id="langEng" class="lang">EN</a>
 				</div>
 			</div>
 		</div>

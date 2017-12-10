@@ -10,20 +10,24 @@
 	.audiovisual-video-container
 		padding: 0
 		position: relative
+		margin-bottom: 5px
 		&:hover
-			h2
+			.h2-container
 				z-index: -1
-		h2
+		.h2-container
 			position: absolute
+			width: 100%
 			background-color: rgba(0,0,0,.8)
-			color: #fff
-			top: 0
-			padding-left: 50px
-			line-height: 500px
 			width: calc(100% - 2.5px)
-			height: calc(100% - 5px)
+			height: 500px
 			@media (max-width: 991px)
 				width: calc(100% - 0px)
+			h2
+				color: #fff
+				padding-left: 50px
+				@media (max-width: 991px)
+					font-size: 28px
+					line-height: 28px
 	.audiovisual-video-container:nth-child(odd)
 		padding-right: 2.5px
 		@media (max-width: 991px)

@@ -5,8 +5,8 @@
 	<title>GHM | Dashboard</title>
 	<link rel="stylesheet" type="text/css" href="views/css/jquery-ui.min.css">
 	<link rel="stylesheet" type="text/css" href="views/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="views/css/sweetalert.css">
 	<link rel="stylesheet" type="text/css" href="views/css/estilos-back.css">
+	<link rel="stylesheet" type="text/css" href="views/css/sweetalert.css">
 
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	

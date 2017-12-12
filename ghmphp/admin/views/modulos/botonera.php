@@ -3,7 +3,7 @@
 	<div class="row">
 		<div class="menu-lateral col-12 col-sm-auto">
 			<div class="logo">
-				<a href="#"><span class="icon-logoHuevo"></span></a>
+				<a href="home"><span class="icon-logoHuevo"></span></a>
 			</div>
 			<nav class="menu d-flex d-sm-block justify-content-center flex-wrap">
 				<a href="slider" class="texto"><i class="icon-image"></i><span>Slider</span></a>

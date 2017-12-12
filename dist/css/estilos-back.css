@@ -314,6 +314,26 @@ input[type=name], input[type=password] {
     margin: 0; }
   .dashboard .seccion-pass {
     padding-top: 20px; }
+    .dashboard .seccion-pass form {
+      border: none; }
+    .dashboard .seccion-pass input[type=password] {
+      font-family: "Light" !important;
+      display: block;
+      border: 1px solid #959494;
+      -webkit-border-radius: 40px;
+      -moz-border-radius: 40px;
+      -ms-border-radius: 40px;
+      border-radius: 40px;
+      color: #959494;
+      padding: 6px 10px;
+      text-align: center;
+      margin-top: 15px; }
+      @media (max-width: 575px) {
+        .dashboard .seccion-pass input[type=password] {
+          width: 80%; } }
+      .dashboard .seccion-pass input[type=password]:focus {
+        border-color: #585756;
+        outline: none; }
 
 .dashboard {
   background: #fff;

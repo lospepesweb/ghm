@@ -39,10 +39,11 @@ body.stop-scrolling {
       left: 15px;
       right: 15px; } }
   .sweet-alert h2 {
-    color: #575757;
+    color: #585756;
     font-size: 30px;
     text-align: center;
     font-weight: 600;
+    font-family: "Regular";
     text-transform: none;
     position: relative;
     margin: 25px 0;
@@ -50,9 +51,10 @@ body.stop-scrolling {
     line-height: 40px;
     display: block; }
   .sweet-alert p {
-    color: #797979;
+    color: #959494;
     font-size: 16px;
     text-align: center;
+    font-family: "Light";
     font-weight: 300;
     position: relative;
     text-align: inherit;
@@ -170,14 +172,15 @@ body.stop-scrolling {
     opacity: 0;
     visibility: hidden; }
   .sweet-alert button {
-    background-color: #8CD4F5;
+    background-color: #585756 !important;
     color: white;
     border: none;
     box-shadow: none;
+    font-family: "Light";
     font-size: 17px;
     font-weight: 500;
     -webkit-border-radius: 4px;
-    border-radius: 5px;
+    border-radius: 40px;
     padding: 10px 32px;
     margin: 26px 5px 0 5px;
     cursor: pointer; }
@@ -287,7 +290,7 @@ body.stop-scrolling {
         top: 19px;
         background-color: #C9DAE1; }
     .sweet-alert .sa-icon.sa-success {
-      border-color: #A5DC86; }
+      border-color: #585756; }
       .sweet-alert .sa-icon.sa-success::before, .sweet-alert .sa-icon.sa-success::after {
         content: '';
         -webkit-border-radius: 40px;
@@ -341,7 +344,7 @@ body.stop-scrolling {
         transform: rotate(-45deg); }
       .sweet-alert .sa-icon.sa-success .sa-line {
         height: 5px;
-        background-color: #A5DC86;
+        background-color: #585756 !important;
         display: block;
         border-radius: 2px;
         position: absolute;

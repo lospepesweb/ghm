@@ -12,3 +12,19 @@
 		margin: 0
 	.seccion-pass
 		padding-top: 20px
+		form
+			border: none
+		input[type=password]
+			font-family: $light !important
+			display: block
+			border: 1px solid $gris
+			+border-radius(40px)
+			color: $gris
+			padding: 6px 10px
+			text-align: center
+			margin-top: 15px
+			@media (max-width: 575px)
+				width: 80%
+			&:focus
+				border-color: $grisOscuro
+				outline: none

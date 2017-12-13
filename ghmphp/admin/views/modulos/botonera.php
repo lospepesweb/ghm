@@ -9,6 +9,13 @@
 				<a href="slider" class="texto"><i class="icon-image"></i><span>Slider</span></a>
 				<a href="videos" class="texto"><i class="icon-play2"></i><span>Videos</span></a>
 				<a href="usuarios" class="texto"><i class="icon-key"></i><span>Contraseña</span></a>
+				<a href="#" class="texto"><i class="icon-display"></i><span>Ver Sitio</span></a>
 				<a href="salir" class="texto"><i class="icon-exit"></i><span>Salir</span></a>
 			</nav>
+			
+			<a href="https://www.lospepesweb.com" target="_blank" class="texto lp"><i class="icon-embed2"></i><span> by Los Pepes</span></a>
 		</div>
+
+
+
+

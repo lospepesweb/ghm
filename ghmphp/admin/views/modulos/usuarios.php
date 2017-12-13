@@ -7,7 +7,7 @@
 include 'views/modulos/botonera.php';
 ?>
 
-<!-- PASS -->
+		<!-- PASS -->
 		<div class="col">
 
 			<div class="row seccion-pass">
@@ -15,25 +15,25 @@ include 'views/modulos/botonera.php';
 					<h2 class="titulo">Gestor de Contraseñas</h2>
 				</div>
 
-					<div class="col-12">
-						<form>
-							<input type="password" placeholder="Contraseña actual">
-							<input type="password" placeholder="Contraseña nueva">
-							<input type="password" placeholder="Confirmar contraseña">
+				<div class="col-12">
+					<form>
+						<label for="old-pass">Contraseña actual</label>
+						<input type="password" id="old-pass">
 
-							<input type="submit" name="" value="Cambiar" class="btn-default">
-						</form>
-					</div>
+						<label for="new-pass-1">Contraseña nueva</label>
+						<input type="password" id="new-pass-1">
+
+						<label for="new-pass-2">Repetir contraseña nueva</label>
+						<input type="password" for="new-pass-2">
+
+						<input type="submit" name="" value="Cambiar" class="btn-default">
+					</form>
+				</div>
 			</div>
 
-
-
-
 		</div>
-<!-- FIN PASS -->
-
-
-
+		<!-- FIN PASS -->
+		
 
 	</div>
 </div>

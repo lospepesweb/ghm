@@ -78,6 +78,12 @@
 .icon-play2:before {
   content: ""; }
 
+.icon-display:before {
+  content: ""; }
+
+.icon-embed2:before {
+  content: ""; }
+
 .titulo {
   color: #585756;
   font-family: "Mediun";
@@ -219,6 +225,20 @@ input[type=name], input[type=password] {
           padding: 20px !important;
           margin-right: 0px !important; } }
 
+a.lp {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  color: white;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  a.lp:hover {
+    text-decoration: none; }
+  a.lp i {
+    padding-bottom: 3px;
+    display: inline-block; }
+
 .dashboard {
   background: #fff;
   padding: 0; }
@@ -316,18 +336,23 @@ input[type=name], input[type=password] {
     padding-top: 20px; }
     .dashboard .seccion-pass form {
       border: none; }
+    .dashboard .seccion-pass label {
+      margin-top: 25px;
+      font-family: "Light";
+      color: #959494; }
+      .dashboard .seccion-pass label:first-child {
+        margin-top: 0px; }
     .dashboard .seccion-pass input[type=password] {
       font-family: "Light" !important;
       display: block;
       border: 1px solid #959494;
-      -webkit-border-radius: 40px;
-      -moz-border-radius: 40px;
-      -ms-border-radius: 40px;
-      border-radius: 40px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+      border-radius: 4px;
       color: #959494;
       padding: 6px 10px;
-      text-align: center;
-      margin-top: 15px; }
+      text-align: center; }
       @media (max-width: 575px) {
         .dashboard .seccion-pass input[type=password] {
           width: 80%; } }

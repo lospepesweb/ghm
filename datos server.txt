@@ -1,9 +1,5 @@
 Datos Server
 
-Server nuevo
+
 user: ghmtvcom
 pass: FDKL*89ar$
-
-Server viejo
-user: ghmtvcom
-pass: Pq7J2vM-18

@@ -172,6 +172,9 @@ input[type=name], input[type=password] {
   .login .alert {
     margin-top: 20px; }
 
+body {
+  top: 0 !important; }
+
 .dashboard {
   background: #fff;
   padding: 0; }

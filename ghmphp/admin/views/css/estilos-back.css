@@ -297,7 +297,8 @@ a.lp {
   .dashboard .vista-previa .seccion-videos {
     border: 1px dashed #959494;
     padding: 15px 0 0px 0;
-    margin-top: 30px; }
+    margin-top: 30px;
+    margin-bottom: 30px; }
   .dashboard .vista-previa .video {
     position: relative; }
     .dashboard .vista-previa .video video {
@@ -385,7 +386,8 @@ a.lp {
     padding: 0 15px; }
     .dashboard .carga-slider .row {
       padding: 15px 0;
-      border: 1px dashed #959494; }
+      border: 1px dashed #959494;
+      margin-bottom: 30px; }
       .dashboard .carga-slider .row .img-container {
         position: relative; }
         @media (max-width: 991px) {

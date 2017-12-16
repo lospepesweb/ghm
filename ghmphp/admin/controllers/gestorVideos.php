@@ -2,7 +2,7 @@
 
 class GestorVideos{
 
-	public function guardarvideos(){
+	static public function guardarvideos(){
 
 		if (isset($_POST['tit_esp'])) {
 
@@ -49,7 +49,7 @@ class GestorVideos{
 
 	//Mostrar videos en la vista
 
-	public function mostrarVideoController(){
+	static public function mostrarVideoController(){
 		
 		$respuesta = GestorVideosModel::mostrarVideoModel('videos');
 
@@ -72,7 +72,7 @@ class GestorVideos{
 
 					<div class="btn-video-container d-flex justify-content-center">
 						<button class="btn-default editarVideo"><span class="icon-pencil"></span> Editar</button>
-						<a href="index.php?pagina=videos&idBorrar='.$item['id'].'&rutaImagen='.$item['ruta'].'"><button class="btn-default"><span class="icon-cross"></span> Eliminar</button></a>
+						<a href="index.php?pagina=videos&idBorrar='.$item['id'].'&rutaVideo='.$item['ruta'].'"><button class="btn-default"><span class="icon-cross"></span> Eliminar</button></a>
 					</div>
 
 				</div>';
@@ -83,10 +83,10 @@ class GestorVideos{
 
 	//borrar videos
 
-	public function borrarVideoController(){
+	static public function borrarVideoController(){
 
 	 	if (isset($_GET['idBorrar'])) {
-	 		unlink($_GET['rutaImagen']);
+	 		unlink($_GET['rutaVideo']);
 
 	 		$datosController = $_GET['idBorrar'];
 
@@ -116,7 +116,7 @@ class GestorVideos{
 
 	//editar videos
 
-	public function editarVideoController(){
+	static public function editarVideoController(){
 			
 		$ruta = "";
 
@@ -176,7 +176,7 @@ class GestorVideos{
 	}
 
 	//Ordenar videos
-	public function actualizarOrdenController($datosController){
+	static public function actualizarOrdenController($datosController){
 		
 		GestorVideosModel::actualizarOrdenModel($datosController, 'videos');
 

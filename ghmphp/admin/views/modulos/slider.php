@@ -8,87 +8,57 @@ include 'views/modulos/botonera.php';
 ?>
 <!-- SLIDER -->
 		<div class="col">
-
 			<div class="row gestor-slider">
 					<div class="col-12">
-						<h2 class="titulo">Gestor de Imagenes</h2>
+						<h2 class="titulo">Gestor de Imágenes</h2>
 					</div>
 				</div>
 
 
-				<div class="row img-cms">
+				<div class="row img-cms" id="gestorSliderDesktop">
 					<div class="col-12">
-						<h4 class="titulo">Imagenes desktop</h4>
-						<p class="texto">Arrastra a la zona punteada tus imagenes. <small>Tamaño recomendado: 2600x1733. Peso máximo recomendado: 1.5mb.</small></p>
-						<button class="btn-default">Modificar orden</button>
+						<h4 class="titulo">Imágenes desktop</h4>
+						<p class="texto">Arrastra a la zona punteada tus imágenes. <small>Tamaño recomendado: 2600x1733. Peso máximo recomendado: 2mb. Formatos permitidos: JPG y PNG.</small></p>
+						<button class="btn-default" id="btnModificarOrdenSlides-d">Modificar orden</button>
+						<button class="btn-default" id="btnGuardarOrdenSlides-d" style="display: none;">Guardar orden</button>
 					</div>
 					<div class="col-12 carga-slider">
-						<div class="row">
-							<div class="col-12 col-lg-3 img-container">
-								<img src="../img/slide1.jpg" class="img-fluid">
-								<span class="icon-cross"></span>
-							</div>
-							<div class="col-12 col-lg-3 img-container">
-								<img src="../img/slide2.jpg" class="img-fluid">
-								<span class="icon-cross"></span>
-							</div>
-							<div class="col-12 col-lg-3 img-container">
-								<img src="../img/slide3.jpg" class="img-fluid">
-								<span class="icon-cross"></span>
-							</div>
-							<div class="col-12 col-lg-3 img-container">
-								<img src="../img/slide4.jpg" class="img-fluid">
-								<span class="icon-cross"></span>
-							</div>
-						</div>
-						<div class="col-12 alert alert-danger" style="margin-top: 15px; margin-bottom: 15px">
-								Por si te hace falta un alert. Sino, volalo a la japi.
+						<div class="row" id="zonaArrastre-d">
+							
+							<?php 
+								$slider_d = new GestorSlider();
+								$slider_d -> mostrarSlideVistaController();
+								$slider_d -> borrarSlideController();
+							?> 
+
 						</div>
 					</div>
 				</div>
 
 
 
-				<div class="row img-cms">
+				<div class="row img-cms" id="gestorSliderCelular">
 					<div class="col-12">
-						<h4 class="titulo">Imagenes para smartphone</h4>
-						<p class="texto">Arrastra a la zona punteada tus imagenes. <small>Tamaño recomendado: 750x820. Peso máximo recomendado: 800kb.</small></p>
-						<button class="btn-default">Modificar orden</button>
+						<h4 class="titulo">Imágenes para smartphone</h4>
+						<p class="texto">Arrastra a la zona punteada tus imágenes. <small>Tamaño recomendado: 750x820. Peso máximo recomendado: 800kb. Formatos permitidos: JPG y PNG.</small></p>
+						<button class="btn-default" id="btnModificarOrdenSlides-c">Modificar orden</button>
+						<button class="btn-default" id="btnGuardarOrdenSlides-c" style="display: none;">Guardar orden</button>
 					</div>
 					<div class="col-12 carga-slider">
-						<div class="row">
-							<div class="col-12 col-lg-3 img-container">
-								<img src="../img/slide1-m.jpg" class="img-fluid">
-								<span class="icon-cross"></span>
-							</div>
-							<div class="col-12 col-lg-3 img-container">
-								<img src="../img/slide2-m.jpg" class="img-fluid">
-								<span class="icon-cross"></span>
-							</div>
-							<div class="col-12 col-lg-3 img-container">
-								<img src="../img/slide3-m.jpg" class="img-fluid">
-								<span class="icon-cross"></span>
-							</div>
-							<div class="col-12 col-lg-3 img-container">
-								<img src="../img/slide4-m.jpg" class="img-fluid">
-								<span class="icon-cross"></span>
-							</div>
-						</div>
-						<div class="col-12 alert alert-danger" style="margin-top: 15px; margin-bottom: 0px">
-								Por si te hace falta un alert. Sino, volalo a la japi.
+						<div class="row" id="zonaArrastre-c">
+
+							<?php 
+								$slider_c = new GestorSliderCelular();
+								$slider_c -> mostrarSlideVistaControllerCelular();
+								$slider_c -> borrarSlideControllerCelular();
+							?> 
+
 						</div>
 					</div>
 				</div>
-
-
 			</div>
-			<!-- FIN PASS -->
-
-
-
-
+			<!-- FIN SLIDER -->
 		</div>
 	</div>
-
 </body>
 </html>

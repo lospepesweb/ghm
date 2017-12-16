@@ -2,4 +2,4 @@
 
 session_destroy();
 
-header('location:login');
+header('location: https://www.ghmtv.com/es');

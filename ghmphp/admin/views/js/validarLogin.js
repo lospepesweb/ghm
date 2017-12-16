@@ -4,13 +4,13 @@ function validarLogin(){
 
 	if(!expresion.test($('#usuarioLogin').val())){
 		return false;
-		console.log("false", false);
+
 	}
 	if(!expresion.test($('#passwordLogin').val())){
 		return false;
-		console.log("false", false);
+
 	}
 
 	return true;
-	console.log("true", true);
+
 }

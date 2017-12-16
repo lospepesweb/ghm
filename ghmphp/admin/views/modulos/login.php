@@ -16,7 +16,7 @@
 			$login -> loginController();
 		?>
 
-		  <button type="submit" class="btn-default"><span class="icon-chevron-thin-right"></span>Entrar</button>
+		  <button type="submit" class="btn-default" id="btnLogin"><span class="icon-chevron-thin-right"></span>Entrar</button>
 		</form>
 	</div>
 </div>

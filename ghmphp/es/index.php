@@ -1,24 +1,37 @@
 <?php 
-require_once 'models/gestorVideos.php';
+	require_once '../admin/models/global.php';
+	require_once 'models/gestorVideos.php';
+	require_once 'models/gestorSlider.php';
 
-require_once 'controllers/gestorVideos.php';
+	require_once 'controllers/gestorVideos.php';
+	require_once 'controllers/gestorSlider.php';
+
 ?>
 
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<!-- LINKS -->
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="../css/responsiveslides.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111296676-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-111296676-1');
+	</script>
+
+
 	<meta charset="UTF-8">
 	<title>GHM Contenidos</title>
 	<meta name="description" content="Somos una empresa de comunicación integral. Cada trabajo es desarrollado con la singularidad que aporta su contexto y finalidad, buscando sintetizar en imágenes poderosas el universo a cada cliente.">
 
-	<!-- ICONO -->
-	<link rel="icon" type="image/png" sizes="32x32" href="http://www.ghmtv.com/img/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="http://www.ghmtv.com/img/favicon-32x32.png">
-	<!-- LINKS -->
-	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	
 	<!-- METATAGS -->
 	<meta name="languaje" content="ES"/>
 	<meta name="robots" content="index, follow"/>
@@ -26,6 +39,7 @@ require_once 'controllers/gestorVideos.php';
 	<meta name="geo.region" content="AR-J"/>
 	<meta name="geo.placename" content="San Juan"/>
 	<meta name="author" content="Los Pepes WEB, www.lospepesweb.com"/>
+
 	<!--OG-->
 	<meta property="og:title" content="GHM Contenidos"/>
 	<meta property="og:type" content="website"/>
@@ -35,6 +49,9 @@ require_once 'controllers/gestorVideos.php';
 	<meta property="og:description" content="Somos una empresa de comunicación integral. Cada trabajo es desarrollado con la singularidad que aporta su contexto y finalidad, buscando sintetizar en imágenes poderosas el universo a cada cliente."/>
 	<meta property="og:locale" content="es_LA"/>
 	
+	<!-- ICONO -->
+	<link rel="icon" type="image/png" sizes="32x32" href="http://www.ghmtv.com/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="http://www.ghmtv.com/img/favicon-32x32.png">
 </head>
 <body class="index">
 
@@ -45,7 +62,7 @@ require_once 'controllers/gestorVideos.php';
 				<div class="col-2 text-right ml-auto">
 					<a href="#" id="langEsp" class="lang active">ES</a>
 					<span class="lang">/</span>
-					<a href="../en/index.php" id="langEng" class="lang">EN</a>
+					<a href="../en/index.html" id="langEng" class="lang">EN</a>
 				</div>
 			</div>
 		</div>
@@ -74,11 +91,11 @@ require_once 'controllers/gestorVideos.php';
 						<li class="nav-item dropdown">
 							<a href="#" class="nav-link dropdown-toggle navClose-link" id="navBarAudiovisual" data-toggle="dropdown" role="button">AUDIOVISUAL<span class="closeNav d-lg-none">+</span></a>
 							<div class="dropdown-menu" aria-labelledby="navBarAudiovisual">
-					        	<a class="dropdown-item" href="audiovisual/institucional.html">Institucional</a>
-					        	<a class="dropdown-item" href="audiovisual/infraestructura.html">Infraestructura</a>
-					        	<a class="dropdown-item" href="audiovisual/educativo.html">Educativo</a>
-					        	<a class="dropdown-item" href="audiovisual/publicitario.html">Publicitario</a>
-					        	<a class="dropdown-item" href="audiovisual/mapping.html">Mapping</a>
+					        	<a class="dropdown-item" href="audiovisual/index.html#institucional">Institucional</a>
+					        	<a class="dropdown-item" href="audiovisual/index.html#infraestructura">Infraestructura</a>
+					        	<a class="dropdown-item" href="audiovisual/index.html#educativo">Educativo</a>
+					        	<a class="dropdown-item" href="audiovisual/index.html#publicitario">Publicitario</a>
+					        	<a class="dropdown-item" href="audiovisual/index.html#mapping">Mapping</a>
 					        </div>
 
 						</li>
@@ -146,26 +163,21 @@ require_once 'controllers/gestorVideos.php';
 	<section id="portada" class="index container-fluid">
 		<div class="row">
 			<div class="col-12 slide-lp">
-				<div class="carousel slide" id="primary-carousel" data-ride="carousel">
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img class="d-none d-lg-block w-100 img-fluid" src="../img/slide1.jpg" alt="Slide 01">
-							<img class="d-block d-lg-none w-100 img-fluid" src="../img/slide1-m.jpg" alt="Slide 01">
-						</div>
-						<div class="carousel-item">
-							<img class="d-none d-lg-block w-100 img-fluid" src="../img/slide2.jpg" alt="Slide 02">
-							<img class="d-block d-lg-none w-100 img-fluid" src="../img/slide2-m.jpg" alt="Slide 01">
-						</div>
-						<div class="carousel-item">
-							<img class="d-none d-lg-block w-100 img-fluid" src="../img/slide3.jpg" alt="Slide 03">
-							<img class="d-block d-lg-none w-100 img-fluid" src="../img/slide3-m.jpg" alt="Slide 01">
-						</div>
-						<div class="carousel-item">
-							<img class="d-none d-lg-block w-100 img-fluid" src="../img/slide4.jpg" alt="Slide 04">
-							<img class="d-block d-lg-none w-100 img-fluid" src="../img/slide4-m.jpg" alt="Slide 01">
-						</div>
-					</div>
-				</div>			
+	
+			    <ul class="rslides d-none d-lg-block">
+			      <?php 
+			      	$slider_d = new Slider();
+			      	$slider_d -> seleccionarSliderController();
+			      ?>
+			    </ul>
+
+			    <ul class="rslides d-block d-lg-none">
+					<?php 
+						$slider_c = new Slider();
+						$slider_c -> seleccionarSliderControllerCelular();
+					?>
+			    </ul>
+
 			</div>
 		</div>
 	</section>
@@ -173,10 +185,9 @@ require_once 'controllers/gestorVideos.php';
 
 	<!-- Videos -->
 	<section id="noticias" class="videos">
-		
 		<?php 
-			$video = new Videos;
-			$video -> seleccionarVideosController();
+			$videos = new Videos();
+			$videos ->seleccionarVideosController();
 		?>
 		
 	</section>
@@ -478,31 +489,31 @@ require_once 'controllers/gestorVideos.php';
     	<div id="map">
     	</div>
 	    <script>
-	      function initMap() {
-	        var ghm = {lat: -31.537869, lng: -68.560407};
-	        var map = new google.maps.Map(document.getElementById('map'), {
-	          zoom: 16,
-	          center: ghm,
-	          styles: [
-						{"elementType": "geometry", "stylers": [{"color": "#f5f5f5"}]},
-						{"elementType": "labels.icon", "stylers": [{"visibility": "off"}]},
-						{"elementType": "labels.text.fill", "stylers": [{"color": "#616161"}]},
-						{"elementType": "labels.text.stroke", "stylers": [{"color": "#f5f5f5"}]},
-						{"featureType": "administrative.land_parcel", "elementType": "labels.text.fill","stylers": [{"color": "#bdbdbd"}]},
-						{"featureType": "poi", "elementType": "geometry", "stylers": [{"color": "#eeeeee"}]},
-						{"featureType": "poi", "elementType": "labels.text.fill", "stylers": [{"color": "#757575"}]},
-						{"featureType": "poi.park", "elementType": "geometry", "stylers": [{"color": "#e5e5e5"}]},
-						{"featureType": "poi.park","elementType": "labels.text.fill","stylers": [{"color": "#9e9e9e"}]},
-						{"featureType": "road","elementType": "geometry","stylers": [{"color": "#ffffff"}]},
-						{"featureType": "road.arterial","elementType": "labels.text.fill","stylers": [{"color": "#757575"}]},
-						{"featureType": "road.highway","elementType": "geometry","stylers": [{"color": "#dadada"}]},
-						{"featureType": "road.highway", "elementType": "labels.text.fill","stylers": [{"color": "#616161"}]},
-						{"featureType": "road.local", "elementType": "labels.text.fill","stylers": [{"color": "#9e9e9e"}]},
-						{"featureType": "transit.line", "elementType": "geometry","stylers": [{"color": "#e5e5e5"}]},
-						{"featureType": "transit.station", "elementType": "geometry","stylers": [{"color": "#eeeeee"}]},
-						{"featureType": "water","elementType": "geometry","stylers": [{"color": "#c9c9c9"}]},
-						{"featureType": "water","elementType": "labels.text.fill","stylers": [{"color": "#9e9e9e"}]}
-					]
+	      	function initMap() {
+	        	var ghm = {lat: -31.537869, lng: -68.560407};
+	        	var map = new google.maps.Map(document.getElementById('map'), {
+	          	zoom: 16,
+	          	center: ghm,
+	          	styles: [
+					{"elementType": "geometry", "stylers": [{"color": "#f5f5f5"}]},
+					{"elementType": "labels.icon", "stylers": [{"visibility": "off"}]},
+					{"elementType": "labels.text.fill", "stylers": [{"color": "#616161"}]},
+					{"elementType": "labels.text.stroke", "stylers": [{"color": "#f5f5f5"}]},
+					{"featureType": "administrative.land_parcel", "elementType": "labels.text.fill","stylers": [{"color": "#bdbdbd"}]},
+					{"featureType": "poi", "elementType": "geometry", "stylers": [{"color": "#eeeeee"}]},
+					{"featureType": "poi", "elementType": "labels.text.fill", "stylers": [{"color": "#757575"}]},
+					{"featureType": "poi.park", "elementType": "geometry", "stylers": [{"color": "#e5e5e5"}]},
+					{"featureType": "poi.park","elementType": "labels.text.fill","stylers": [{"color": "#9e9e9e"}]},
+					{"featureType": "road","elementType": "geometry","stylers": [{"color": "#ffffff"}]},
+					{"featureType": "road.arterial","elementType": "labels.text.fill","stylers": [{"color": "#757575"}]},
+					{"featureType": "road.highway","elementType": "geometry","stylers": [{"color": "#dadada"}]},
+					{"featureType": "road.highway", "elementType": "labels.text.fill","stylers": [{"color": "#616161"}]},
+					{"featureType": "road.local", "elementType": "labels.text.fill","stylers": [{"color": "#9e9e9e"}]},
+					{"featureType": "transit.line", "elementType": "geometry","stylers": [{"color": "#e5e5e5"}]},
+					{"featureType": "transit.station", "elementType": "geometry","stylers": [{"color": "#eeeeee"}]},
+					{"featureType": "water","elementType": "geometry","stylers": [{"color": "#c9c9c9"}]},
+					{"featureType": "water","elementType": "labels.text.fill","stylers": [{"color": "#9e9e9e"}]}
+				]
 	        });
 	        var marker = new google.maps.Marker({
 	          position: ghm,
@@ -534,11 +545,11 @@ require_once 'controllers/gestorVideos.php';
 
 					<a id="closeNav2" data-toggle="" href="#footer-audiovisual" aria-expanded="false" aria-controls="collapseOne" class="titulo-footer border-top">Audiovisual<span class="closeNav d-lg-none">+</span></a>
 					<ul id="footer-audiovisual" class="collapse show lista-footer" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
-						<li class="item-footer"><a href="audiovisual/institucional.html" class="item-footer">Institucional</a></li>
-						<li class="item-footer"><a href="audiovisual/infraestructura.html" class="item-footer">Infraestructura</a></li>
-						<li class="item-footer"><a href="audiovisual/educativo.html" class="item-footer">Educativo</a></li>
-						<li class="item-footer"><a href="audiovisual/publicitario.html" class="item-footer">Publicitario</a></li>
-						<li class="item-footer"><a href="audiovisual/mapping.html" class="item-footer">Mapping</a></li>
+						<li class="item-footer"><a href="audiovisual/index.html#institucional" class="item-footer">Institucional</a></li>
+						<li class="item-footer"><a href="audiovisual/index.html#infraestructura" class="item-footer">Infraestructura</a></li>
+						<li class="item-footer"><a href="audiovisual/index.html#educativo" class="item-footer">Educativo</a></li>
+						<li class="item-footer"><a href="audiovisual/index.html#publicitario" class="item-footer">Publicitario</a></li>
+						<li class="item-footer"><a href="audiovisual/index.html#mappig" class="item-footer">Mapping</a></li>
 					</ul>
 				</div>
 
@@ -620,7 +631,14 @@ require_once 'controllers/gestorVideos.php';
 	<script type="text/javascript" src="../js/popper.min.js"></script>
 	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="../js/scripts.js"></script>
+	<script type="text/javascript" src="../js/responsiveslides.min.js"></script>
 	<script type="text/javascript">
+		// Configuración del slider de portada
+		$(".rslides").responsiveSlides({
+	        speed: 0,
+	        timeout: 5000
+	      });
+
 
 		// Con este escript lo que hacemos que al seleccionar una de las opciones del footer del index se deslice hasta esa sección suavemente.
 		var listaIDS = [document.getElementById('btn-slide-intro'),

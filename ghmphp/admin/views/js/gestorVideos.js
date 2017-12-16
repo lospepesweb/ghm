@@ -102,7 +102,7 @@ var ordenItem = [];
 
 $('#btnModificarOrdenVideos').click(function(){
 
-	$(this).hide();
+	$(this).removeClass('d-md-block');
 	$('#btnGuardarOrdenVideos').show();
 	$('div.video').removeClass('col-lg-6');
 	$('div.video').addClass('col-lg-3');

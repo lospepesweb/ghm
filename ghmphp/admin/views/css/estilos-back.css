@@ -256,6 +256,11 @@ a.lp {
     @media (max-width: 870px) {
       .dashboard .home .titulo {
         font-size: 100px; } }
+    @media (max-width: 575px) {
+      .dashboard .home .titulo {
+        font-size: 80px;
+        height: calc(100vh - 88px - 57px);
+        line-height: calc(100vh - 88px - 57px); } }
 
 .dashboard .carga-video {
   padding-top: 20px; }

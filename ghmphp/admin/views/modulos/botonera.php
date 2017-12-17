@@ -13,7 +13,9 @@
 				<a href="salir" class="texto"><i class="icon-exit"></i><span>Salir</span></a>
 			</nav>
 			
-			<a href="https://www.lospepesweb.com" target="_blank" class="texto lp"><i class="icon-embed2"></i><span> by Los Pepes</span></a>
+			<a href="https://www.lospepesweb.com" target="_blank" class="texto lp d-none d-lg-block">
+				<i class="icon-embed2"></i><span> by Los Pepes</span>
+			</a>
 		</div>
 
 

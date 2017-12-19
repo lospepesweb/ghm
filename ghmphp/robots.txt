@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /public_html/
+Sitemap: https://www.ghmtv.com/sitemap.xml

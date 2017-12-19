@@ -5,7 +5,7 @@ class GestorSliderCelular {
 	//MOSTRAR IMAGEN SLIDE AJAX
 	//------------------------------------------------------------------------------
 
-	public function mostrarImagenControllerCelular($datosController){
+	static public function mostrarImagenControllerCelular($datosController){
 		
 		list($ancho, $alto) = getimagesize($datosController);
 
@@ -38,7 +38,7 @@ class GestorSliderCelular {
 	// }
 
 	//Mostrar imagenes en la vista
-	public function mostrarSlideVistaControllerCelular(){
+	static public function mostrarSlideVistaControllerCelular(){
 
 		$respuesta = GestorSliderModelCelular::mostrarSlideVistaModelCelular('slider_c');
 
@@ -57,7 +57,7 @@ class GestorSliderCelular {
 
 	//borrar slides
 
-	public function borrarSlideControllerCelular(){
+	static public function borrarSlideControllerCelular(){
 
 	 	if (isset($_GET['idBorrar-c'])) {
 	 		unlink($_GET['rutaImagen']);
@@ -89,7 +89,7 @@ class GestorSliderCelular {
  	}
 
  	//ORDENAR SLIDES
-	public function actualizarOrdenControllerCelular($datosController){
+	static public function actualizarOrdenControllerCelular($datosController){
 		
 		GestorSliderModelCelular::actualizarOrdenModelCelular($datosController, 'slider_c');
 

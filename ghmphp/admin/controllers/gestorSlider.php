@@ -5,7 +5,7 @@ class GestorSlider {
 	//MOSTRAR IMAGEN SLIDE AJAX
 	//------------------------------------------------------------------------------
 
-	public function mostrarImagenController($datosController){
+	static public function mostrarImagenController($datosController){
 		
 		list($ancho, $alto) = getimagesize($datosController);
 
@@ -38,7 +38,7 @@ class GestorSlider {
 	// }
 
 	//Mostrar imagenes en la vista
-	public function mostrarSlideVistaController(){
+	static public function mostrarSlideVistaController(){
 
 		$respuesta = GestorSliderModel::mostrarSlideVistaModel('slider');
 
@@ -57,7 +57,7 @@ class GestorSlider {
 
 	//borrar slides
 
-	public function borrarSlideController(){
+	static public function borrarSlideController(){
 
 	 	if (isset($_GET['idBorrar'])) {
 	 		unlink($_GET['rutaImagen']);
@@ -89,7 +89,7 @@ class GestorSlider {
  	}
 
  	//ORDENAR SLIDES
-	public function actualizarOrdenController($datosController){
+	static public function actualizarOrdenController($datosController){
 		
 		GestorSliderModel::actualizarOrdenModel($datosController, 'slider');
 

@@ -10,6 +10,10 @@
 
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	
+	<!-- ICONO -->
+	<link rel="icon" type="image/png" sizes="32x32" href="http://www.ghmtv.com/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="http://www.ghmtv.com/img/favicon-16x16.png">
+	
 	<script src="views/js/jquery-3.2.1.min.js"></script>
 	<script src="views/js/bootstrap.min.js"></script>
 	<script src="views/js/jquery-ui.min.js"></script>

@@ -322,7 +322,7 @@
 					</figcaption>
 				</figure>
 			</div>
-			<div class="col-6 col-lg-4 text-center fila">
+<!-- 			<div class="col-6 col-lg-4 text-center fila">
 				<figure>
 					<img src="../img/INDEX-EQUIPO-GHM-10.png" class="img-fluid" alt="GHM Contenidos - Matías">
 					<figcaption>
@@ -330,7 +330,7 @@
 						<p class="texto-equipo">Animación</p>
 					</figcaption>
 				</figure>
-			</div>
+			</div> -->
 			<div class="col-6 col-lg-4 text-center fila">
 				<figure>
 					<img src="../img/INDEX-EQUIPO-GHM-12.png" class="img-fluid" alt="GHM Contenidos - Ezequiel">

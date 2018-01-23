@@ -1,5 +1,5 @@
 <?php 
-	require_once '../admin/models/global.php';
+	// require_once '../admin/models/global.php';
 	require_once 'models/gestorVideos.php';
 	require_once 'models/gestorSlider.php';
 
@@ -62,7 +62,7 @@
 				<div class="col-2 text-right ml-auto">
 					<a href="#" id="langEsp" class="lang active">ES</a>
 					<span class="lang">/</span>
-					<a href="../en/index.html" id="langEng" class="lang">EN</a>
+					<a href="../en" id="langEng" class="lang">EN</a>
 				</div>
 			</div>
 		</div>
@@ -148,7 +148,7 @@
 							<div class="col-12 text-left">
 								<a href="#" id="langEsp" class="lang active">ES</a>
 								<span class="lang">/</span>
-								<a href="../en/index.html" id="langEng" class="lang">EN</a>
+								<a href="../en" id="langEng" class="lang">EN</a>
 							</div>
 						</div>
 					</div>

@@ -1,0 +1,951 @@
+[33mcommit 434e10e0ff81e0083612e3c4016bfb5d1302fa3d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Luciano Penafiel <lucianopenafie@gmail.com>
+Date:   Mon Jan 22 22:51:49 2018 -0300
+
+    traduccion fotografia artistico
+
+[33mcommit 323e558862572b0ccb6a3a4a6dc852d57374c542[m
+Author: Petro232 <andpetronio@outlook.com>
+Date:   Mon Jan 22 21:52:17 2018 -0300
+
+    vuelos-drone
+
+[33mcommit b97b56e7684249bffdbbb9910e260fa06edfce7a[m
+Merge: 499de0c 0be2170
+Author: Luciano Penafiel <lucianopenafie@gmail.com>
+Date:   Mon Jan 22 21:50:22 2018 -0300
+
+    caca
+
+[33mcommit 499de0cca973044b452dca8afd5cad1194e26efe[m
+Author: Luciano Penafiel <lucianopenafie@gmail.com>
+Date:   Mon Jan 22 21:44:46 2018 -0300
+
+    traduciendo fotografia infraestructura
+
+[33mcommit 0be21709edd553e165551e6af6b4a5bdc51e76e3[m
+Merge: 30cf55d ee0ef75
+Author: Petro232 <andpetronio@outlook.com>
+Date:   Mon Jan 22 21:28:07 2018 -0300
+
+    Merge branch 'master' of https://github.com/lospepesweb/ghm
+
+[33mcommit 30cf55da5021b76154aa1c5c9eed59d668c9145b[m
+Author: Petro232 <andpetronio@outlook.com>
+Date:   Mon Jan 22 21:27:54 2018 -0300
+
+    footer index
+
+[33mcommit ee0ef750e43b5ba626a1088efd633fcb17787659[m
+Merge: b462398 f24ceda
+Author: Luciano Penafiel <lucianopenafie@gmail.com>
+Date:   Mon Jan 22 21:17:24 2018 -0300
+
+    caca
+
+[33mcommit b46239874c18a39cfad3658dd4aaa6cc8b5f9ebc[m
+Author: Luciano Penafiel <lucianopenafie@gmail.com>
+Date:   Mon Jan 22 21:12:42 2018 -0300
+
+    traduzco foto institucional y naturaleza
+
+[33mcommit f24ceda20b29d6b7570bfa94863c6cdec27699d2[m
+Merge: 9344d86 d063700
+Author: Petro232 <andpetronio@outlook.com>
+Date:   Mon Jan 22 21:06:36 2018 -0300
+
+    Merge branch 'master' of https://github.com/lospepesweb/ghm
+
+[33mcommit 9344d8684e875bf841b37ed754c9659e401a417a[m
+Author: Petro232 <andpetronio@outlook.com>
+Date:   Mon Jan 22 21:06:20 2018 -0300
+
+    index ingles
+
+[33mcommit d063700ffd4a2745ceaf0cc77d43da4388890a19[m
+Author: Luciano Penafiel <lucianopenafie@gmail.com>
+Date:   Mon Jan 22 20:16:06 2018 -0300
+
+    traduciendo audiovisual
+
+[33mcommit 5267d7bdc43f2f2577a3ad2e9f2ffdd07086662f[m
+Author: Luciano Penafiel <lucianopenafie@gmail.com>
+Date:   Mon Jan 22 19:53:10 2018 -0300
+
+    traduciendo la biografia del huevo
+
+[33mcommit a3e40b93dac41ae53a1638e2b9eece616ddcb7ed[m
+Author: Luciano Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Jan 20 19:23:50 2018 -0300
+
+    Update datos server.txt
+
+[33mcommit 77a74c93cb39b7e0df98191f31ce5c42f7526dc5[m
+Author: Petro232 <andpetronio@outlook.com>
+Date:   Fri Jan 19 15:38:23 2018 -0300
+
+    cambio de rutas en index.php
+
+[33mcommit f055032d25cd0ab23d70c0a7aed850493277b223[m
+Merge: 0cb32e9 9e2a25a
+Author: Petro232 <andpetronio@outlook.com>
+Date:   Fri Jan 19 15:37:20 2018 -0300
+
+    Merge branch 'master' of https://github.com/lospepesweb/ghm
+
+[33mcommit 0cb32e93e12462c8de4f5382d053902dc238e940[m
+Author: Petro232 <andpetronio@outlook.com>
+Date:   Fri Jan 19 15:36:52 2018 -0300
+
+    cambio de rutas en index.php
+
+[33mcommit 9e2a25a7f09a4c23289f4120e174bdab1de735b3[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Fri Dec 22 19:44:38 2017 -0300
+
+    saco a matias de la web
+
+[33mcommit ec678c997fcacaec813f2b9735840c8866976a2e[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Tue Dec 19 20:26:21 2017 -0300
+
+    renombro carpetas para un mejor orden
+
+[33mcommit aae5f24f7e58cd6bd145bda5099ab318b4f93395[m
+Merge: cb91f02 c4e6ed8
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Tue Dec 19 20:17:47 2017 -0300
+
+    Merge branch 'master' of https://github.com/lospepesweb/ghm
+
+[33mcommit cb91f02eaa4bc0decb4186b5ac0b5ca8c53e071a[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Tue Dec 19 20:17:40 2017 -0300
+
+    agrego sitemap y robots.txt
+
+[33mcommit c4e6ed8b9bcf5f57df4f6899967f15ca33511ff4[m
+Merge: bb30ac3 3e2e062
+Author: Petro232 <andpetronio@outlook.com>
+Date:   Sun Dec 17 21:18:43 2017 -0300
+
+    Merge branch 'master' of https://github.com/lospepesweb/ghm
+
+[33mcommit bb30ac304722f42e8500c181c0c1edf1c1f32792[m
+Author: Petro232 <andpetronio@outlook.com>
+Date:   Sun Dec 17 21:15:49 2017 -0300
+
+    corregido error ordenar slider, agregado favicon al backend
+
+[33mcommit 3e2e062b39e3724cf187088b65b415fdcb1bf6e6[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sun Dec 17 20:46:50 2017 -0300
+
+    ajustando detalles de estilos en el cms
+
+[33mcommit 229c3e120d220c79bd4d191df1fdfdc05fa9de89[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Dec 16 21:44:00 2017 -0300
+
+    arreglando vinculos de las paginas de erro
+
+[33mcommit b9ce7565a0b00ebb9a51bcf025b590c7c6b451cd[m
+Merge: 892d961 c5eb5f4
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Dec 16 20:53:41 2017 -0300
+
+    Merge branch 'master' of https://github.com/lospepesweb/ghm
+
+[33mcommit 892d96143e0b9b3ea1f311f7007fbb8c10d372bc[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Dec 16 20:53:35 2017 -0300
+
+    arreglando vinculos fotografia
+
+[33mcommit c5eb5f428b4c0c86952b678b6da9fad05c5cbd35[m
+Author: Petro232 <andpetronio@outlook.com>
+Date:   Sat Dec 16 20:52:40 2017 -0300
+
+    links a index.php
+
+[33mcommit 24cfefbe2b59547e86053ea9455efbf4cb87f856[m
+Author: Petro232 <andpetronio@outlook.com>
+Date:   Sat Dec 16 20:13:18 2017 -0300
+
+    ghmphp pos produccion
+
+[33mcommit 3fe3d9a429ba500a62613ea5c0f5a6396ae8bbac[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Dec 16 18:22:37 2017 -0300
+
+    ajustando detalles de estilos en el back
+
+[33mcommit f8b74cf5ad2f971140ade346cc8e249f08b3b633[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Dec 16 18:16:57 2017 -0300
+
+    separando los slider para el cms
+
+[33mcommit f70011954a4fd6237e4bcb5a87e6dff92811d544[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Thu Dec 14 19:50:37 2017 -0300
+
+    agregado google analytics
+
+[33mcommit 685503e671d005a962374eba205f2ff1ff5cc5b9[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Wed Dec 13 20:17:01 2017 -0300
+
+    datos server
+
+[33mcommit d41283522946b818de5fe5663abf30e15a3dc93d[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Wed Dec 13 20:11:24 2017 -0300
+
+    caca
+
+[33mcommit e6c6fb0d932ca6d8aee97054ec76ec6b2cbb7962[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Wed Dec 13 19:35:17 2017 -0300
+
+    tuneado el cms
+
+[33mcommit 14a203ac42145406199ddb6ffacdedc019fd8717[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Tue Dec 12 20:32:59 2017 -0300
+
+    estilando un poco el cms
+
+[33mcommit dd9aa21858317f1929086b7bc4e930b2e966302d[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Mon Dec 11 21:49:39 2017 -0300
+
+    configuro htaccess para que redirija siempre a sitio seguro
+
+[33mcommit e7c4432174eb62873d6da4f7542bd90dc8d6ce49[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Mon Dec 11 20:25:33 2017 -0300
+
+    ajustes pequeños en el htaccess y en la seccion audiovisual
+
+[33mcommit eda15b7c109a044227420aad0e91900555fc2124[m
+Author: Luciano Peñafiel <lucianopenafiel@gmail.com>
+Date:   Mon Dec 11 14:33:18 2017 -0300
+
+    Arreglo grid
+
+[33mcommit ea1c86d41a9618d79d1cbe4d63baa4a494ded214[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Dec 9 21:13:37 2017 -0300
+
+    mejorando la seccion audiovisual
+
+[33mcommit 4f4eef110ddeb470d387c766f67198d747c2f41f[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Fri Dec 8 01:33:20 2017 -0300
+
+    arreglo css
+
+[33mcommit 44924a95fafbd827e971b77dd050bf3360abe6e5[m
+Merge: a3489b5 a08060f
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Fri Dec 8 00:55:05 2017 -0300
+
+    Merge branch 'master' of https://github.com/lospepesweb/ghm
+
+[33mcommit a3489b5849aabc118db8902165e7b8a4753877a2[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Thu Dec 7 21:09:01 2017 -0300
+
+    terminando la seccion audiovisual
+
+[33mcommit a08060ff4f5210d6c914cb7d936b194d3407dcd4[m
+Author: Petro232 <andpetronio@outlook.com>
+Date:   Thu Dec 7 19:11:09 2017 -0300
+
+    gestor de videos 99% (por si hay detalles)
+
+[33mcommit 1759d95d22b86ebe056a6377ad7a007023133719[m
+Author: Petro232 <andpetronio@outlook.com>
+Date:   Thu Dec 7 17:06:39 2017 -0300
+
+    gestor video 90% ahora si
+
+[33mcommit 590683f91ef5401170db6ddfd58b5c249dc336c0[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Wed Dec 6 23:00:48 2017 -0300
+
+    sigo con seccion audiovisualt
+
+[33mcommit b66345ef2f021b04847416a3ffdff03fbe90f69c[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Wed Dec 6 22:54:04 2017 -0300
+
+    agreglo todos los vinculos del sitio que apuntan a la seccion audiovisual
+
+[33mcommit 6d8a0663f189afe463d09c592ccdf1b746363720[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Wed Dec 6 21:51:48 2017 -0300
+
+    avanzo con la secciona audiovisual y ajusto detalles del scrollspy
+
+[33mcommit c8f0e08afe5153a2f6eb1b34767d2186ace75355[m
+Merge: 66a09ca 07b034f
+Author: Petro232 <andpetronio@outlook.com>
+Date:   Tue Dec 5 21:58:41 2017 -0300
+
+    Merge branch 'master' of https://github.com/lospepesweb/ghm
+
+[33mcommit 66a09ca976ef1cc0ce8090233dfa23f80b2bbe30[m
+Author: Petro232 <andpetronio@outlook.com>
+Date:   Tue Dec 5 21:58:12 2017 -0300
+
+    gestor de videos al 90%
+
+[33mcommit 07b034fae0b47e21e9503ae484cda6463f6d1517[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Tue Dec 5 21:04:07 2017 -0300
+
+    audiovisual
+
+[33mcommit a10bb502a73b857597f9188b28d7888536fa9a03[m
+Merge: 2a722a3 42bf944
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Tue Dec 5 18:57:58 2017 -0300
+
+    Merge branch 'master' of https://github.com/lospepesweb/ghm
+
+[33mcommit 2a722a3dd94a7975e2ef3ef79b4ac344970b7946[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Tue Dec 5 18:27:05 2017 -0300
+
+    debbuing css
+
+[33mcommit 42bf9442f67cc264e99f2792a4e1d688a4f56e21[m
+Author: Petro232 <andpetronio@outlook.com>
+Date:   Mon Dec 4 22:33:04 2017 -0300
+
+    base de datos
+
+[33mcommit af52357000765450b93c141d3c8f7cb8324da579[m
+Author: Petro232 <andpetronio@outlook.com>
+Date:   Mon Dec 4 22:31:40 2017 -0300
+
+    gestor de videos prueba
+
+[33mcommit 9e6cd64a8b032bf832184f327abcafae6196f430[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sun Dec 3 21:07:59 2017 -0300
+
+    minificando archivos
+
+[33mcommit cbd5e23cc74e07f40be8fc43b442c0db1aa85974[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sun Dec 3 20:39:12 2017 -0300
+
+    gestor de slider
+
+[33mcommit f3fb3bc668583be0e497ea90cf1979061c6fb515[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sun Dec 3 11:56:14 2017 -0300
+
+    empiezo a trabajar con el gestor de las imagenes de slider
+
+[33mcommit 70960a040f7565d413588eb00edf8e5ad7a8d91e[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Dec 2 19:16:39 2017 -0300
+
+    agre form de edicion
+
+[33mcommit cde1fbdc17ef04fef0209d304553ea54d79536db[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Dec 2 12:07:59 2017 -0300
+
+    armo un poco la estructura del dashboard
+
+[33mcommit 5469007fba344071570d13f21fb6b1cc15c3f639[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Dec 2 11:13:53 2017 -0300
+
+    terminando la seccion de videos de cms
+
+[33mcommit e255fa83d016829ad014269e20999fbeb8f600e5[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Fri Dec 1 21:29:45 2017 -0300
+
+    dashboard
+
+[33mcommit c1bed6677131e711d915bb7cdfa63f2c56b615c8[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Fri Dec 1 19:20:40 2017 -0300
+
+    Agrego fotos responsive para el slider
+
+[33mcommit b72fb7ad68c25673dce3dcc9057153542bc9a604[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Fri Dec 1 19:17:47 2017 -0300
+
+    Reemplazo el slider del index por uno de corte seco
+
+[33mcommit 6c945e7d846b17114e9fe29030116eb246c9e857[m
+Author: Petro232 <andpetronio@outlook.com>
+Date:   Fri Dec 1 16:37:26 2017 -0300
+
+    ajuste en favicon-200*200
+
+[33mcommit a154716df4bfa28d52d6b9dbe137eb00c42b9d05[m
+Author: Petro232 <andpetronio@outlook.com>
+Date:   Fri Dec 1 16:26:18 2017 -0300
+
+    chau botones de idioma de pags errores
+
+[33mcommit 0f6e8d50bcd1f90e94b125fae2f14d772c059095[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Thu Nov 30 20:51:45 2017 -0300
+
+    cms y monitoreo
+
+[33mcommit 6f93527e4ca29d11aa4ffff53c2c4fced6ead83b[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Wed Nov 29 22:52:35 2017 -0300
+
+    arreglo paginas de error
+
+[33mcommit cee18118154bbe4359eba415be44784d8bac826b[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Wed Nov 29 22:14:47 2017 -0300
+
+    empezando con el dashboard
+
+[33mcommit 14d3d0b719eb88fbf58beac60da68becf2a855c8[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Wed Nov 29 20:30:45 2017 -0300
+
+    paginas de error
+
+[33mcommit f41e596b0958d9594c93586cfeb19179cef9c8b4[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Wed Nov 29 19:46:59 2017 -0300
+
+    espacios
+
+[33mcommit b68e69cc89ecde8908880c1fc4fde0ee92a22cad[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Tue Nov 28 23:24:02 2017 -0300
+
+    espacios stand
+
+[33mcommit 071e2c81e09fd9ca3fc45e0e1fb2cacad02926e0[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Mon Nov 27 21:46:51 2017 -0300
+
+    ordenando los archivos en la carpeta dist
+
+[33mcommit 520ecf10218ce937cbb44ea541e80ca319f258b1[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Mon Nov 27 21:09:30 2017 -0300
+
+    installo gulp
+
+[33mcommit 4c0313bd574e1016e9e5dc43ca4b24716143d772[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Mon Nov 27 18:21:28 2017 -0300
+
+    haciendo deploy de la web
+
+[33mcommit 3183ae13fdbc79b333e67b0e30aaf13a34455974[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Mon Nov 27 15:33:50 2017 -0300
+
+    ajustes para subir web
+
+[33mcommit 595c5afae4805c1380f4f07d71374078471f81f9[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Nov 25 18:59:19 2017 -0300
+
+    por las dudas va commit
+
+[33mcommit 95ad7edaa2d49fe58d82bc95f364822d332544dc[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Nov 25 18:04:27 2017 -0300
+
+    chequeando los links de las secciones diseño y espacios
+
+[33mcommit 70fe8f53db7de4783d93d83b3473fce5447aa3b2[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Nov 25 17:25:42 2017 -0300
+
+    termino de chequear los links de la seccion fotografia
+
+[33mcommit 5503a0bef1f0a8e00d2b5f3773154ac9c801a7c6[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Nov 25 12:58:12 2017 -0300
+
+    script para el slice del index
+
+[33mcommit 8f705c420292b73ccd5c1d96ae913ce151ef0bf8[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Nov 25 12:07:08 2017 -0300
+
+    chequenado links de las primeras 5 paginas de la seccion fotografia
+
+[33mcommit df8887af2f1f105224155a68f08ce43a5f6ec744[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Nov 25 11:28:04 2017 -0300
+
+    arreglos los links de toda la seccion audiovisual
+
+[33mcommit a66f7891fd962b9e588ead0ddf17ad88e46d759c[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Nov 25 10:55:38 2017 -0300
+
+    Muchos ajustes pequeños, como pequeñas correcciones de diseño, control de que todos los links del index funcionen bien, lo mismo para la seecion del huevo
+
+[33mcommit a4c89f6af85ea1959b794d5cd597697875273eeb[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Nov 25 00:49:29 2017 -0300
+
+    estamos re curados, no se que pija hice aca
+
+[33mcommit 6b3d0df25d7b77ffe0d5035d8f3400ad3316b5cf[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Fri Nov 24 20:14:00 2017 -0300
+
+    Cambios de textos y fotos en seccion fotografia/producciones
+
+[33mcommit fa30985f6da5adefa88876bbb85b0af513297732[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Fri Nov 24 19:42:14 2017 -0300
+
+    Agrego textos a la seccion fotografia
+
+[33mcommit 0cf72752ccb715ff9e5651125f525923a0b75e80[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Fri Nov 24 19:30:03 2017 -0300
+
+    Cambio fotografias
+
+[33mcommit 75af64854837edc9e6d796ee0f43f52c07532055[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Thu Nov 23 21:57:49 2017 -0300
+
+    Cambio el diseño de la barra de scroll vertical
+
+[33mcommit d39bbc4ddad7ad461a2a3dba73c3f82f0cc6d1dd[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Thu Nov 23 20:26:43 2017 -0300
+
+    Agrego datos al htacces y ajustes pequeños de diseño en la seccion diseño
+
+[33mcommit 9ce5091c2acb1b97d15ebf17370109dd1aeeb829[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Wed Nov 22 21:28:21 2017 -0300
+
+    Agrego datos estructurados al footer del index
+
+[33mcommit 91a5832c650d574e607065921a0e9f0c1a95bc19[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Wed Nov 22 21:15:11 2017 -0300
+
+    Agrego meta tags en todas la paginas del sitio
+
+[33mcommit b431f6ee765aad7e5dc57f4c3ecbfea906927d7b[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Wed Nov 22 20:09:23 2017 -0300
+
+    Hago ajustes de diseño en los slider de la seccion de diseño
+
+[33mcommit 23e4bdf4221d041beeb42d6859288f1a1be4f2f3[m
+Author: Luciano Peñafiel <lucianopenafiel@gmail.com>
+Date:   Wed Nov 22 08:47:13 2017 -0300
+
+    Arreglo vinculos de los scripts
+
+[33mcommit ad15d76fdcb16afa01be8dd5c5483251f134bb5f[m
+Author: Luciano Peñafiel <lucianopenafiel@gmail.com>
+Date:   Wed Nov 22 08:34:51 2017 -0300
+
+    Arreglo vinculos de los scripts
+
+[33mcommit c04dcbf629bd415c69736003f10cbb14cc3ff36f[m
+Author: Luciano Peñafiel <lucianopenafiel@gmail.com>
+Date:   Wed Nov 22 08:34:20 2017 -0300
+
+    Update publicitaria.html
+    
+    Arreglo vinculos de los scripts
+
+[33mcommit 4c926006c6719a9a5720c018a8aeb83da8d4375e[m
+Author: Luciano Peñafiel <lucianopenafiel@gmail.com>
+Date:   Wed Nov 22 08:33:48 2017 -0300
+
+    Arreglo vinculos de los scripts
+
+[33mcommit a98b0233fed02e5bffe6d898e13c670c52c3f422[m
+Author: Luciano Peñafiel <lucianopenafiel@gmail.com>
+Date:   Wed Nov 22 08:33:14 2017 -0300
+
+    Arreglo vinculos de los scritps
+
+[33mcommit 5640824e3da1173a9453fe8bcd8289594ecdae79[m
+Author: Luciano Peñafiel <lucianopenafiel@gmail.com>
+Date:   Wed Nov 22 08:32:16 2017 -0300
+
+    Arreglo vinculos de los scripts
+
+[33mcommit b6a565b92fb23fc850c7169cfb4c86a890200323[m
+Author: Luciano Peñafiel <lucianopenafiel@gmail.com>
+Date:   Wed Nov 22 08:31:43 2017 -0300
+
+    Arreglo vinculos de los scripts
+
+[33mcommit e6f584f30e28ce53cb4c6582e455a6b736b9cf35[m
+Author: Luciano Peñafiel <lucianopenafiel@gmail.com>
+Date:   Wed Nov 22 08:31:14 2017 -0300
+
+    Arreglo vinculos de los scripts
+
+[33mcommit ebd7cc087bb434d69a856cd66308794f736ebf03[m
+Author: Luciano Peñafiel <lucianopenafiel@gmail.com>
+Date:   Wed Nov 22 08:30:37 2017 -0300
+
+    Arreglo links de scripts
+
+[33mcommit d2f89b87205450aab37881f7425f5277d7e91498[m
+Author: Luciano Peñafiel <lucianopenafiel@gmail.com>
+Date:   Wed Nov 22 08:30:02 2017 -0300
+
+    Arreglo links del footer
+
+[33mcommit ba74a359a939b114bbe684ebe5da708a7329b2be[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Tue Nov 21 23:35:32 2017 -0300
+
+    Seccion diseño/digital
+
+[33mcommit 5a350e452b5764710645258e7e7754ff68ae6ecf[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Tue Nov 21 22:55:47 2017 -0300
+
+    seccion diseño grafcio y editorial listo
+
+[33mcommit 646c42b87397c647ff557aad932c811fbff932d1[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Tue Nov 21 20:33:05 2017 -0300
+
+    ME sevé, hice la seccion vuelos completa y la seccion diseño/fotografia je ;)
+
+[33mcommit e5175f147ef38358496e87d97311e7029f23895a[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Tue Nov 21 18:39:08 2017 -0300
+
+    arreglando footer de fotografia
+
+[33mcommit 3d16c5cb5cd9a31a94584be2c18665049cea7959[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Tue Nov 21 18:16:53 2017 -0300
+
+    arreglando ajustes de diseño en el index
+
+[33mcommit 8e8ee1b347906af0b90c7c507d3bbf0a4b57a818[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Mon Nov 20 10:49:25 2017 -0300
+
+    ajustando login
+
+[33mcommit a639bcad4487196b706b152dd0ce5d587a87b860[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sun Nov 19 11:49:21 2017 -0300
+
+    arreglando vinculos
+
+[33mcommit 033da87df7b276b8464b54d82bec0a28d29f9199[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Nov 18 20:32:15 2017 -0300
+
+    mejorando script
+
+[33mcommit 645e5beb6376a065c3e319ca32ab5b6f1cccbbab[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Nov 18 20:29:35 2017 -0300
+
+    armando la estructura de todas las carpetas en español
+
+[33mcommit 25d48f8e508bd6a71e57dd36e5058c5ccd647ea8[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Nov 18 19:56:50 2017 -0300
+
+    tuenando el mapa del index
+
+[33mcommit 897c0e477d982ccff2440cdb067d663e6575ee05[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Nov 18 19:19:22 2017 -0300
+
+    Maqueta login para el cms
+
+[33mcommit ff2f2ee64a58d536d468f0e7b0957fbdf6b5c998[m
+Author: Petro232 <andpetronio@outlook.com>
+Date:   Sat Nov 18 18:40:39 2017 -0300
+
+    comportamiento footer
+
+[33mcommit 46c0d83cf46a4e059a0e2a703d76e7f803e1c62c[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Nov 18 18:20:22 2017 -0300
+
+    las cruces del footer....
+
+[33mcommit a8f6822e10a15232dc14074dc696134cf921ff20[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Nov 18 13:58:55 2017 -0300
+
+    Ajustando detalles en monitoreo
+
+[33mcommit 801999b1e951c9b08b90911c38d5e91cea2c3118[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Nov 18 13:32:32 2017 -0300
+
+    Mas ajustes
+
+[33mcommit bb152c16d91ad961535f315083bcd62b9acb1d29[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Nov 18 13:25:39 2017 -0300
+
+    mas ajuses
+
+[33mcommit 032a775f872d8d8d56fb03b861a64ddecef4338a[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Nov 18 13:21:38 2017 -0300
+
+    FOOTER: ajusto detalles de diseño
+
+[33mcommit 9625ff7c7950b839add233836dc8e337aeabd333[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Nov 18 12:31:24 2017 -0300
+
+    FOOTER: estilos finales del footer
+
+[33mcommit aca9f68b0ef5b4afe607204bfe94e9a8b91c65a8[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Fri Nov 17 21:44:24 2017 -0300
+
+    Ajustes de rutas
+
+[33mcommit 40a6a6b0fcf16df1a81033582e43bcd1167b7fad[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Fri Nov 17 21:08:31 2017 -0300
+
+    caca
+
+[33mcommit a10414377525a889224aee5c0f7867633d07c8be[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Fri Nov 17 20:38:41 2017 -0300
+
+    Cambiando la animacion del menu hamburguesa
+
+[33mcommit 938c13b864f421490eb3424a8c8900d03192e9cf[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Fri Nov 17 19:09:59 2017 -0300
+
+    Modifico estructura de carpetas para trabajar con 2 idiomas
+
+[33mcommit 4f2be21d71b6c0cf316c2960d2690b0458a02734[m
+Author: Petro232 <andpetronio@outlook.com>
+Date:   Fri Nov 17 12:09:44 2017 -0300
+
+    script cruces spans del nav
+
+[33mcommit ea8a3fbc038384abc09ee17dcc808d14a2e5e174[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Thu Nov 16 23:00:29 2017 -0300
+
+    limpiando el repo
+
+[33mcommit 51aac0c5c6e2589641678a86aa18f383ccc62bd1[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Thu Nov 16 22:58:52 2017 -0300
+
+    arreglando estructura de archivos sass y css
+
+[33mcommit 782557c94a5b2e97e5c3448409dd2f5bca98d2aa[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Thu Nov 16 20:45:39 2017 -0300
+
+    ajustando detalles
+
+[33mcommit 62abb39c302309dc246a7c80517a6da0cb12dcbe[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Wed Nov 15 21:06:04 2017 -0300
+
+    maquetas de la seccion fotografia todas listas
+
+[33mcommit ba12919eb1740d995d5bee58de523bc110d06ed7[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Wed Nov 15 18:35:55 2017 -0300
+
+    reemplazo videos .mov por videos .mp4 porque son mas livianos
+
+[33mcommit 2d525834306e9fcd8522b0539487e36ed4288e42[m
+Author: Petro232 <andpetronio@outlook.com>
+Date:   Wed Nov 15 13:42:47 2017 -0300
+
+    script con jquery
+
+[33mcommit 5b860d1faf6b1644bf7386afb4b3c24a817ce563[m
+Author: luchoPenafiel <lucianopenafiel@gmail.com>
+Date:   Wed Nov 15 08:25:48 2017 -0300
+
+    Debugging
+    
+    Agrego desde la pagina de github una script que habia borrado sin querer je :)
+
+[33mcommit 8e24ff70c8cd6fba527f390570a274355e551815[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Tue Nov 14 22:38:38 2017 -0300
+
+    no creo haber realizado ningun cambio, pero por las dudas va el commit
+
+[33mcommit de52e2895fb11d806b498c03f1570eb1a96f9a99[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Tue Nov 14 22:13:21 2017 -0300
+
+    caca
+
+[33mcommit 51d46e067692307ccdfe057e52074b6e2d6b4007[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Tue Nov 14 21:01:08 2017 -0300
+
+    ESTO SE VA A DESCONTROLAR
+
+[33mcommit 1b41c804602520fa0e67146b40f95a1c8b2df1eb[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Mon Nov 13 22:43:21 2017 -0300
+
+    Ajustando detalles de diseño
+
+[33mcommit a5ea9bd999188a7a35f44a938af33096b9eef353[m
+Merge: 6cceb5b a244460
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Mon Nov 13 18:50:05 2017 -0300
+
+    Merge branch 'master' of https://github.com/lospepesweb/ghm
+
+[33mcommit 6cceb5bde1d10d0bbde4d7a4552a49041e349f39[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Mon Nov 13 18:47:14 2017 -0300
+
+    Ajusto correciones del equipo de diseño
+
+[33mcommit a24446074a394c683e32d8d0e3ac345f71603926[m
+Author: Petro232 <andpetronio@outlook.com>
+Date:   Mon Nov 13 18:42:04 2017 -0300
+
+    quitar flash en el slider
+
+[33mcommit 08aa6fbc0402b484a219f17a099c52120b353b97[m
+Author: Petro232 <andpetronio@outlook.com>
+Date:   Mon Nov 13 18:29:07 2017 -0300
+
+    php primera prueba
+
+[33mcommit ac288f8accb40a339e3d21250de9b6190a2c3af5[m
+Author: Petro232 <andpetronio@outlook.com>
+Date:   Mon Nov 13 18:25:40 2017 -0300
+
+    php primera prueba
+
+[33mcommit d330c55b8d5f11d4a6790665ccad5d603ccde70b[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sun Nov 12 22:32:22 2017 -0300
+
+    FOTOGRAFIA - NATURALEZA
+
+[33mcommit 75b250a8ff5321365ad237b1e7f914482ecd4f37[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sun Nov 12 22:13:17 2017 -0300
+
+    HUEVO.html
+
+[33mcommit 6eaa0044cbfd9c9a48d2c5bc2cf53f90d33b6861[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sun Nov 12 20:31:25 2017 -0300
+
+    Debugin
+
+[33mcommit f77d409b601db994d34592ccef210eb2dcf6c083[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sun Nov 12 15:17:18 2017 -0300
+
+    INDEX: Seción videos
+
+[33mcommit 8ba3ca82a7c4201b13dd9b8d9393e0a2f4df1be9[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sun Nov 12 14:22:22 2017 -0300
+
+    FOOTER: Contrsuyo footer
+
+[33mcommit d5a1b9217a0c69ee8b73e4462bd4b3bab90922ab[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Nov 11 19:44:34 2017 -0300
+
+    INDEX: Ya ni se que estoy haciendo
+
+[33mcommit 8165f169850d3e8d63fdf90c75ce5ca5acaded64[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Nov 11 11:51:23 2017 -0300
+
+    INDEX: Agrego sección Clientes
+
+[33mcommit 5a870faa17d698f6dd028a577357b6dc242fa869[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Nov 11 11:15:54 2017 -0300
+
+    INDEX: Agrego sección equipo
+
+[33mcommit 7d6e967e0fc3db64e9edb06dc0cbbc50494b3921[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Nov 11 10:17:19 2017 -0300
+
+    INDEX: arreglo ajustes de responsive
+
+[33mcommit 5882e1fb3e0f3c552edd47b186c5eca3b1c2de1b[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Nov 11 10:02:44 2017 -0300
+
+    INDEX: Agrego sección Huevo
+
+[33mcommit ae1e5b8b4963408d8a33df93fd0670b6d67b1adb[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Sat Nov 11 08:21:43 2017 -0300
+
+    INDEX: Agrego sección intro
+
+[33mcommit f7a733e0a6b5def1ea3cdb4ee44ba65ef772d1e4[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Fri Nov 10 23:55:15 2017 -0300
+
+    Reemplazo logo vetorial por logo.png
+
+[33mcommit edb695e3d4b5bf7b06eb1294d42138a84d286c4e[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Fri Nov 10 23:02:43 2017 -0300
+
+    Empiezo con el slideshow
+
+[33mcommit b024bcea81fdc107c685fbf8ce5d3981d9235240[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Fri Nov 10 22:22:06 2017 -0300
+
+    Empiezo con el menú del sitio
+
+[33mcommit 188f21dac75901aaa905129d0e6e97dba75333ef[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Fri Nov 10 20:55:07 2017 -0300
+
+    Armo la estructura básica de carpetas
+
+[33mcommit a90c61287933c83b7fa254e5b04bd555abee8042[m
+Author: Lucho Peñafiel <lucianopenafiel@gmail.com>
+Date:   Fri Nov 10 20:43:33 2017 -0300
+
+    first commit

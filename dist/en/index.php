@@ -88,11 +88,11 @@
 						<li class="nav-item dropdown">
 							<a href="#" class="nav-link dropdown-toggle navClose-link" id="navBarAudiovisual" data-toggle="dropdown" role="button">AUDIOVISUAL<span class="closeNav d-lg-none">+</span></a>
 							<div class="dropdown-menu" aria-labelledby="navBarAudiovisual">
-					        	<a class="dropdown-item" href="audiovisual/institucional.html">Institutional</a>
-					        	<a class="dropdown-item" href="audiovisual/infraestructura.html">Infrastructure</a>
-					        	<a class="dropdown-item" href="audiovisual/educativo.html">Educative</a>
-					        	<a class="dropdown-item" href="audiovisual/publicitario.html">Publicity</a>
-					        	<a class="dropdown-item" href="audiovisual/mapping.html">Mapping</a>
+					        	<a class="dropdown-item" href="audiovisual/index.html#institucional">Institutional</a>
+					        	<a class="dropdown-item" href="audiovisual/index.html#infraestructura">Infrastructure</a>
+					        	<a class="dropdown-item" href="audiovisual/index.html#educativo">Educative</a>
+					        	<a class="dropdown-item" href="audiovisual/index.html#publicitario">Publicity</a>
+					        	<a class="dropdown-item" href="audiovisual/index.html#mapping">Mapping</a>
 					        </div>
 
 						</li>
@@ -533,11 +533,11 @@
 
 					<a id="closeNav2" data-toggle="" href="#footer-audiovisual" aria-expanded="false" aria-controls="collapseOne" class="titulo-footer border-top">Audiovisual<span class="closeNav d-lg-none">+</span></a>
 					<ul id="footer-audiovisual" class="collapse show lista-footer" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
-						<li class="item-footer"><a href="audiovisual/institucional.html" class="item-footer">Institutional</a></li>
-						<li class="item-footer"><a href="audiovisual/infraestructura.html" class="item-footer">Infrastructure</a></li>
-						<li class="item-footer"><a href="audiovisual/educativo.html" class="item-footer">Educative</a></li>
-						<li class="item-footer"><a href="audiovisual/publicitario.html" class="item-footer">Publicity</a></li>
-						<li class="item-footer"><a href="audiovisual/mapping.html" class="item-footer">Mapping</a></li>
+						<li class="item-footer"><a href="audiovisual/index.html#institucional.html" class="item-footer">Institutional</a></li>
+						<li class="item-footer"><a href="audiovisual/index.html#infraestructura.html" class="item-footer">Infrastructure</a></li>
+						<li class="item-footer"><a href="audiovisual/index.html#educativo.html" class="item-footer">Educative</a></li>
+						<li class="item-footer"><a href="audiovisual/index.html#publicitario.html" class="item-footer">Publicity</a></li>
+						<li class="item-footer"><a href="audiovisual/index.html#mapping.html" class="item-footer">Mapping</a></li>
 					</ul>
 				</div>
 

@@ -523,7 +523,7 @@
 				<div class="d-12 col-lg-3 class-aux">
 					<a id="closeNav1" data-toggle="" href="#footer-home" aria-expanded="false" aria-controls="collapseOne" class="titulo-footer">Home<span class="closeNav d-lg-none">+</span></a>
 					<ul id="footer-home" class="collapse show lista-footer" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
-						<li class="item-footer"><a id="btn-slide-intro" class="item-footer" href="#intro">About  ghm</a></li>
+						<li class="item-footer"><a id="btn-slide-intro" class="item-footer" href="#intro">About GHM</a></li>
 						<li class="item-footer"><a id="btn-slide-huevo" class="item-footer" href="#huevo">Gustavo Muñoz Lorenzo</a></li>
 						<li class="item-footer"><a id="btn-slide-equipo" class="item-footer" href="#equipo">Team</a></li>
 						<li class="item-footer"><a id="btn-slide-clientes" class="item-footer" href="#clientes">Clients</a></li>

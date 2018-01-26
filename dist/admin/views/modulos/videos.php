@@ -29,7 +29,7 @@ include 'views/modulos/botonera.php';
 							</div>
 							<div class="col-12 col-lg-6">
 								<input type="text" name="tit_ing" placeholder="Título en ingles" required>
-								<textarea name="noti_ing" class="" maxlength="100" placeholder="Noticia en ingles" required></textarea>
+								<textarea name="noti_ing" class="" maxlength="150" placeholder="Noticia en ingles" required></textarea>
 							</div>
 
 							<div class="col-12 col-lg-6 inputfile-container">

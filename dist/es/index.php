@@ -331,7 +331,7 @@
 					</figcaption>
 				</figure>
 			</div> -->
-			<div class="col-6 col-lg-4 text-center fila">
+<!-- 			<div class="col-6 col-lg-4 text-center fila">
 				<figure>
 					<img src="../img/INDEX-EQUIPO-GHM-12.png" class="img-fluid" alt="GHM Contenidos - Ezequiel">
 					<figcaption>
@@ -339,7 +339,7 @@
 						<p class="texto-equipo">Informática</p>
 					</figcaption>
 				</figure>
-			</div>
+			</div> -->
 		</div>
 	</section>
 
@@ -471,7 +471,7 @@
 						<a href="mailto:ghmtv@ghmtv.com" itemprop="email">ghmtv@ghmtv.com</a> | 
 						<a href="https://www.youtube.com/channel/UC1i1fEIsMjAJA5peqehEHiw" target="_blank"><span class="icon-youtube"></span></a>
 						<a href="https://www.facebook.com/Ghmtv/" target="_blank"><span class="icon-facebook"></span></a>
-						<a href="#"><span class="icon-instagram"></span></a>
+						<a href="https://www.instagram.com/ghmcontenidos_"><span class="icon-instagram"></span></a>
 					</p>
 				</div>
 				<div class="col-12 text-center">
@@ -605,7 +605,7 @@
 						<ul class="lista-footer redes">
 							<a href="https://www.youtube.com/channel/UC1i1fEIsMjAJA5peqehEHiw" target="_blank"><span class="icon-youtube"></span></a>
 							<a href="https://www.facebook.com/Ghmtv/" target="_blank"><span class="icon-facebook"></span></a>
-							<a href="#"><span class="icon-instagram"></span></a>
+							<a href="https://www.instagram.com/ghmcontenidos_" target="_blank"><span class="icon-instagram"></span></a>
 						</ul>
 					</ul>
 
